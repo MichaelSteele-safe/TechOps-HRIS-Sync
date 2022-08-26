@@ -1,10 +1,11 @@
 # hris_automation
 
 Overview: 
-UKG is set to send a daily report on current org structure and employee email to hrisautomation@safe.com (group)
-The attachment is then saved to a Group Google Drive folder, HRISAutomation/UKG Automated Reports using App Scripts (HRISGmailToDriveAppScript)
-UkgImport.fmw then reads the latest org and employee csv files from "HRISAutomation/UKG Automated Reports" folder and migrates
-data into set-rds user.ukg_org and user.ukg_employee tables.
+
+UKG is set to send a daily csv report on current org structure and employee email to hrisautomation@safe.com (group)
+A filter is set up to star these emails, apply a "UKGAutomatedReport" label and star it
+An app script (HRISGmailToDriveAppScript) runs daily to look for starred emails with the "UKGAutomatedReport" label. The script will then save the attachment in the email
+UkgImport.fmw which currently lives in set-fmeserver runs daily to read the latest org and employee csv files from "HRISAutomation/UKG Automated Reports" folder and migrate the data into set-rds user.ukg_org and user.ukg_employee tables.
 
 To set up the App Script: 
 1) Go to https://script.google.com/home
@@ -15,4 +16,11 @@ To set up the App Script:
 6) Select "Add Trigger"
 7) Create trigger with following values:
 Choose which function to run: main
-D
+Which runs at deployment: Head
+Select event source: Time-driven
+Select type of time based trigger: Day timer
+Select time of day: 11pm to midnight
+8) In Gmail, create a label named "UKGAutomatedReport"
+9) Create a filter with the following search criteria, select the "Star it" option and apply the "UKGAutomatedReport" label
+To: hrisautomation@safe.com
+Subject: UKG Automation
