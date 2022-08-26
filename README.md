@@ -3,8 +3,11 @@
 Overview: 
 
 UKG is set to send a daily csv report on current org structure and employee email to hrisautomation@safe.com (group)
+
 A filter is set up to star these emails, apply a "UKGAutomatedReport" label and star it
+
 An app script (HRISGmailToDriveAppScript) runs daily to look for starred emails with the "UKGAutomatedReport" label. The script will then save the attachment in the email
+
 UkgImport.fmw which currently lives in set-fmeserver runs daily to read the latest org and employee csv files from "HRISAutomation/UKG Automated Reports" folder and migrate the data into set-rds user.ukg_org and user.ukg_employee tables.
 
 To set up the App Script: 
