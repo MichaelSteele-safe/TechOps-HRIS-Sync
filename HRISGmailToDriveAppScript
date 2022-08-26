@@ -1,0 +1,182 @@
+
+var GMAIL_LABEL = 'UKGAutomatedReport';
+var GDRIVE_FOLDER_ID = '1rjRm_CFXUfnNy3VOpvD_QQaHeIFgCVpN'
+var FILENAME = '$name $y-$m-$d';
+
+
+/* ------------- no changes below needed ------------------------- */
+
+/**
+ * Get all the starred threads within our label and process their attachments
+ */
+function main() {
+  var labels = getSubLabels(GMAIL_LABEL);
+  for(var i=0; i<labels.length; i++) {
+    var threads = getUnprocessedThreads(labels[i]);
+    for(j=0; j<threads.length; j++) {
+      processThread(threads[j], labels[i]);
+    }
+  }
+}
+
+/**
+ * Returns the Google Drive folder object matching the given path
+ *
+ * Creates the path if it doesn't exist, yet.
+ *
+ * @param {string} path
+ * @return {Folder}
+ */
+function getOrMakeFolder(path) {
+  var folder = DriveApp.getFolderById(GDRIVE_FOLDER_ID);
+  var names = path.split('/');
+  while(names.length) {
+    var name = names.shift();
+    if(name === '') continue;
+    
+    // var folders = folder.getFoldersByName(GDRIVE_FOLDER);
+    if(folders.hasNext()) {
+      folder = folders.next();
+    } else {
+      folder = folder.createFolder(name);
+    }
+  }
+  
+  return folder;
+}
+
+/**
+ * Get all the given label and all its sub labels
+ *
+ * @param {string} name
+ * @return {GmailLabel[]}
+ */
+function getSubLabels(name) {
+  var labels = GmailApp.getUserLabels();
+  var matches = [];
+  for(var i=0; i<labels.length; i++){
+    var label = labels[i];
+    Logger.log(label.getName())
+    if(
+      label.getName() === name ||
+      label.getName().substr(0, name.length+1) === name+'/'
+    ) {
+      matches.push(label);
+    }
+  }
+  
+  return matches;
+}
+
+/**
+ * Get all starred threads in the given label
+ *
+ * @param {GmailLabel} label
+ * @return {GmailThread[]}
+ */
+function getUnprocessedThreads(label) {
+  var from = 0;
+  var perrun = 50; //maximum is 500
+  var threads;
+  var result = [];
+  
+  do {
+    threads = label.getThreads(from, perrun);
+    from += perrun;
+    
+    for(var i=0; i<threads.length; i++) {
+      Logger.log("thread " + threads[i].getId())
+      if(!threads[i].hasStarredMessages()) continue;
+      result.push(threads[i]);
+    }
+  } while (threads.length === perrun);
+  
+  Logger.log(result.length + ' threads to process in ' + label.getName());
+  return result;
+}
+
+/**
+ * Get the extension of a file
+ *
+ * @param  {string} name
+ * @return {string}
+ */
+function getExtension(name) {
+  var re = /(?:\.([^.]+))?$/;
+  var result = re.exec(name);
+  if(result && result[1]) {
+    return result[1].toLowerCase();
+  } else {
+    return 'unknown';
+  }
+}
+
+/**
+ * Apply template vars
+ *
+ * @param {string} filename with template placeholders
+ * @param {info} values to fill in
+ * @param {string}
+ */
+function createFilename(filename, info) {
+  var keys = Object.keys(info);
+  keys.sort(function(a,b) {
+    return b.length - a.length;
+  });
+  
+  for(var i=0; i<keys.length; i++) {
+    filename = filename.replace(new RegExp('\\$'+keys[i], 'g'), info[keys[i]]);
+  }
+  return filename;
+}
+
+function saveAttachment(attachment, filename) {
+  // var parts = path.split('/');
+  // var file = parts.pop();
+  // var path = parts.join('/');
+  
+  var folder = DriveApp.getFolderById(GDRIVE_FOLDER_ID);
+  var check = folder.getFilesByName(filename);
+  if(check.hasNext()) {
+    Logger.log(filename + ' already exists. File not overwritten.');
+    return;
+  }
+  folder.createFile(attachment).setName(filename);
+  Logger.log(filename + ' saved.');
+}
+
+/**
+ * @param {GmailThread} thread
+ * @param {GmailLabel} label where this thread was found
+ */
+function processThread(thread, label) {
+  var messages = thread.getMessages();
+  for(var j=0; j<messages.length; j++) {
+    var message = messages[j];
+    if(!message.isStarred()) continue;
+    Logger.log('processing message from '+message.getDate());
+    
+    var attachments = message.getAttachments();
+    for(var i=0; i<attachments.length; i++) {
+      var attachment = attachments[i];
+      var info = {
+        'name': attachment.getName(),
+        'ext': getExtension(attachment.getName()),
+        'domain': message.getFrom().split('@')[1].replace(/[^a-zA-Z]+$/,''), // domain part of email
+        'sublabel': label.getName().substr(GMAIL_LABEL.length+1),
+        'y': ('0000' + (message.getDate().getFullYear())).slice(-4),
+        'm': ('00' + (message.getDate().getMonth()+1)).slice(-2),
+        'd': ('00' + (message.getDate().getDate())).slice(-2),
+        'h': ('00' + (message.getDate().getHours())).slice(-2),
+        'i': ('00' + (message.getDate().getMinutes())).slice(-2),
+        's': ('00' + (message.getDate().getSeconds())).slice(-2),
+        'mc': j,
+        'ac': i,
+      }
+      var file = createFilename(FILENAME, info);
+      saveAttachment(attachment, file);
+    }
+    
+    message.unstar();
+  }
+}
