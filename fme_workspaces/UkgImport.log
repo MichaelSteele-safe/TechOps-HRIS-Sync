@@ -1,391 +1,106 @@
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME 2021.0.1.0 (20210404 - Build 21313 - macosx)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2021.0/'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Permanent License.
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Machine host name is: athena.local
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|START - ProcessID: 91232, peak process memory usage: 61268 kB, current process memory usage: 61268 kB
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2021.0/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1665076693012_42553' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{f71ab14b-8ae6-4064-af73-689fb49d3da3}' `DEBUG_PORT' `50387'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2021.0/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/21313-macosx/transformers;/Library/FME/2021.0/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1664917021602_42553/fmetmp_3b', set from environment variable `FME_TEMP'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2021.0/'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.0.1.0'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|System Status: 300.35 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1664917021602_42553/fmetmp_3b)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|System Status: 37.00 GB of virtual memory available
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Operating System: Mac OS X Version 10.15.7 (Build 19H2026)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Platform: macosx
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Locale: en_CA
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|System Encoding: UTF-8
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 35.83 GB or address space exceeds 16777216.00 TB
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 26.87 GB and address space is below 16777216.00 TB
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Logging ungrouped output features
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Logging uncorrelated input features
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Dumping mapping file
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Temporary Folder: /private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1664917021602_42553/fmetmp_3b
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 0: `FME_NAMES_ENCODING' `UTF-8'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 1: `FME_PYTHON_VERSION' `37'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 2: `ARCGIS_COMPATIBILITY' `ARCGIS_AUTO'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 3: `GUI' `IGNORE' `DestDataset_CSV2_1,CSV2_OUT_DATASET_GROUP_CSV2_1,CSV2_OUT_EXTENSION_CSV2_1,CSV2_OUT_FIELDS_GROUP_CSV2_1,CSV2_OUT_DELIMITER_CSV2_1,CSV2_OUT_ENCODING_GROUP_CSV2_1,CSV2_OUT_ENCODING_CSV2_1,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1,CSV2_OUT_ADVANCED_GROUP_CSV2_1,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_1,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1,CSV2_OUT_ROW_TERMINATION_CSV2_1,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1,GOOGLESHEETS_OUT_FME_CONNECTION_GROUP_GOOGLESHEETS_1,GOOGLESHEETS_OUT_SHEETS_CONNECTION_GOOGLESHEETS_1,GOOGLESHEETS_OUT_GOOGLESHEETS_ADV_PARM_GROUP_GOOGLESHEETS_1,GOOGLESHEETS_OUT_CELLS_PER_REQUEST_GOOGLESHEETS_1,SPREADSHEET_GOOGLESHEETS_1,DestDataset_CSV2_2,CSV2_OUT_DATASET_GROUP_CSV2_2,CSV2_OUT_EXTENSION_CSV2_2,CSV2_OUT_FIELDS_GROUP_CSV2_2,CSV2_OUT_DELIMITER_CSV2_2,CSV2_OUT_ENCODING_GROUP_CSV2_2,CSV2_OUT_ENCODING_CSV2_2,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_2,CSV2_OUT_ADVANCED_GROUP_CSV2_2,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_2,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_2,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_2,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_2,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2,CSV2_OUT_ROW_TERMINATION_CSV2_2,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_2,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_2,DestDataset_MYSQL_DB_1,MYSQL_DB_OUT_FME_CONNECTION_GROUP_MYSQL_DB_1,MYSQL_DB_OUT_ADVANCED_MYSQL_DB_1,MYSQL_DB_OUT_WRITER_MODE_MYSQL_DB_1,MYSQL_DB_OUT_START_TRANSACTION_MYSQL_DB_1,MYSQL_DB_OUT_TRANSACTION_INTERVAL_MYSQL_DB_1,MYSQL_DB_OUT_BEGIN_SQL{0}_MYSQL_DB_1,MYSQL_DB_OUT_END_SQL{0}_MYSQL_DB_1,MYSQL_DB_OUT_STRIP_WHITESPACE_MYSQL_DB_1,DestDataset_MYSQL_DB_2,MYSQL_DB_OUT_FME_CONNECTION_GROUP_MYSQL_DB_2,MYSQL_DB_OUT_ADVANCED_MYSQL_DB_2,MYSQL_DB_OUT_WRITER_MODE_MYSQL_DB_2,MYSQL_DB_OUT_START_TRANSACTION_MYSQL_DB_2,MYSQL_DB_OUT_TRANSACTION_INTERVAL_MYSQL_DB_2,MYSQL_DB_OUT_BEGIN_SQL{0}_MYSQL_DB_2,MYSQL_DB_OUT_END_SQL{0}_MYSQL_DB_2,MYSQL_DB_OUT_STRIP_WHITESPACE_MYSQL_DB_2'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 4: `GUI' `TEXT_EDIT' `SLACK_NOTIFICATION_WEBHOOK' `FME_SYNTAX%FME' `webhook' `to' `send' `notification' `to' `slack'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 5: `GUI' `DIRNAME' `DestDataset_CSV2' `Destination' `CSV' `(CommaSeparatedValue)' `Folder:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 6: `GUI' `NAMED_CONNECTION_ENCODED' `SHEETS_CONNECTION_GOOGLESHEETS' `Google Sheets' `Google' `Sheets' `Connection:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 7: `GUI' `DIRNAME' `DestDataset_CSV2_3' `Destination' `CSV' `(CommaSeparatedValue)' `Folder:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 8: `GUI' `NAMED_DB_CONNECTION_ENCODED' `DestDataset_MYSQL_DB' `FMT:MYSQL_DB%FAMILY:MariaDB<space><openparen>MySQL<space>compatible<closeparen>' `Connection:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 9: `GUI' `NAMED_DB_CONNECTION_ENCODED' `DestDataset_MYSQL_DB_3' `FMT:MYSQL_DB%FAMILY:MariaDB<space><openparen>MySQL<space>compatible<closeparen>' `Connection:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 10: `USER_PARAMETERS' `eyJwYXJhbWV0ZXJzIjpbeyJkZWZhdWx0VmFsdWUiOiJodHRwczo8c29saWR1cz48c29saWR1cz5ob29rcy5zbGFjay5jb208c29saWR1cz5zZXJ2aWNlczxzb2xpZHVzPlQwNEdWTFJHVzxzb2xpZHVzPkJVSlFCNVJFMzxzb2xpZHVzPndIUzh2S01zam5EMjR3WndNN2JrZm1UYiIsImVkaXRvciI6InBsYWludGV4dCIsIm5hbWUiOiJTTEFDS19OT1RJRklDQVRJT05fV0VCSE9PSyIsInByb21wdCI6IndlYmhvb2sgdG8gc2VuZCBub3RpZmljYXRpb24gdG8gc2xhY2siLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nRW5jb2RlZCJ9LHsiYWNjZXNzTW9kZSI6IndyaXRlIiwiZGVmYXVsdFZhbHVlIjoiL1VzZXJzL2VsbGFpbmUuY2hhbi9EZXNrdG9wIiwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJuYW1lIjoiRGVzdERhdGFzZXRfQ1NWMiIsInByb21wdCI6IkRlc3RpbmF0aW9uIENTViAoQ29tbWEgU2VwYXJhdGVkIFZhbHVlKSBGb2xkZXI6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlU2V0dGluZ3MiOnsiY2hvaWNlU2V0Ijoid2ViQ29ubmVjdGlvbnMiLCJzZXJ2aWNlcyI6WyJHb29nbGUgU2hlZXRzIl19LCJkZWZhdWx0VmFsdWUiOiJlbGxhaW5lLmNoYW48c3BhY2U+R29vZ2xlPHNwYWNlPlNoZWV0cyIsIm5hbWUiOiJTSEVFVFNfQ09OTkVDVElPTl9HT09HTEVTSEVFVFMiLCJwcm9tcHQiOiJHb29nbGUgU2hlZXRzIENvbm5lY3Rpb246IiwicmVxdWlyZWQiOnRydWUsInR5cGUiOiJkcm9wZG93biIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifSx7ImFjY2Vzc01vZGUiOiJ3cml0ZSIsImRlZmF1bHRWYWx1ZSI6Ii9Vc2Vycy9lbGxhaW5lLmNoYW4vRGVza3RvcCIsIml0ZW1zVG9TZWxlY3QiOiJmb2xkZXJzIiwibmFtZSI6IkRlc3REYXRhc2V0X0NTVjJfMyIsInByb21wdCI6IkRlc3RpbmF0aW9uIENTViAoQ29tbWEgU2VwYXJhdGVkIFZhbHVlKSBGb2xkZXI6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlU2V0dGluZ3MiOnsiY2hvaWNlU2V0IjoiZGJDb25uZWN0aW9ucyIsImZvcm1hdCI6Ik1ZU1FMX0RCIn0sImRlZmF1bHRWYWx1ZSI6InNldC1yZHMtdXNlciIsIm5hbWUiOiJEZXN0RGF0YXNldF9NWVNRTF9EQiIsInByb21wdCI6IkNvbm5lY3Rpb246IiwicmVxdWlyZWQiOnRydWUsInR5cGUiOiJkcm9wZG93biIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifSx7ImNob2ljZVNldHRpbmdzIjp7ImNob2ljZVNldCI6ImRiQ29ubmVjdGlvbnMiLCJmb3JtYXQiOiJNWVNRTF9EQiJ9LCJkZWZhdWx0VmFsdWUiOiJzZXQtcmRzLXVzZXIiLCJuYW1lIjoiRGVzdERhdGFzZXRfTVlTUUxfREJfMyIsInByb21wdCI6IkNvbm5lY3Rpb246IiwicmVxdWlyZWQiOnRydWUsInR5cGUiOiJkcm9wZG93biIsInZhbHVlVHlwZSI6InN0cmluZ0VuY29kZWQifV19'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 11: `READER_TYPE' `MULTI_READER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 12: `WRITER_TYPE' `MULTI_WRITER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 13: `MULTI_WRITER_DATASET_ORDER' `BY_ID'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 14: `MULTI_WRITER_FIRST_WRITER_ID' `1'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 15: `MULTI_WRITER_TYPE{0}' `NULL'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 16: `MULTI_WRITER_KEYWORD{0}' `CSV2_1'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 17: `MULTI_WRITER_TYPE{1}' `GOOGLESHEETS'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 18: `MULTI_WRITER_KEYWORD{1}' `GOOGLESHEETS_1'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 19: `MULTI_WRITER_TYPE{2}' `NULL'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 20: `MULTI_WRITER_KEYWORD{2}' `CSV2_2'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 21: `MULTI_WRITER_TYPE{3}' `MYSQL_DB'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 22: `MULTI_WRITER_KEYWORD{3}' `MYSQL_DB_1'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 23: `MULTI_WRITER_TYPE{4}' `MYSQL_DB'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 24: `MULTI_WRITER_KEYWORD{4}' `MYSQL_DB_2'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 25: `GUI' `DIRNAME' `DestDataset_CSV2_1' `Destination' `CSV' `(CommaSeparatedValue)' `Folder:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 26: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_DATASET_GROUP_CSV2_1' `CSV2_OUT_EXTENSION_CSV2_1%CSV2_OUT_EXISTING_FILE_HANDLING' `Dataset'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 27: `CSV2_1_EXTENSION' `csv'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 28: `GUI' `OPTIONAL' `TEXT' `CSV2_OUT_EXTENSION_CSV2_1' `Extension:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 29: `CSV2_1_EXISTING_FILE_HANDLING' `Yes'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 30: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_FIELDS_GROUP_CSV2_1' `CSV2_OUT_DELIMITER_CSV2_1%CSV2_OUT_WRITE_FIELD_NAMES' `Fields'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 31: `CSV2_1_DELIMITER' `<comma>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 32: `GUI' `STRING_OR_CHOICE_ENCODED' `CSV2_OUT_DELIMITER_CSV2_1' `,%;%|%space%tab' `Delimiter' `Character:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 33: `CSV2_1_WRITE_FIELD_NAMES' `firstrow'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 34: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_ENCODING_GROUP_CSV2_1' `CSV2_OUT_ENCODING_CSV2_1%CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1' `Encoding'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 35: `CSV2_1_ENCODING' `UTF-8'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 36: `GUI' `STRING_OR_ENCODING' `CSV2_OUT_ENCODING_CSV2_1' `fme-system%*' `Character' `Encoding:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 37: `CSV2_1_WRITE_BOM_FOR_UNICODE' `Yes'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 38: `GUI' `CHOICE' `CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_1' `Yes%No' `Write' `Byte' `Order' `Mark' `for' `Unicode:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 39: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_ADVANCED_GROUP_CSV2_1' `FME_DISCLOSURE_CLOSED%CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1%CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1%CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_1%CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1%CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1%CSV2_OUT_ROW_TERMINATION_CSV2_1%CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1' `Advanced'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 40: `CSV2_1_QUALIFY_FIELD_NAMES' `if_needed'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 41: `GUI' `LOOKUP_CHOICE' `CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_1' `Yes,yes%No,no%If<space>Needed,if_needed' `Qualify' `Field' `Names:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 42: `CSV2_1_QUALIFY_FIELD_VALUES' `if_needed'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 43: `GUI' `ACTIVECHOICE_LOOKUP' `CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_1' `Yes,yes,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_1%No,no%If<space>Needed,if_needed,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_1' `Qualify' `Field' `Values:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 44: `CSV2_1_UNQUALIFIED_FIELD_VALUE_HANDLING' `<Unused>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 45: `GUI' `LOOKUP_CHOICE' `CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_1' `Remove<space>Unsafe<space>Characters,remove_unsafe%Preserve<space>Unsafe<space>Characters,preserve_unsafe' `Unqualified' `Field' `Value' `Handling:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 46: `CSV2_1_FIELD_QUALIFIER_CHARACTER' `<quote>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 47: `GUI' `STRING_ENCODED' `CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_1' `Field' `Qualifier' `Character:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 48: `CSV2_1_FIELD_QUALIFIER_ESCAPE_CHARACTER' `<quote>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 49: `GUI' `STRING_ENCODED' `CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1' `Field' `Qualifier' `Escape' `Character:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 50: `CSV2_1_ROW_TERMINATION' `System'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 51: `GUI' `CHOICE' `CSV2_OUT_ROW_TERMINATION_CSV2_1' `System%Windows%Unix%Macintosh' `Row' `Termination:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 52: `CSV2_1_WRITE_SCHEMA_FILE' `NO'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 53: `GUI' `ACTIVEDISCLOSUREGROUP' `CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_1' `FME_DISCLOSURE_CLOSED%CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1' `Write' `Schema' `Configuration' `File'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 54: `CSV2_1_EXISTING_SCHEMA_FILE_HANDLING' `<Unused>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 55: `GUI' `CHOICE' `CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_1' `Overwrite%Prepend' `Existing' `Schema' `File' `Handling:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 56: `CSV2_1_COORDINATE_SYSTEM_GRANULARITY' `FEATURE_TYPE'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 57: `CSV2_1_GENERATE_FME_BUILD_NUM' `21313'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 58: `CSV2_1_DATASET' `/Users/ellaine.chan/Desktop'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 59: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `GOOGLESHEETS_OUT_FME_CONNECTION_GROUP_GOOGLESHEETS_1' `GOOGLESHEETS_OUT_SHEETS_CONNECTION_GOOGLESHEETS_1' `Service' `Connection'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 60: `GOOGLESHEETS_1_SHEETS_CONNECTION' `ellaine.chan<space>Google<space>Sheets'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 61: `GUI' `NAMED_CONNECTION_ENCODED' `GOOGLESHEETS_OUT_SHEETS_CONNECTION_GOOGLESHEETS_1' `Google Sheets' `Google' `Sheets' `Connection:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 62: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `GOOGLESHEETS_OUT_GOOGLESHEETS_ADV_PARM_GROUP_GOOGLESHEETS_1' `GOOGLESHEETS_OUT_ATTR_NAMES_ARE_COLUMN_POSITIONS%GOOGLESHEETS_OUT_CELLS_PER_REQUEST_GOOGLESHEETS_1' `Advanced'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 63: `GOOGLESHEETS_1_CELLS_PER_REQUEST' `5000'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 64: `GUI' `INTEGER' `GOOGLESHEETS_OUT_CELLS_PER_REQUEST_GOOGLESHEETS_1' `Cells' `Per' `Request:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 65: `GOOGLESHEETS_1_COORDINATE_SYSTEM_GRANULARITY' `FEATURE'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 66: `GOOGLESHEETS_1_GENERATE_FME_BUILD_NUM' `21313'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 67: `GUI' `STRING_ENCODED' `SPREADSHEET_GOOGLESHEETS_1' `Spreadsheet:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 68: `GOOGLESHEETS_1_SPREADSHEET' `https:<solidus><solidus>docs.google.com<solidus>spreadsheets<solidus>d<solidus>1-Bx8O6fXVRPc7RnXJokR9_cvzb36QRhGVg2iB5zY4uE'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 69: `GOOGLESHEETS_1_DATASET' `NULL'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 70: `GUI' `DIRNAME' `DestDataset_CSV2_2' `Destination' `CSV' `(CommaSeparatedValue)' `Folder:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 71: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_DATASET_GROUP_CSV2_2' `CSV2_OUT_EXTENSION_CSV2_2%CSV2_OUT_EXISTING_FILE_HANDLING' `Dataset'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 72: `CSV2_2_EXTENSION' `csv'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 73: `GUI' `OPTIONAL' `TEXT' `CSV2_OUT_EXTENSION_CSV2_2' `Extension:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 74: `CSV2_2_EXISTING_FILE_HANDLING' `Yes'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 75: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_FIELDS_GROUP_CSV2_2' `CSV2_OUT_DELIMITER_CSV2_2%CSV2_OUT_WRITE_FIELD_NAMES' `Fields'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 76: `CSV2_2_DELIMITER' `<comma>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 77: `GUI' `STRING_OR_CHOICE_ENCODED' `CSV2_OUT_DELIMITER_CSV2_2' `,%;%|%space%tab' `Delimiter' `Character:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 78: `CSV2_2_WRITE_FIELD_NAMES' `firstrow'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 79: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_ENCODING_GROUP_CSV2_2' `CSV2_OUT_ENCODING_CSV2_2%CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_2' `Encoding'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 80: `CSV2_2_ENCODING' `UTF-8'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 81: `GUI' `STRING_OR_ENCODING' `CSV2_OUT_ENCODING_CSV2_2' `fme-system%*' `Character' `Encoding:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 82: `CSV2_2_WRITE_BOM_FOR_UNICODE' `Yes'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 83: `GUI' `CHOICE' `CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_2' `Yes%No' `Write' `Byte' `Order' `Mark' `for' `Unicode:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 84: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `CSV2_OUT_ADVANCED_GROUP_CSV2_2' `FME_DISCLOSURE_CLOSED%CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_2%CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_2%CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_2%CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_2%CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2%CSV2_OUT_ROW_TERMINATION_CSV2_2%CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_2' `Advanced'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 85: `CSV2_2_QUALIFY_FIELD_NAMES' `if_needed'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 86: `GUI' `LOOKUP_CHOICE' `CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_2' `Yes,yes%No,no%If<space>Needed,if_needed' `Qualify' `Field' `Names:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 87: `CSV2_2_QUALIFY_FIELD_VALUES' `if_needed'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 88: `GUI' `ACTIVECHOICE_LOOKUP' `CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_2' `Yes,yes,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_2%No,no%If<space>Needed,if_needed,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_2' `Qualify' `Field' `Values:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 89: `CSV2_2_UNQUALIFIED_FIELD_VALUE_HANDLING' `<Unused>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 90: `GUI' `LOOKUP_CHOICE' `CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_2' `Remove<space>Unsafe<space>Characters,remove_unsafe%Preserve<space>Unsafe<space>Characters,preserve_unsafe' `Unqualified' `Field' `Value' `Handling:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 91: `CSV2_2_FIELD_QUALIFIER_CHARACTER' `<quote>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 92: `GUI' `STRING_ENCODED' `CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_2' `Field' `Qualifier' `Character:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 93: `CSV2_2_FIELD_QUALIFIER_ESCAPE_CHARACTER' `<quote>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 94: `GUI' `STRING_ENCODED' `CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2' `Field' `Qualifier' `Escape' `Character:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 95: `CSV2_2_ROW_TERMINATION' `System'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 96: `GUI' `CHOICE' `CSV2_OUT_ROW_TERMINATION_CSV2_2' `System%Windows%Unix%Macintosh' `Row' `Termination:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 97: `CSV2_2_WRITE_SCHEMA_FILE' `NO'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 98: `GUI' `ACTIVEDISCLOSUREGROUP' `CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_2' `FME_DISCLOSURE_CLOSED%CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_2' `Write' `Schema' `Configuration' `File'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 99: `CSV2_2_EXISTING_SCHEMA_FILE_HANDLING' `<Unused>'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 100: `GUI' `CHOICE' `CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_2' `Overwrite%Prepend' `Existing' `Schema' `File' `Handling:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 101: `CSV2_2_COORDINATE_SYSTEM_GRANULARITY' `FEATURE_TYPE'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 102: `CSV2_2_GENERATE_FME_BUILD_NUM' `21313'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 103: `CSV2_2_DATASET' `/Users/ellaine.chan/Desktop'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 104: `GUI' `NAMED_DB_CONNECTION_ENCODED' `DestDataset_MYSQL_DB_1' `FMT:MYSQL_DB' `Connection:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 105: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `MYSQL_DB_OUT_FME_CONNECTION_GROUP_MYSQL_DB_1' `MYSQL_DB_OUT_NAMED_CONNECTION' `Database' `Connection'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 106: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `MYSQL_DB_OUT_ADVANCED_MYSQL_DB_1' `MYSQL_DB_OUT_WRITER_MODE_MYSQL_DB_1%MYSQL_DB_OUT_START_TRANSACTION_MYSQL_DB_1%MYSQL_DB_OUT_TRANSACTION_INTERVAL_MYSQL_DB_1%MYSQL_DB_OUT_BEGIN_SQL{0}_MYSQL_DB_1%MYSQL_DB_OUT_END_SQL{0}_MYSQL_DB_1%MYSQL_DB_OUT_STRIP_WHITESPACE_MYSQL_DB_1' `Advanced'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 107: `MYSQL_DB_1_WRITER_MODE' `INSERT'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 108: `GUI' `LOOKUP_CHOICE' `MYSQL_DB_OUT_WRITER_MODE_MYSQL_DB_1' `Insert,INSERT%Update,UPDATE%Delete,DELETE' `Writer' `Mode'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 109: `MYSQL_DB_1_START_TRANSACTION' `0'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 110: `GUI' `TEXT' `MYSQL_DB_OUT_START_TRANSACTION_MYSQL_DB_1' `Starting' `Feature:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 111: `MYSQL_DB_1_TRANSACTION_INTERVAL' `1000'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 112: `GUI' `TEXT' `MYSQL_DB_OUT_TRANSACTION_INTERVAL_MYSQL_DB_1' `Features' `Per' `Transaction'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 113: `MYSQL_DB_1_BEGIN_SQL{0}' `'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 114: `GUI' `OPTIONAL' `TEXT_EDIT_SQL_CFG' `MYSQL_DB_OUT_BEGIN_SQL{0}_MYSQL_DB_1' `MODE,SQL;FORMAT,MYSQL_DB' `SQL' `To' `Run' `Before' `Write'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 115: `MYSQL_DB_1_END_SQL{0}' `'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 116: `GUI' `OPTIONAL' `TEXT_EDIT_SQL_CFG' `MYSQL_DB_OUT_END_SQL{0}_MYSQL_DB_1' `MODE,SQL;FORMAT,MYSQL_DB' `SQL' `To' `Run' `After' `Write'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 117: `MYSQL_DB_1_STRIP_WHITESPACE' `YES'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 118: `GUI' `CHOICE' `MYSQL_DB_OUT_STRIP_WHITESPACE_MYSQL_DB_1' `YES%NO' `Strip' `Whitespace' `From' `Field' `Values'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 119: `MYSQL_DB_1_COORDINATE_SYSTEM_GRANULARITY' `FEATURE'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 120: `MYSQL_DB_1_GENERATE_FME_BUILD_NUM' `21313'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 121: `MYSQL_DB_1_DATASET' `set-rds-user'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 122: `GUI' `NAMED_DB_CONNECTION_ENCODED' `DestDataset_MYSQL_DB_2' `FMT:MYSQL_DB' `Connection:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 123: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `MYSQL_DB_OUT_FME_CONNECTION_GROUP_MYSQL_DB_2' `MYSQL_DB_OUT_NAMED_CONNECTION' `Database' `Connection'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 124: `GUI' `OPTIONAL' `DISCLOSUREGROUP' `MYSQL_DB_OUT_ADVANCED_MYSQL_DB_2' `MYSQL_DB_OUT_WRITER_MODE_MYSQL_DB_2%MYSQL_DB_OUT_START_TRANSACTION_MYSQL_DB_2%MYSQL_DB_OUT_TRANSACTION_INTERVAL_MYSQL_DB_2%MYSQL_DB_OUT_BEGIN_SQL{0}_MYSQL_DB_2%MYSQL_DB_OUT_END_SQL{0}_MYSQL_DB_2%MYSQL_DB_OUT_STRIP_WHITESPACE_MYSQL_DB_2' `Advanced'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 125: `MYSQL_DB_2_WRITER_MODE' `INSERT'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 126: `GUI' `LOOKUP_CHOICE' `MYSQL_DB_OUT_WRITER_MODE_MYSQL_DB_2' `Insert,INSERT%Update,UPDATE%Delete,DELETE' `Writer' `Mode'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 127: `MYSQL_DB_2_START_TRANSACTION' `0'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 128: `GUI' `TEXT' `MYSQL_DB_OUT_START_TRANSACTION_MYSQL_DB_2' `Starting' `Feature:'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 129: `MYSQL_DB_2_TRANSACTION_INTERVAL' `1000'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 130: `GUI' `TEXT' `MYSQL_DB_OUT_TRANSACTION_INTERVAL_MYSQL_DB_2' `Features' `Per' `Transaction'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 131: `MYSQL_DB_2_BEGIN_SQL{0}' `'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 132: `GUI' `OPTIONAL' `TEXT_EDIT_SQL_CFG' `MYSQL_DB_OUT_BEGIN_SQL{0}_MYSQL_DB_2' `MODE,SQL;FORMAT,MYSQL_DB' `SQL' `To' `Run' `Before' `Write'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 133: `MYSQL_DB_2_END_SQL{0}' `'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 134: `GUI' `OPTIONAL' `TEXT_EDIT_SQL_CFG' `MYSQL_DB_OUT_END_SQL{0}_MYSQL_DB_2' `MODE,SQL;FORMAT,MYSQL_DB' `SQL' `To' `Run' `After' `Write'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 135: `MYSQL_DB_2_STRIP_WHITESPACE' `YES'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 136: `GUI' `CHOICE' `MYSQL_DB_OUT_STRIP_WHITESPACE_MYSQL_DB_2' `YES%NO' `Strip' `Whitespace' `From' `Field' `Values'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 137: `MYSQL_DB_2_COORDINATE_SYSTEM_GRANULARITY' `FEATURE'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 138: `MYSQL_DB_2_GENERATE_FME_BUILD_NUM' `21313'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 139: `MYSQL_DB_2_DATASET' `set-rds-user'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 140: `LOG_END_BANNER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 141: `LOG_END_BANNER' `Feature' `caches' `have' `been' `recorded' `at' `every' `stage' `of' `the' `translation.'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 142: `LOG_END_BANNER' `To' `inspect' `the' `recorded' `features,'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 143: `LOG_END_BANNER' `click' `the' `feature' `cache' `icons' `next' `to' `the' `ports.'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 144: `LOG_END_BANNER'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 145: `LOG_FILENAME' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/UkgImport.log'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 146: `LOG_APPEND' `NO'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 147: `FME_DEBUG' `MAPPING_FILE' `BADNEWS' `UNGROUPED' `UNCORRELATED' `DUMP_SCHEMA' `XSD_VERBOSE' `HTTP_DEBUG' `FTP_DEBUG' `FME_DEBUG' `STASH'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 148: `LOG_FILTER_MASK' `-1'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 149: `LOG_MAX_FEATURES' `200'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 150: `LOG_MAX_RECORDED_FEATURES' `200'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 151: `FME_REPROJECTION_ENGINE' `FME'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 152: `FME_IMPLICIT_CSMAP_REPROJECTION_MODE' `Auto'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 153: `FME_GEOMETRY_HANDLING' `Enhanced'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 154: `FME_STROKE_MAX_DEVIATION' `0'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 155: `FME_NAMES_ENCODING' `UTF-8'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 156: `MULTI_READER_CONTINUE_ON_READER_FAILURE' `No'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 157: `FACTORY_DEF' `*' `RecorderFactory' `FACTORY_NAME' `ChangeDetector_DELETED_-1_186_Player' `FEATURE_FILE' `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_ChangeDetector -1 24 fo 2 DELETED  0  eca1117edc24a81d8d86b33ac3450a4696531c71.ffs' `MODE' `PLAYBACK' `OUTPUT' `RECORDED' `FEATURE_TYPE' `*' `@LogCount(LINK -1 186)' `@FeatureType(ENCODED,ChangeDetector_DELETED)'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 158: `FACTORY_DEF' `{*}' `QueryFactory' `FACTORY_NAME' `{' `SQLExecutor_2' `}' `INPUT' `FEATURE_TYPE' `ChangeDetector_DELETED' `QUERY_SQL' `{' `@EvaluateExpression(FDIV,STRING_ENCODED,update<space>users.ukg_users<lf>set<space>deactivated<space>=<space>NOW<openparen><closeparen><lf>where<space>id<space>=<space><at>Value<openparen>id<closeparen>,SQLExecutor_2)' `}' `READER_TYPE' `{' `MYSQL' `}' `READER_DATASET' `{' `set-rds-user' `}' `COMBINE_ATTRIBUTES' `{' `RESULT_ONLY' `}' `IGNORE_NULLS' `{' `<Unused>' `}' `COMBINE_GEOMETRY' `{' `QUERY_ONLY' `}' `CONTINUE_ON_READER_ERROR' `YES' `QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE' `YES' `READER_PARAMS' `{' `NAMED_CONNECTION' `set-rds-user' `}' `OUTPUT' `{' `RESULT' `FEATURE_TYPE' `SQLExecutor_2_RESULT' `@SupplyAttributes(fme_feature_type,SQLExecutor_2)' `}' `OUTPUT' `{' `QUERY' `FEATURE_TYPE' `SQLExecutor_2_INITIATOR' `}' `OUTPUT' `{' `READER_ERROR' `FEATURE_TYPE' `SQLExecutor_2_<REJECTED>' `}'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 159: `FACTORY_DEF' `{*}' `RecorderFactory' `FACTORY_NAME' `SQLExecutor_2_RESULT Feature Recorder -1 2147614738' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_RESULT' `FEATURE_FILE' `{' `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 0 RESULT  0  a349b25c3e419b3f9c914934da656ef950e71116.ffsupdating' `}' `MODE' `RECORD_PASS_THROUGH' `STORE_SCANNED_SCHEMA' `YES' `NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA' `YES' `CREATE_SPATIAL_INDEX' `YES' `INSPECTOR' `YES' `RECORD_DIRECTLY_TO_DISK' `YES' `FSC_SCHEMA' `{' `}' `FEAT_TYPE_DISPLAY_NAME' `{' `SQLExecutor_2_Result' `}' `STORE_SCANNED_METADATA' `PASS_THROUGH_FME_TYPE' `OUTPUT' `RECORDED' `FEATURE_TYPE' `*'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 160: `FACTORY_DEF' `{*}' `RecorderFactory' `FACTORY_NAME' `SQLExecutor_2_INITIATOR Feature Recorder -1 2147680274' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_INITIATOR' `FEATURE_FILE' `{' `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 1 INITIATOR  0  67d5e9ef2356a0c9a0c46c4fb23cbaa0b085ea70.ffsupdating' `}' `MODE' `RECORD_PASS_THROUGH' `STORE_SCANNED_SCHEMA' `YES' `NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA' `YES' `CREATE_SPATIAL_INDEX' `YES' `INSPECTOR' `YES' `RECORD_DIRECTLY_TO_DISK' `YES' `FSC_SCHEMA' `{' `last,varchar<openparen>200<closeparen>,first,varchar<openparen>200<closeparen>,preferred_first_name,varchar<openparen>200<closeparen>,id,varchar<openparen>200<closeparen>,email,varchar<openparen>200<closeparen>,title,varchar<openparen>200<closeparen>,team_id,varchar<openparen>200<closeparen>,Org<space>Level<space>1,varchar<openparen>200<closeparen>,Org<space>Level<space>2,varchar<openparen>200<closeparen>,Org<space>Level<space>3,varchar<openparen>200<closeparen>,state,varchar<openparen>200<closeparen>,work_extension,varchar<openparen>200<closeparen>,slack_id,varchar<openparen>200<closeparen>,ldap,varchar<openparen>200<closeparen>,office_number,varchar<openparen>200<closeparen>,office_floor,varchar<openparen>200<closeparen>,former-coop,varchar<openparen>200<closeparen>,Org3<space>Alt,varchar<openparen>200<closeparen>,fme_where,varchar<openparen>200<closeparen>,last_update,buffer,fme_db_operation,char<openparen>9<closeparen>,_matched_records,uint32' `}' `FEAT_TYPE_DISPLAY_NAME' `{' `SQLExecutor_2_Initiator' `}' `STORE_SCANNED_METADATA' `PASS_THROUGH_FME_TYPE' `OUTPUT' `RECORDED' `FEATURE_TYPE' `*'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 161: `FACTORY_DEF' `{*}' `RecorderFactory' `FACTORY_NAME' `SQLExecutor_2_<REJECTED> Feature Recorder -1 2147745810' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_<REJECTED>' `FEATURE_FILE' `{' `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 2 _lt_REJECTED_gt_  0  499f4df2a77acfa8140723b61c70e2d173a1ac2d.ffsupdating' `}' `MODE' `RECORD_PASS_THROUGH' `STORE_SCANNED_SCHEMA' `YES' `NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA' `YES' `CREATE_SPATIAL_INDEX' `YES' `INSPECTOR' `YES' `RECORD_DIRECTLY_TO_DISK' `YES' `FSC_SCHEMA' `{' `last,varchar<openparen>200<closeparen>,first,varchar<openparen>200<closeparen>,preferred_first_name,varchar<openparen>200<closeparen>,id,varchar<openparen>200<closeparen>,email,varchar<openparen>200<closeparen>,title,varchar<openparen>200<closeparen>,team_id,varchar<openparen>200<closeparen>,Org<space>Level<space>1,varchar<openparen>200<closeparen>,Org<space>Level<space>2,varchar<openparen>200<closeparen>,Org<space>Level<space>3,varchar<openparen>200<closeparen>,state,varchar<openparen>200<closeparen>,work_extension,varchar<openparen>200<closeparen>,slack_id,varchar<openparen>200<closeparen>,ldap,varchar<openparen>200<closeparen>,office_number,varchar<openparen>200<closeparen>,office_floor,varchar<openparen>200<closeparen>,former-coop,varchar<openparen>200<closeparen>,Org3<space>Alt,varchar<openparen>200<closeparen>,fme_where,varchar<openparen>200<closeparen>,last_update,buffer,fme_db_operation,char<openparen>9<closeparen>,_reader_error,buffer' `}' `FEAT_TYPE_DISPLAY_NAME' `{' `SQLExecutor_2_<lt>Rejected<gt>' `}' `STORE_SCANNED_METADATA' `PASS_THROUGH_FME_TYPE' `OUTPUT' `RECORDED' `FEATURE_TYPE' `*'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 162: `FACTORY_DEF' `*' `TeeFactory' `FACTORY_NAME' `SQLExecutor_2_RESULT Feature Counter -1 2147614738' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_RESULT' `@LogCount(PORT -1 2147614738)'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 163: `FACTORY_DEF' `*' `TeeFactory' `FACTORY_NAME' `SQLExecutor_2_INITIATOR Feature Counter -1 2147680274' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_INITIATOR' `@LogCount(PORT -1 2147680274)'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 164: `FACTORY_DEF' `*' `TeeFactory' `FACTORY_NAME' `SQLExecutor_2_<REJECTED> Feature Counter -1 2147745810' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_<REJECTED>' `@LogCount(PORT -1 2147745810)' `OUTPUT' `FEATURE_TYPE' `*'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 165: `FACTORY_DEF' `*' `TeeFactory' `FACTORY_NAME' `SQLExecutor_2_<Rejected>' `INPUT' `FEATURE_TYPE' `SQLExecutor_2_<REJECTED>' `OUTPUT' `FAILED' `FEATURE_TYPE' `*' `@Abort(ENCODED,SQLExecutor_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 166: `FACTORY_DEF' `*' `RoutingFactory' `FACTORY_NAME' `Destination Feature Type Routing Correlator' `COMMAND_PARM_EVALUATION' `SINGLE_PASS' `INPUT' `FEATURE_TYPE' `*' `FEATURE_TYPE_ATTRIBUTE' `__wb_out_feat_type__' `OUTPUT' `ROUTED' `FEATURE_TYPE' `*' `OUTPUT' `NOT_ROUTED' `FEATURE_TYPE' `__nuke_me__' `@Tcl2(FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn)'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 167: `FACTORY_DEF' `*' `TeeFactory' `FACTORY_NAME' `Final Output Nuker' `INPUT' `FEATURE_TYPE' `__nuke_me__'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 168: `FME_USER_PYTHON' `No'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 169: `LOG_STANDARDOUT' `YES'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 170: `LogCountServerName' `{f71ab14b-8ae6-4064-af73-689fb49d3da3}'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 171: `DEBUG_PORT' `50387'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 172: `LOG_ENCODING' `UTF-8'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Line 173: `FME_HOME' `/Library/FME/2021.0/'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_TRANSACTION_INTERVAL'        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_QUALIFY_FIELD_NAMES'             occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GOOGLESHEETS_1_CELLS_PER_REQUEST'       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_ENCODING'                        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_KEYWORD{4}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_GENERATE_FME_BUILD_NUM'      occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_ROW_TERMINATION'                 occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_END_SQL{0}'                  occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_WRITER_MODE'                 occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_WRITE_BOM_FOR_UNICODE'           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_WRITE_SCHEMA_FILE'               occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_STRIP_WHITESPACE'            occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_FILTER_MASK'                        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_FIELD_QUALIFIER_CHARACTER'       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_TRANSACTION_INTERVAL'        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_DEBUG'                              occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_START_TRANSACTION'           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_BEGIN_SQL{0}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_DATASET_ORDER'             occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_FILENAME'                           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GOOGLESHEETS_1_DATASET'                 occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GOOGLESHEETS_1_SPREADSHEET'             occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_STANDARDOUT'                        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_WRITE_FIELD_NAMES'               occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_EXTENSION'                       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_MAX_RECORDED_FEATURES'              occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_WRITE_SCHEMA_FILE'               occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_COORDINATE_SYSTEM_GRANULARITY' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_READER_CONTINUE_ON_READER_FAILURE' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_QUALIFY_FIELD_VALUES'            occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_TYPE{4}'                   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_DATASET'                         occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_END_SQL{0}'                  occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_NAMES_ENCODING'                     occurs 2 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `ARCGIS_COMPATIBILITY'                   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_MAX_FEATURES'                       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FACTORY_DEF'                            occurs 11 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_WRITER_MODE'                 occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_DELIMITER'                       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_TYPE{0}'                   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_PYTHON_VERSION'                     occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LogCountServerName'                     occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GOOGLESHEETS_1_COORDINATE_SYSTEM_GRANULARITY' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_EXISTING_SCHEMA_FILE_HANDLING'   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_END_BANNER'                         occurs 5 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_DELIMITER'                       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_KEYWORD{0}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_FIELD_QUALIFIER_ESCAPE_CHARACTER' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GOOGLESHEETS_1_GENERATE_FME_BUILD_NUM'  occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_ROW_TERMINATION'                 occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_GENERATE_FME_BUILD_NUM'      occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_COORDINATE_SYSTEM_GRANULARITY'   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_DATASET'                     occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_APPEND'                             occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_TYPE{3}'                   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `READER_TYPE'                            occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_COORDINATE_SYSTEM_GRANULARITY'   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `USER_PARAMETERS'                        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_QUALIFY_FIELD_NAMES'             occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_FIELD_QUALIFIER_ESCAPE_CHARACTER' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_COORDINATE_SYSTEM_GRANULARITY' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_QUALIFY_FIELD_VALUES'            occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `WRITER_TYPE'                            occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_UNQUALIFIED_FIELD_VALUE_HANDLING' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_UNQUALIFIED_FIELD_VALUE_HANDLING' occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_KEYWORD{2}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_IMPLICIT_CSMAP_REPROJECTION_MODE'   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_KEYWORD{3}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_TYPE{2}'                   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_KEYWORD{1}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_START_BANNER'                       occurs 0 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_DATASET'                         occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_EXISTING_FILE_HANDLING'          occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_FIRST_WRITER_ID'           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_EXISTING_FILE_HANDLING'          occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_STROKE_MAX_DEVIATION'               occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_EXTENSION'                       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_HOME'                               occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `DEBUG_PORT'                             occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GOOGLESHEETS_1_SHEETS_CONNECTION'       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_FIELD_QUALIFIER_CHARACTER'       occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_STRIP_WHITESPACE'            occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_BEGIN_SQL{0}'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_USER_PYTHON'                        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_GEOMETRY_HANDLING'                  occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_WRITE_BOM_FOR_UNICODE'           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MULTI_WRITER_TYPE{1}'                   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_GENERATE_FME_BUILD_NUM'          occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_2_DATASET'                     occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_1_EXISTING_SCHEMA_FILE_HANDLING'   occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `FME_REPROJECTION_ENGINE'                occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `GUI'                                    occurs 64 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_ENCODING'                        occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `MYSQL_DB_1_START_TRANSACTION'           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_GENERATE_FME_BUILD_NUM'          occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `CSV2_2_WRITE_FIELD_NAMES'               occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|mapping file Keyword: `LOG_ENCODING'                           occurs 1 time(s)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Creating writer for format: 
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Creating reader for format: 
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |No readers were found to be part of the Multi-Reader, so no data will be read.
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2021.0//plugins/logcount_func.so'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210203)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Loaded module 'QueryFactory' from file '/Library/FME/2021.0//plugins/queryfactory.so'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20210203)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Emptying factory pipeline
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_ChangeDetector -1 24 fo 2 DELETED  0  eca1117edc24a81d8d86b33ac3450a4696531c71.ffs'
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |The connection 'set-rds-user', used for MYSQL reader (R_1), defined parameters that are not expected: CA_CERTIFICATE,CIPHER_SUITES,CLIENT_CERTIFICATE,CLIENT_PRIV_KEY,ENABLE_SSL,REQUIRE_SSL,TLS_METHOD,VERIFY_SERVER
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Configuration: Using connection values from 'set-rds-user' for R_1
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Loaded module 'MYSQL' from file '/Library/FME/2021.0//plugins/mysql/mysql.so'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Performing query against MYSQL dataset `set-rds-user'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Opening MYSQL reader for dataset 'users'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Search envelope: 
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME_DEBUG -> 'yes'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|DATASET -> 'users'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_HOST -> 'set-rds.base.safe.com'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_PORT -> '3306'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_DATABASE -> 'users'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_USER_NAME -> 'set_user'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_PASSWORD -> '********'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_FETCH_ALL_FEATURES -> 'no'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_WHERE_CLAUSE -> ''
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_MINX -> ''
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_MINY -> ''
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_MAXX -> ''
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|_MAXY -> ''
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Input feature types from fetchFeatureTypes: 
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|custom_query
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|MySQL: Character set name: utf8mb4
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Successfully opened MYSQL reader connection to a MySQL 8.0.23 server on 'set-rds.base.safe.com'
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 1 INITIATOR  0  67d5e9ef2356a0c9a0c46c4fb23cbaa0b085ea70.ffsupdating'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|ChangeDetector_DELETED_-1_186_Player (RecorderFactory): Played back 1 feature(s) from file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_ChangeDetector -1 24 fo 2 DELETED  0  eca1117edc24a81d8d86b33ac3450a4696531c71.ffs'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Successfully closed MYSQL database reader
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Successfully closed MYSQL database reader
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 1 INITIATOR  0  67d5e9ef2356a0c9a0c46c4fb23cbaa0b085ea70.ffsupdating'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 1 INITIATOR  0  67d5e9ef2356a0c9a0c46c4fb23cbaa0b085ea70.fsi'
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-ipyUdr/Main_SQLExecutor_2 -1 18 fo 1 INITIATOR  0  67d5e9ef2356a0c9a0c46c4fb23cbaa0b085ea70.fsi'
-2022-10-06 10:18:14|   0.0|  0.0|STATS |SQLExecutor_2_RESULT Feature Counter -1 2147614738 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-10-06 10:18:14|   0.0|  0.0|STATS |SQLExecutor_2_INITIATOR Feature Counter -1 2147680274 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2022-10-06 10:18:14|   0.0|  0.0|STATS |SQLExecutor_2_<REJECTED> Feature Counter -1 2147745810 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-10-06 10:18:14|   0.0|  0.0|STATS |SQLExecutor_2_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-10-06 10:18:14|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-10-06 10:18:14|   0.0|  0.0|STATS |                            Features Read Summary
-2022-10-06 10:18:14|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-10-06 10:18:14|   0.0|  0.0|STATS |==============================================================================
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Total Features Read                                                          0
-2022-10-06 10:18:14|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-10-06 10:18:14|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-10-06 10:18:14|   0.0|  0.0|STATS |                           Features Written Summary
-2022-10-06 10:18:14|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-10-06 10:18:14|   0.0|  0.0|STATS |==============================================================================
-2022-10-06 10:18:14|   0.0|  0.0|STATS |Total Features Written                                                       0
-2022-10-06 10:18:14|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~                                                                             ~-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~                                                                             ~-
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|Translation was SUCCESSFUL with 8 warning(s) (0 feature(s) output)
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |Attribute Names New creations: 2183, Re-constructed: 4347
-2022-10-06 10:18:14|   0.0|  0.0|WARN  |Feature Type Names New creations: 26, Re-constructed: 40
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|FME Session Duration: 0.5 seconds. (CPU: 0.0s user, 0.0s system)
-2022-10-06 10:18:14|   0.0|  0.0|INFORM|END - ProcessID: 91232, peak process memory usage: 71284 kB, current process memory usage: 71300 kB
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME 2021.0.1.0 (20210404 - Build 21313 - macosx)
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2021.0/'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Permanent License.
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Machine host name is: athena.local
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|START - ProcessID: 36877, peak process memory usage: 61524 kB, current process memory usage: 61524 kB
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2021.0/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1665522961564_30232' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{258f89b4-d4fe-40dc-b503-d1f9a7e8b9aa}' `DEBUG_PORT' `60010'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2021.0/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/21313-macosx/transformers;/Library/FME/2021.0/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1665508884945_30232/fmetmp_17', set from environment variable `FME_TEMP'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2021.0/'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.0.1.0'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|System Status: 302.42 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1665508884945_30232/fmetmp_17)
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|System Status: 35.00 GB of virtual memory available
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Operating System: Mac OS X Version 10.15.7 (Build 19H2026)
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Platform: macosx
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Locale: en_CA
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|System Encoding: UTF-8
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 33.83 GB
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 25.37 GB
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Creating writer for format: 
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Creating reader for format: 
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2021.0//plugins/logcount_func.so'
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210203)
+2022-10-11 14:16:02|   0.0|  0.0|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@60010 and FME@63959
+2022-10-11 14:16:02|   0.0|  0.0|INFORM|Emptying factory pipeline
+2022-10-11 14:16:02|   0.0|  0.0|STATS |Restoring 448 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_AttributeCreator_5 -1 281 fo 0 OUTPUT  0  6bd22f257c47eaffeabaee67459d8967ab078681.ffs'
+2022-10-11 14:16:02|   0.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_DateTimeStamper -1 267 fo 0 OUTPUT  0  e86c9033479215eb3892637732534ce3f3b46bf9.ffsupdating'
+2022-10-11 14:16:02|   0.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 1 FAILED  0  04f9e145a129aaa9c111b3be35178ff351d7db62.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.1|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 0 PASSED  0  76e0dc7d809d3d8415d3f753bf82fb7be64b6b3d.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_ChangeDetector -1 24 fo 3 UNCHANGED  0  e28b601ae5cb1d1ccede0a54d6b4fcd2c666fa0b.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|AttributeCreator_5_OUTPUT_-1_268_Player (RecorderFactory): Played back 448 feature(s) from file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_AttributeCreator_5 -1 281 fo 0 OUTPUT  0  6bd22f257c47eaffeabaee67459d8967ab078681.ffs'
+2022-10-11 14:16:03|   0.1|  0.0|STATS |DateTimeStamper (TeeFactory): Cloned 448 input feature(s) into 448 output feature(s)
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Tester_9 (TestFactory): Tested 448 input feature(s) -- 224 feature(s) passed and 224 feature(s) failed
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Tester_9 FAILED Splitter (TeeFactory): Cloned 224 input feature(s) into 448 output feature(s)
+2022-10-11 14:16:03|   0.1|  0.0|STATS |ChangeDetector UPDATED Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-10-11 14:16:03|   0.1|  0.0|STATS |ChangeDetector INSERTED Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-10-11 14:16:03|   0.1|  0.0|STATS |ChangeDetector DELETED Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Stored 224 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_ChangeDetector -1 24 fo 3 UNCHANGED  0  e28b601ae5cb1d1ccede0a54d6b4fcd2c666fa0b.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_ChangeDetector -1 24 fo 3 UNCHANGED  0  e28b601ae5cb1d1ccede0a54d6b4fcd2c666fa0b.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_ChangeDetector -1 24 fo 3 UNCHANGED  0  e28b601ae5cb1d1ccede0a54d6b4fcd2c666fa0b.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Stored 224 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 1 FAILED  0  04f9e145a129aaa9c111b3be35178ff351d7db62.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 1 FAILED  0  04f9e145a129aaa9c111b3be35178ff351d7db62.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 1 FAILED  0  04f9e145a129aaa9c111b3be35178ff351d7db62.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Stored 224 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 0 PASSED  0  76e0dc7d809d3d8415d3f753bf82fb7be64b6b3d.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 0 PASSED  0  76e0dc7d809d3d8415d3f753bf82fb7be64b6b3d.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_Tester_9 -1 53 fo 0 PASSED  0  76e0dc7d809d3d8415d3f753bf82fb7be64b6b3d.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Stored 448 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_DateTimeStamper -1 267 fo 0 OUTPUT  0  e86c9033479215eb3892637732534ce3f3b46bf9.ffsupdating'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_DateTimeStamper -1 267 fo 0 OUTPUT  0  e86c9033479215eb3892637732534ce3f3b46bf9.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-nMVDKZ/Main_DateTimeStamper -1 267 fo 0 OUTPUT  0  e86c9033479215eb3892637732534ce3f3b46bf9.fsi'
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 448 input feature(s), wrote 448 output feature(s): 0 matched merge filters, 224 were routed to output, 224 could not be routed.
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 448 input feature(s) into 0 output feature(s)
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |                                                                           224
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |==============================================================================
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |Total features not written                                                 224
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|STATS |                            Features Read Summary
+2022-10-11 14:16:03|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|STATS |==============================================================================
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Total Features Read                                                          0
+2022-10-11 14:16:03|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|STATS |                           Features Written Summary
+2022-10-11 14:16:03|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|STATS |==============================================================================
+2022-10-11 14:16:03|   0.1|  0.0|STATS |Total Features Written                                                       0
+2022-10-11 14:16:03|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~                                                                             ~-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~                                                                             ~-
+2022-10-11 14:16:03|   0.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|Translation was SUCCESSFUL with 16 warning(s) (0 feature(s) output)
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|FME Session Duration: 0.2 seconds. (CPU: 0.1s user, 0.0s system)
+2022-10-11 14:16:03|   0.1|  0.0|INFORM|END - ProcessID: 36877, peak process memory usage: 69388 kB, current process memory usage: 69436 kB
