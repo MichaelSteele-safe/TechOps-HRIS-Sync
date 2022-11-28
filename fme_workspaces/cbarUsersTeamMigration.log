@@ -1,0 +1,594 @@
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME 2021.0.1.0 (20210404 - Build 21313 - macosx)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2021.0/'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Permanent License.
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Machine host name is: athena.local
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|START - ProcessID: 40226, peak process memory usage: 61840 kB, current process memory usage: 61840 kB
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2021.0/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1669423716417_7399' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{b75ebad9-f9f4-42b8-b004-a976c655b544}' `DEBUG_PORT' `51760'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2021.0/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/21313-macosx/transformers;/Library/FME/2021.0/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1669236508412_7399/fmetmp_16', set from environment variable `FME_TEMP'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2021.0/'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'cbarUsersTeamMigration.fmw'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.0.1.0'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|System Status: 295.90 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1669236508412_7399/fmetmp_16)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|System Status: 34.00 GB of virtual memory available
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Operating System: Mac OS X Version 10.15.7 (Build 19H2026)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Platform: macosx
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Locale: en_CA
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|System Encoding: UTF-8
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 32.83 GB
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 24.62 GB
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Loaded module 'NULL' from file '/Library/FME/2021.0//plugins/null.so'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Creating reader for format: 
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Loaded module 'QueryFactory' from file '/Library/FME/2021.0//plugins/queryfactory.so'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@51760 and FME@64998
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2021.0//plugins/logcount_func.so'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|... Last line repeated 18 times ...
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Emptying factory pipeline
+2022-11-25 16:48:37|   0.0|  0.0|WARN  |The connection 'set-rds-user', used for MYSQL reader (R_1), defined parameters that are not expected: CA_CERTIFICATE,CIPHER_SUITES,CLIENT_CERTIFICATE,CLIENT_PRIV_KEY,ENABLE_SSL,REQUIRE_SSL,TLS_METHOD,VERIFY_SERVER
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME Configuration: Using connection values from 'set-rds-user' for R_1
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Loaded module 'MYSQL' from file '/Library/FME/2021.0//plugins/mysql/mysql.so'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Performing query against MYSQL dataset `set-rds-user'
+2022-11-25 16:48:37|   0.0|  0.0|INFORM|Opening MYSQL reader for dataset 'users'
+2022-11-25 16:48:38|   0.1|  0.1|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator -1 2 fo 0 RESULT  0  07d1732e0ddcd07fb7cbf13320b2168834c96c98.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_5 -1 125 fo 0 OUTPUT  0  808f3d94de099a73f4c4ae1996b949dd4198f499.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 1 FAILED  0  9cd8d04b6564026a8f0e12600562dab3c8b257da.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_3 -1 151 fo 0 OUTPUT  0  6697f8d5a44ccfee9aab0f6a384e70e3ce56abdd.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 0 PASSED  0  f227bada159a0d2776d302979b7ae75bb9bd7be5.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_2 -1 135 fo 0 OUTPUT  0  24cd6d600937a89c638a2b71f02a3a9a4f6c06c3.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |SQLCreator_Creator (CreationFactory): Created 1 features
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:38|   0.1|  0.0|STATS |SQLCreator_RESULT Brancher -1 131 (BranchingFactory): Branched 231 input features -- 231 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:38|   0.1|  0.0|STATS |SQLCreator_<REJECTED> Feature Counter -1 2147614722 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:38|   0.1|  0.0|STATS |SQLCreator_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:38|   0.1|  0.0|WARN  |The connection 'set-rds-user', used for MYSQL reader (R_2), defined parameters that are not expected: CA_CERTIFICATE,CIPHER_SUITES,CLIENT_CERTIFICATE,CLIENT_PRIV_KEY,ENABLE_SSL,REQUIRE_SSL,TLS_METHOD,VERIFY_SERVER
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|FME Configuration: Using connection values from 'set-rds-user' for R_2
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|Performing query against MYSQL dataset `set-rds-user'
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|Opening MYSQL reader for dataset 'users'
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:38|   0.1|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_3 -1 35 fo 0 RESULT  0  6ecf36476b4b2d953ad3e3a68e1f6a101665c80a.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 1 FAILED  0  cd6a94e48fa9bc5c1ddd19179554a0a53a52a264.ffsupdating'
+2022-11-25 16:48:38|   0.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 1 FAILED  0  1f8faaad1bfe2324a5385e8c91792c04c5c9d822.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.1|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 1 FAILED  0  ce85e7ef6aad0d41adce77140985063d9845bbee.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 0 PASSED  0  aa372d128e744769679b691c5205ec436091d6e1.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|FME Configuration: Using connection values from 'bar-rds' for R_3
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Performing query against MYSQL dataset `bar-rds'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Opening MYSQL reader for dataset 'CBAR'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:38|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 0 RESULT  0  d8b83c39befed82bf42ff23d5c3442e470c78e22.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_4
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:38|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_4 -1 66 fo 1 INITIATOR  0  81d1314702c0bf24c5c2ac01ef23c9ea652dd053.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 1 INITIATOR  0  b7f5b16a632bc00ffc47c90b503a6bee441cf4ca.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 0 PASSED  0  0376b4fbbc2673eee0f376eae05617226356e54c.ffsupdating'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_5
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:38|   0.2|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:39|   0.2|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:39|   0.2|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:39|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_7 -1 112 fo 1 INITIATOR  0  2fb20588f2333a362b4a219a01b01928a949b98e.ffsupdating'
+2022-11-25 16:48:40|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 0 PASSED  0  4f094018e9ae2ed2296380eccb9532ab339d2d29.ffsupdating'
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_6
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:40|   0.2|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:40|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_6 -1 101 fo 1 INITIATOR  0  269f8405e9530781276c805cdb3a9f77c5a1d9f7.ffsupdating'
+2022-11-25 16:48:42|   0.4|  0.2|INFORM|SQLExecutor_4 (QueryFactory): 24 input initiators processed
+2022-11-25 16:48:42|   0.4|  0.0|INFORM|SQLExecutor_5 (QueryFactory): 24 input initiators processed
+2022-11-25 16:48:43|   0.4|  0.0|INFORM|SQLExecutor_7 (QueryFactory): 29 input initiators processed
+2022-11-25 16:48:44|   0.4|  0.0|INFORM|SQLExecutor_6 (QueryFactory): 7 input initiators processed
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_Creator (CreationFactory): Created 1 features
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3 RESULT Splitter (TeeFactory): Cloned 58 input feature(s) into 232 output feature(s)
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_RESULT_0_aKI3Rv6ZK50= Brancher -1 94 (BranchingFactory): Branched 58 input features -- 58 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_RESULT_1_ufeQwOnpJwE= Brancher -1 108 (BranchingFactory): Branched 58 input features -- 58 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_RESULT_2_w7d64Po223E= Brancher -1 79 (BranchingFactory): Branched 58 input features -- 58 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_RESULT_3_oYn4VjxYra8= Brancher -1 104 (BranchingFactory): Branched 58 input features -- 58 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_<REJECTED> Feature Counter -1 2147614755 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:45|   0.4|  0.0|STATS |SQLCreator_3_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_7
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:45|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_4 -1 47 fo 0 RESULT  0  1401a48531934b233d592eda8b11117b1bfecce3.ffsupdating'
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_8
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:45|   0.4|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:46|   0.4|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:46|   0.4|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:46|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 0 RESULT  0  59cbb4be1668bba199a4596b5066d1d6b9d4bf76.ffsupdating'
+2022-11-25 16:48:46|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 1 INITIATOR  0  891670054de55d1e9498e73113a4f3eb7fd34cec.ffsupdating'
+2022-11-25 16:48:46|   0.5|  0.1|STATS |SQLCreator_4_Creator (CreationFactory): Created 1 features
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_4_RESULT Brancher -1 132 (BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_4_<REJECTED> Feature Counter -1 2147614767 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_4_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|FME Configuration: Using connection values from 'bar-rds' for R_9
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Performing query against MYSQL dataset `bar-rds'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Opening MYSQL reader for dataset 'CBAR'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:46|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_6 -1 88 fo 0 RESULT  0  62ca1642ca690c5ea12fec8b7dac1a1ad7013c05.ffsupdating'
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_6_Creator (CreationFactory): Created 1 features
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_6_RESULT Brancher -1 103 (BranchingFactory): Branched 58 input features -- 58 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_6_<REJECTED> Feature Counter -1 2147614808 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_6_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|FME Configuration: Using connection values from 'bar-rds' for R_10
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Performing query against MYSQL dataset `bar-rds'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Opening MYSQL reader for dataset 'CBAR'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:46|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_7 -1 84 fo 0 RESULT  0  28a44fb04d14ea0b80cbcab3d3bedd03a87558f2.ffsupdating'
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_7_Creator (CreationFactory): Created 1 features
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_7_RESULT Brancher -1 91 (BranchingFactory): Branched 231 input features -- 231 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_7_<REJECTED> Feature Counter -1 2147614804 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:46|   0.5|  0.0|STATS |SQLCreator_7_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:46|   0.5|  0.0|WARN  |The connection 'set-rds-user', used for MYSQL reader (R_11), defined parameters that are not expected: CA_CERTIFICATE,CIPHER_SUITES,CLIENT_CERTIFICATE,CLIENT_PRIV_KEY,ENABLE_SSL,REQUIRE_SSL,TLS_METHOD,VERIFY_SERVER
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|FME Configuration: Using connection values from 'set-rds-user' for R_11
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Performing query against MYSQL dataset `set-rds-user'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|Opening MYSQL reader for dataset 'users'
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:46|   0.5|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:46|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_2 -1 83 fo 0 RESULT  0  e494fb96e8c2999431ef261818770bf6b236a71f.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|FME Configuration: Using connection values from 'bar-rds' for R_12
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|Performing query against MYSQL dataset `bar-rds'
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|Opening MYSQL reader for dataset 'CBAR'
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:47|   0.5|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 0 RESULT  0  fd40ca157f6e2a63460da6ee924da3a2f453d66d.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_6 -1 156 fo 0 OUTPUT  0  2651bea1a07f6e11659257af4be69d316784b16a.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 1 FAILED  0  1229b02b5eb1fb2c1b243cc5909d0445053a5348.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_5 -1 160 fo 0 OUTPUT  0  7f8c6b3c49e2e44d9728f43902707036a82a4126.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 1 INITIATOR  0  bc930dcee86c463773eaa30d6e14a65cd5bf5eba.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 0 PASSED  0  eca7f1aa0cddb858f615571a79ccbe356c5d7780.ffsupdating'
+2022-11-25 16:48:47|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_4 -1 158 fo 0 OUTPUT  0  8315f972bd5d110d205f50b8f845c9af28ca6a77.ffsupdating'
+2022-11-25 16:48:51|   0.6|  0.1|INFORM|SQLExecutor_9 (QueryFactory): 105 input initiators processed
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLCreator_2_Creator (CreationFactory): Created 1 features
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLCreator_2_RESULT Brancher -1 128 (BranchingFactory): Branched 112 input features -- 112 features routed to the target factory, and 0 features routed to the fallback factory.
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLCreator_2_<REJECTED> Feature Counter -1 2147614803 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLCreator_2_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |_CREATOR_BRANCH_TARGET (TeeFactory): Cloned 865 input feature(s) into 865 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLExecutor_9_INITIATOR Feature Counter -1 2147680382 (TeeFactory): Cloned 112 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLExecutor_9_<REJECTED> Feature Counter -1 2147745918 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLExecutor_9_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |Tester_6 (TestFactory): Tested 112 input feature(s) -- 24 feature(s) passed and 88 feature(s) failed
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLExecutor_10_INITIATOR Feature Counter -1 2147680385 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLExecutor_10_<REJECTED> Feature Counter -1 2147745921 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |SQLExecutor_10_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:51|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 0 MERGED  0  b01dee1203bdc0a2844478d2541a0ebad2daaba6.ffsupdating'
+2022-11-25 16:48:51|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 1 FAILED  0  261cd9a0abb38b5353d962322339000a2bd3ff55.ffsupdating'
+2022-11-25 16:48:51|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_4 -1 142 fo 0 OUTPUT  0  6871cffb20517ec18fe1c326fca22309f3b73fc6.ffsupdating'
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_13
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:51|   0.6|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:51|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_21 -1 20 fo 1 INITIATOR  0  04fe1992dec67007f4bfc91836a2eb70b82f5ef6.ffsupdating'
+2022-11-25 16:48:53|   0.8|  0.2|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 0 PASSED  0  9aedd8e17081b8c8bfc24664d826d221636c5fa0.ffsupdating'
+2022-11-25 16:48:53|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_3 -1 141 fo 0 OUTPUT  0  29027e984ab8b629ae907135b0930af1f4948959.ffsupdating'
+2022-11-25 16:48:55|   0.8|  0.0|INFORM|SQLExecutor_21 (QueryFactory): 79 input initiators processed
+2022-11-25 16:48:56|   0.8|  0.0|INFORM|FeatureMerger_4 (ReferenceFactory): Processing requestors: Completed 89.28% of intermediate processing
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|FeatureMerger_4 (ReferenceFactory): Processing requestors: Completed 100% of intermediate processing
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 2 USED_SUPPLIER  0  92721693e954d0b849d24fc7d20a8b99c968965c.ffsupdating'
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 3 UNUSED_SUPPLIER  0  f32a6f18e84c2c8fa7d3be944ba532a72cc785db.ffsupdating'
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_4 (ReferenceFactory): Total Results: 112 Complete Feature(s), 0 Incomplete Feature(s), 112 Referenced Feature(s), 331 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_4_USED_SUPPLIER Feature Counter -1 2147745914 (TeeFactory): Cloned 112 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_4_UNUSED_SUPPLIER Feature Counter -1 2147811450 (TeeFactory): Cloned 331 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_4_<REJECTED> Feature Counter -1 2147876986 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_4_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_3 (TestFactory): Tested 112 input feature(s) -- 2 feature(s) passed and 110 feature(s) failed
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_21_RESULT Feature Counter -1 2147614740 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_21_INITIATOR Feature Counter -1 2147680276 (TeeFactory): Cloned 112 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_21_<REJECTED> Feature Counter -1 2147745812 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_21_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_11_INITIATOR Feature Counter -1 2147680393 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_11_<REJECTED> Feature Counter -1 2147745929 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_11_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Counter_Rejector (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Counter_<REJECTED> Feature Counter -1 2147680380 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Counter_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_23_RESULT Feature Counter -1 2147614742 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_23_INITIATOR Feature Counter -1 2147680278 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_23_<REJECTED> Feature Counter -1 2147745814 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_23_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_5 (TestFactory): Tested 58 input feature(s) -- 54 feature(s) passed and 4 feature(s) failed
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_5_FAILED Feature Counter -1 2147680349 (TeeFactory): Cloned 4 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_5_INITIATOR Feature Counter -1 2147680323 (TeeFactory): Cloned 54 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_5_<REJECTED> Feature Counter -1 2147745859 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_5_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_4_RESULT Feature Counter -1 2147614786 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_4_INITIATOR Feature Counter -1 2147680322 (TeeFactory): Cloned 54 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_4_<REJECTED> Feature Counter -1 2147745858 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_4_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 0 MERGED  0  b563ee5c038f14021c150705b4f132192531e925.ffsupdating'
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 2 USED_SUPPLIER  0  dea227b4f689ed9ec52b4755b85199d1abc3bafc.ffsupdating'
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_2 (ReferenceFactory): Total Results: 58 Complete Feature(s), 0 Incomplete Feature(s), 58 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_2_MERGED Feature Counter -1 2147614822 (TeeFactory): Cloned 58 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_2_USED_SUPPLIER Feature Counter -1 2147745894 (TeeFactory): Cloned 58 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_2_UNUSED_SUPPLIER Feature Counter -1 2147811430 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_2_<REJECTED> Feature Counter -1 2147876966 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |FeatureMerger_2_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_8 INITIATOR Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_8_RESULT Feature Counter -1 2147614830 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_8_<REJECTED> Feature Counter -1 2147745902 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_8_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_7 (TestFactory): Tested 58 input feature(s) -- 8 feature(s) passed and 50 feature(s) failed
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_7_FAILED Feature Counter -1 2147680355 (TeeFactory): Cloned 50 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_6_RESULT Feature Counter -1 2147614821 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_6_INITIATOR Feature Counter -1 2147680357 (TeeFactory): Cloned 8 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_6_<REJECTED> Feature Counter -1 2147745893 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_6_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_9 (TestFactory): Tested 58 input feature(s) -- 52 feature(s) passed and 6 feature(s) failed
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_9_FAILED Feature Counter -1 2147680363 (TeeFactory): Cloned 6 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_7_RESULT Feature Counter -1 2147614832 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_7_INITIATOR Feature Counter -1 2147680368 (TeeFactory): Cloned 52 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_7_<REJECTED> Feature Counter -1 2147745904 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |SQLExecutor_7_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:48:58|   0.8|  0.0|STATS |Tester_4 (TestFactory): Tested 231 input feature(s) -- 63 feature(s) passed and 168 feature(s) failed
+2022-11-25 16:48:58|   0.9|  0.1|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 0 MERGED  0  0d38597505fa461ed166ef4b2b1b7ce6a1ff40ae.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager -1 41 fo 0 OUTPUT  0  8369a5335480f93a1df02f29e4279a65c7eff4f8.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 1 FAILED  0  4737a53d17e914cb9148125f6ffc9dc1825c2e18.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  4849b3621cd97c65c1b219ae26a729f1729173f7.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|FME Configuration: Using connection values from 'bar-rds' for R_14
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Performing query against MYSQL dataset `bar-rds'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Opening MYSQL reader for dataset 'CBAR'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:58|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 0 RESULT  0  2a7d1ccda0f409c2240584ea7d35fb02af89d11b.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_15
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:58|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1a9ca7f82e95f78198329507a1101b8b1c1e71bb.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 0 PASSED  0  2fd5426a52858526369c58b63dc7a50b128fceb0.ffsupdating'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_16
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2022-11-25 16:48:58|   0.9|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2022-11-25 16:48:59|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_3 -1 118 fo 1 INITIATOR  0  16d2d93b9d8c75130615e9a228673a51ef8b3cbd.ffsupdating'
+2022-11-25 16:48:59|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 1 INITIATOR  0  5f35498e6a1eb44454d77aa0dd1ad7998529933f.ffsupdating'
+2022-11-25 16:48:59|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 1 FAILED  0  fa1015166e592132e00d988c5fe0b43ba88f6b0d.ffsupdating'
+2022-11-25 16:49:02|   1.0|  0.1|INFORM|SQLExecutor_18 (QueryFactory): 34 input initiators processed
+2022-11-25 16:49:03|   1.0|  0.0|INFORM|SQLExecutor_3 (QueryFactory): 27 input initiators processed
+2022-11-25 16:49:03|   1.0|  0.0|INFORM|SQLExecutor (QueryFactory): 43 input initiators processed
+2022-11-25 16:49:06|   1.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 0 PASSED  0  946244cb407ffcfa57436aeaed0348b022a3aba1.ffsupdating'
+2022-11-25 16:49:06|   1.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator -1 6 fo 0 OUTPUT  0  e786378dd78f59cb3fdf2eef7a6df3fb4d98be13.ffsupdating'
+2022-11-25 16:49:07|   1.0|  0.0|INFORM|SQLExecutor_18 (QueryFactory): 82 input initiators processed
+2022-11-25 16:49:08|   1.0|  0.0|INFORM|SQLExecutor_3 (QueryFactory): 67 input initiators processed
+2022-11-25 16:49:08|   1.0|  0.0|INFORM|SQLExecutor (QueryFactory): 91 input initiators processed
+2022-11-25 16:49:08|   1.0|  0.0|INFORM|FeatureMerger_3 (ReferenceFactory): Processing requestors: Completed 43.29% of intermediate processing
+2022-11-25 16:49:12|   1.1|  0.1|INFORM|SQLExecutor_18 (QueryFactory): 136 input initiators processed
+2022-11-25 16:49:13|   1.2|  0.1|INFORM|SQLExecutor (QueryFactory): 147 input initiators processed
+2022-11-25 16:49:13|   1.2|  0.0|INFORM|SQLExecutor_3 (QueryFactory): 96 input initiators processed
+2022-11-25 16:49:17|   1.2|  0.0|INFORM|SQLExecutor_18 (QueryFactory): 196 input initiators processed
+2022-11-25 16:49:17|   1.2|  0.0|INFORM|FeatureMerger_3 (ReferenceFactory): Processing requestors: Completed 86.58% of intermediate processing
+2022-11-25 16:49:18|   1.2|  0.0|INFORM|SQLExecutor (QueryFactory): 209 input initiators processed
+2022-11-25 16:49:18|   1.2|  0.0|INFORM|SQLExecutor_3 (QueryFactory): 110 input initiators processed
+2022-11-25 16:49:19|   1.3|  0.1|INFORM|FeatureMerger_3 (ReferenceFactory): Processing requestors: Completed 100% of intermediate processing
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 2 USED_SUPPLIER  0  f6ef8ef1c666800e6fc5125e98f3719d921db671.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |FeatureMerger_3 (ReferenceFactory): Total Results: 231 Complete Feature(s), 0 Incomplete Feature(s), 231 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |FeatureMerger_3_USED_SUPPLIER Feature Counter -1 2147745879 (TeeFactory): Cloned 231 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |FeatureMerger_3_UNUSED_SUPPLIER Feature Counter -1 2147811415 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |FeatureMerger_3_<REJECTED> Feature Counter -1 2147876951 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |FeatureMerger_3_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_2_RESULT Feature Counter -1 2147614825 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_2_<REJECTED> Feature Counter -1 2147745897 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_2_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Tester (TestFactory): Tested 231 input feature(s) -- 6 feature(s) passed and 225 feature(s) failed
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor RESULT Splitter (TeeFactory): Cloned 231 input feature(s) into 462 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_INITIATOR Feature Counter -1 2147680330 (TeeFactory): Cloned 231 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_<REJECTED> Feature Counter -1 2147745866 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_18_RESULT Feature Counter -1 2147614744 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_18_INITIATOR Feature Counter -1 2147680280 (TeeFactory): Cloned 231 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_18_<REJECTED> Feature Counter -1 2147745816 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_18_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Tester_2 (TestFactory): Tested 231 input feature(s) -- 115 feature(s) passed and 116 feature(s) failed
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Tester_2_FAILED Feature Counter -1 2147680338 (TeeFactory): Cloned 116 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Successfully closed MYSQL database reader
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 2 USED_SUPPLIER  0  f6ef8ef1c666800e6fc5125e98f3719d921db671.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 2 USED_SUPPLIER  0  f6ef8ef1c666800e6fc5125e98f3719d921db671.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 2 USED_SUPPLIER  0  f6ef8ef1c666800e6fc5125e98f3719d921db671.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 6 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator -1 6 fo 0 OUTPUT  0  e786378dd78f59cb3fdf2eef7a6df3fb4d98be13.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator -1 6 fo 0 OUTPUT  0  e786378dd78f59cb3fdf2eef7a6df3fb4d98be13.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator -1 6 fo 0 OUTPUT  0  e786378dd78f59cb3fdf2eef7a6df3fb4d98be13.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 1 INITIATOR  0  5f35498e6a1eb44454d77aa0dd1ad7998529933f.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 1 INITIATOR  0  5f35498e6a1eb44454d77aa0dd1ad7998529933f.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 1 INITIATOR  0  5f35498e6a1eb44454d77aa0dd1ad7998529933f.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 115 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_3 -1 118 fo 1 INITIATOR  0  16d2d93b9d8c75130615e9a228673a51ef8b3cbd.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_3 -1 118 fo 1 INITIATOR  0  16d2d93b9d8c75130615e9a228673a51ef8b3cbd.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_3 -1 118 fo 1 INITIATOR  0  16d2d93b9d8c75130615e9a228673a51ef8b3cbd.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 115 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 0 PASSED  0  2fd5426a52858526369c58b63dc7a50b128fceb0.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 0 PASSED  0  2fd5426a52858526369c58b63dc7a50b128fceb0.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 0 PASSED  0  2fd5426a52858526369c58b63dc7a50b128fceb0.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1a9ca7f82e95f78198329507a1101b8b1c1e71bb.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1a9ca7f82e95f78198329507a1101b8b1c1e71bb.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1a9ca7f82e95f78198329507a1101b8b1c1e71bb.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 168 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 1 FAILED  0  9cd8d04b6564026a8f0e12600562dab3c8b257da.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 1 FAILED  0  9cd8d04b6564026a8f0e12600562dab3c8b257da.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 1 FAILED  0  9cd8d04b6564026a8f0e12600562dab3c8b257da.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 225 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  4849b3621cd97c65c1b219ae26a729f1729173f7.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  4849b3621cd97c65c1b219ae26a729f1729173f7.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  4849b3621cd97c65c1b219ae26a729f1729173f7.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 6 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 0 PASSED  0  946244cb407ffcfa57436aeaed0348b022a3aba1.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 0 PASSED  0  946244cb407ffcfa57436aeaed0348b022a3aba1.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 0 PASSED  0  946244cb407ffcfa57436aeaed0348b022a3aba1.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 225 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 1 FAILED  0  4737a53d17e914cb9148125f6ffc9dc1825c2e18.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 1 FAILED  0  4737a53d17e914cb9148125f6ffc9dc1825c2e18.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester -1 7 fo 1 FAILED  0  4737a53d17e914cb9148125f6ffc9dc1825c2e18.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 0 MERGED  0  0d38597505fa461ed166ef4b2b1b7ce6a1ff40ae.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 0 MERGED  0  0d38597505fa461ed166ef4b2b1b7ce6a1ff40ae.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_3 -1 87 fo 0 MERGED  0  0d38597505fa461ed166ef4b2b1b7ce6a1ff40ae.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 58 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 2 USED_SUPPLIER  0  dea227b4f689ed9ec52b4755b85199d1abc3bafc.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 2 USED_SUPPLIER  0  dea227b4f689ed9ec52b4755b85199d1abc3bafc.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 2 USED_SUPPLIER  0  dea227b4f689ed9ec52b4755b85199d1abc3bafc.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 2 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 0 PASSED  0  9aedd8e17081b8c8bfc24664d826d221636c5fa0.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 0 PASSED  0  9aedd8e17081b8c8bfc24664d826d221636c5fa0.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 0 PASSED  0  9aedd8e17081b8c8bfc24664d826d221636c5fa0.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 63 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 0 PASSED  0  f227bada159a0d2776d302979b7ae75bb9bd7be5.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 0 PASSED  0  f227bada159a0d2776d302979b7ae75bb9bd7be5.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_4 -1 149 fo 0 PASSED  0  f227bada159a0d2776d302979b7ae75bb9bd7be5.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_21 -1 20 fo 1 INITIATOR  0  04fe1992dec67007f4bfc91836a2eb70b82f5ef6.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_21 -1 20 fo 1 INITIATOR  0  04fe1992dec67007f4bfc91836a2eb70b82f5ef6.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_21 -1 20 fo 1 INITIATOR  0  04fe1992dec67007f4bfc91836a2eb70b82f5ef6.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 443 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 0 RESULT  0  59cbb4be1668bba199a4596b5066d1d6b9d4bf76.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 0 RESULT  0  59cbb4be1668bba199a4596b5066d1d6b9d4bf76.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 0 RESULT  0  59cbb4be1668bba199a4596b5066d1d6b9d4bf76.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 110 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 1 FAILED  0  261cd9a0abb38b5353d962322339000a2bd3ff55.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 1 FAILED  0  261cd9a0abb38b5353d962322339000a2bd3ff55.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_3 -1 136 fo 1 FAILED  0  261cd9a0abb38b5353d962322339000a2bd3ff55.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 88 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_5 -1 160 fo 0 OUTPUT  0  7f8c6b3c49e2e44d9728f43902707036a82a4126.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_5 -1 160 fo 0 OUTPUT  0  7f8c6b3c49e2e44d9728f43902707036a82a4126.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_5 -1 160 fo 0 OUTPUT  0  7f8c6b3c49e2e44d9728f43902707036a82a4126.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager -1 41 fo 0 OUTPUT  0  8369a5335480f93a1df02f29e4279a65c7eff4f8.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager -1 41 fo 0 OUTPUT  0  8369a5335480f93a1df02f29e4279a65c7eff4f8.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager -1 41 fo 0 OUTPUT  0  8369a5335480f93a1df02f29e4279a65c7eff4f8.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 0 MERGED  0  b01dee1203bdc0a2844478d2541a0ebad2daaba6.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 0 MERGED  0  b01dee1203bdc0a2844478d2541a0ebad2daaba6.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 0 MERGED  0  b01dee1203bdc0a2844478d2541a0ebad2daaba6.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 0 RESULT  0  2a7d1ccda0f409c2240584ea7d35fb02af89d11b.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 0 RESULT  0  2a7d1ccda0f409c2240584ea7d35fb02af89d11b.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor -1 74 fo 0 RESULT  0  2a7d1ccda0f409c2240584ea7d35fb02af89d11b.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 2 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_3 -1 141 fo 0 OUTPUT  0  29027e984ab8b629ae907135b0930af1f4948959.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_3 -1 141 fo 0 OUTPUT  0  29027e984ab8b629ae907135b0930af1f4948959.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_3 -1 141 fo 0 OUTPUT  0  29027e984ab8b629ae907135b0930af1f4948959.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 24 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_4 -1 158 fo 0 OUTPUT  0  8315f972bd5d110d205f50b8f845c9af28ca6a77.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_4 -1 158 fo 0 OUTPUT  0  8315f972bd5d110d205f50b8f845c9af28ca6a77.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_4 -1 158 fo 0 OUTPUT  0  8315f972bd5d110d205f50b8f845c9af28ca6a77.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 24 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 0 PASSED  0  eca7f1aa0cddb858f615571a79ccbe356c5d7780.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 0 PASSED  0  eca7f1aa0cddb858f615571a79ccbe356c5d7780.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 0 PASSED  0  eca7f1aa0cddb858f615571a79ccbe356c5d7780.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 2 USED_SUPPLIER  0  92721693e954d0b849d24fc7d20a8b99c968965c.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 2 USED_SUPPLIER  0  92721693e954d0b849d24fc7d20a8b99c968965c.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 2 USED_SUPPLIER  0  92721693e954d0b849d24fc7d20a8b99c968965c.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 1 INITIATOR  0  bc930dcee86c463773eaa30d6e14a65cd5bf5eba.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 1 INITIATOR  0  bc930dcee86c463773eaa30d6e14a65cd5bf5eba.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 1 INITIATOR  0  bc930dcee86c463773eaa30d6e14a65cd5bf5eba.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 88 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 1 FAILED  0  1229b02b5eb1fb2c1b243cc5909d0445053a5348.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 1 FAILED  0  1229b02b5eb1fb2c1b243cc5909d0445053a5348.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_6 -1 130 fo 1 FAILED  0  1229b02b5eb1fb2c1b243cc5909d0445053a5348.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_6 -1 156 fo 0 OUTPUT  0  2651bea1a07f6e11659257af4be69d316784b16a.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_6 -1 156 fo 0 OUTPUT  0  2651bea1a07f6e11659257af4be69d316784b16a.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_6 -1 156 fo 0 OUTPUT  0  2651bea1a07f6e11659257af4be69d316784b16a.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 0 RESULT  0  fd40ca157f6e2a63460da6ee924da3a2f453d66d.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 0 RESULT  0  fd40ca157f6e2a63460da6ee924da3a2f453d66d.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_9 -1 126 fo 0 RESULT  0  fd40ca157f6e2a63460da6ee924da3a2f453d66d.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 116 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 1 FAILED  0  fa1015166e592132e00d988c5fe0b43ba88f6b0d.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 1 FAILED  0  fa1015166e592132e00d988c5fe0b43ba88f6b0d.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_2 -1 82 fo 1 FAILED  0  fa1015166e592132e00d988c5fe0b43ba88f6b0d.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 110 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_4 -1 142 fo 0 OUTPUT  0  6871cffb20517ec18fe1c326fca22309f3b73fc6.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_4 -1 142 fo 0 OUTPUT  0  6871cffb20517ec18fe1c326fca22309f3b73fc6.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_4 -1 142 fo 0 OUTPUT  0  6871cffb20517ec18fe1c326fca22309f3b73fc6.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 1 INITIATOR  0  891670054de55d1e9498e73113a4f3eb7fd34cec.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 1 INITIATOR  0  891670054de55d1e9498e73113a4f3eb7fd34cec.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_10 -1 129 fo 1 INITIATOR  0  891670054de55d1e9498e73113a4f3eb7fd34cec.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 52 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 0 PASSED  0  0376b4fbbc2673eee0f376eae05617226356e54c.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 0 PASSED  0  0376b4fbbc2673eee0f376eae05617226356e54c.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 0 PASSED  0  0376b4fbbc2673eee0f376eae05617226356e54c.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_7 -1 84 fo 0 RESULT  0  28a44fb04d14ea0b80cbcab3d3bedd03a87558f2.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_7 -1 84 fo 0 RESULT  0  28a44fb04d14ea0b80cbcab3d3bedd03a87558f2.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_7 -1 84 fo 0 RESULT  0  28a44fb04d14ea0b80cbcab3d3bedd03a87558f2.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 54 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 0 RESULT  0  d8b83c39befed82bf42ff23d5c3442e470c78e22.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 0 RESULT  0  d8b83c39befed82bf42ff23d5c3442e470c78e22.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 0 RESULT  0  d8b83c39befed82bf42ff23d5c3442e470c78e22.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 58 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_6 -1 88 fo 0 RESULT  0  62ca1642ca690c5ea12fec8b7dac1a1ad7013c05.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_6 -1 88 fo 0 RESULT  0  62ca1642ca690c5ea12fec8b7dac1a1ad7013c05.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_6 -1 88 fo 0 RESULT  0  62ca1642ca690c5ea12fec8b7dac1a1ad7013c05.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 331 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 3 UNUSED_SUPPLIER  0  f32a6f18e84c2c8fa7d3be944ba532a72cc785db.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 3 UNUSED_SUPPLIER  0  f32a6f18e84c2c8fa7d3be944ba532a72cc785db.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_4 -1 122 fo 3 UNUSED_SUPPLIER  0  f32a6f18e84c2c8fa7d3be944ba532a72cc785db.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 8 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_6 -1 101 fo 1 INITIATOR  0  269f8405e9530781276c805cdb3a9f77c5a1d9f7.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_6 -1 101 fo 1 INITIATOR  0  269f8405e9530781276c805cdb3a9f77c5a1d9f7.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_6 -1 101 fo 1 INITIATOR  0  269f8405e9530781276c805cdb3a9f77c5a1d9f7.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_4 -1 47 fo 0 RESULT  0  1401a48531934b233d592eda8b11117b1bfecce3.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_4 -1 47 fo 0 RESULT  0  1401a48531934b233d592eda8b11117b1bfecce3.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_4 -1 47 fo 0 RESULT  0  1401a48531934b233d592eda8b11117b1bfecce3.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 52 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_7 -1 112 fo 1 INITIATOR  0  2fb20588f2333a362b4a219a01b01928a949b98e.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_7 -1 112 fo 1 INITIATOR  0  2fb20588f2333a362b4a219a01b01928a949b98e.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_7 -1 112 fo 1 INITIATOR  0  2fb20588f2333a362b4a219a01b01928a949b98e.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 6 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 1 FAILED  0  1f8faaad1bfe2324a5385e8c91792c04c5c9d822.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 1 FAILED  0  1f8faaad1bfe2324a5385e8c91792c04c5c9d822.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_9 -1 107 fo 1 FAILED  0  1f8faaad1bfe2324a5385e8c91792c04c5c9d822.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 54 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 1 INITIATOR  0  b7f5b16a632bc00ffc47c90b503a6bee441cf4ca.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 1 INITIATOR  0  b7f5b16a632bc00ffc47c90b503a6bee441cf4ca.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_5 -1 67 fo 1 INITIATOR  0  b7f5b16a632bc00ffc47c90b503a6bee441cf4ca.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 54 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_4 -1 66 fo 1 INITIATOR  0  81d1314702c0bf24c5c2ac01ef23c9ea652dd053.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_4 -1 66 fo 1 INITIATOR  0  81d1314702c0bf24c5c2ac01ef23c9ea652dd053.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLExecutor_4 -1 66 fo 1 INITIATOR  0  81d1314702c0bf24c5c2ac01ef23c9ea652dd053.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 50 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 1 FAILED  0  ce85e7ef6aad0d41adce77140985063d9845bbee.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 1 FAILED  0  ce85e7ef6aad0d41adce77140985063d9845bbee.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 1 FAILED  0  ce85e7ef6aad0d41adce77140985063d9845bbee.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 168 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_3 -1 151 fo 0 OUTPUT  0  6697f8d5a44ccfee9aab0f6a384e70e3ce56abdd.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_3 -1 151 fo 0 OUTPUT  0  6697f8d5a44ccfee9aab0f6a384e70e3ce56abdd.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_3 -1 151 fo 0 OUTPUT  0  6697f8d5a44ccfee9aab0f6a384e70e3ce56abdd.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_5 -1 125 fo 0 OUTPUT  0  808f3d94de099a73f4c4ae1996b949dd4198f499.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_5 -1 125 fo 0 OUTPUT  0  808f3d94de099a73f4c4ae1996b949dd4198f499.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeCreator_5 -1 125 fo 0 OUTPUT  0  808f3d94de099a73f4c4ae1996b949dd4198f499.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 58 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_3 -1 35 fo 0 RESULT  0  6ecf36476b4b2d953ad3e3a68e1f6a101665c80a.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_3 -1 35 fo 0 RESULT  0  6ecf36476b4b2d953ad3e3a68e1f6a101665c80a.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_3 -1 35 fo 0 RESULT  0  6ecf36476b4b2d953ad3e3a68e1f6a101665c80a.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 54 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 0 PASSED  0  aa372d128e744769679b691c5205ec436091d6e1.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 0 PASSED  0  aa372d128e744769679b691c5205ec436091d6e1.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 0 PASSED  0  aa372d128e744769679b691c5205ec436091d6e1.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 112 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_2 -1 83 fo 0 RESULT  0  e494fb96e8c2999431ef261818770bf6b236a71f.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_2 -1 83 fo 0 RESULT  0  e494fb96e8c2999431ef261818770bf6b236a71f.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator_2 -1 83 fo 0 RESULT  0  e494fb96e8c2999431ef261818770bf6b236a71f.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 63 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_2 -1 135 fo 0 OUTPUT  0  24cd6d600937a89c638a2b71f02a3a9a4f6c06c3.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_2 -1 135 fo 0 OUTPUT  0  24cd6d600937a89c638a2b71f02a3a9a4f6c06c3.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_AttributeManager_2 -1 135 fo 0 OUTPUT  0  24cd6d600937a89c638a2b71f02a3a9a4f6c06c3.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 4 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 1 FAILED  0  cd6a94e48fa9bc5c1ddd19179554a0a53a52a264.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 1 FAILED  0  cd6a94e48fa9bc5c1ddd19179554a0a53a52a264.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_5 -1 93 fo 1 FAILED  0  cd6a94e48fa9bc5c1ddd19179554a0a53a52a264.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 231 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator -1 2 fo 0 RESULT  0  07d1732e0ddcd07fb7cbf13320b2168834c96c98.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator -1 2 fo 0 RESULT  0  07d1732e0ddcd07fb7cbf13320b2168834c96c98.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_SQLCreator -1 2 fo 0 RESULT  0  07d1732e0ddcd07fb7cbf13320b2168834c96c98.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 58 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 0 MERGED  0  b563ee5c038f14021c150705b4f132192531e925.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 0 MERGED  0  b563ee5c038f14021c150705b4f132192531e925.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_FeatureMerger_2 -1 102 fo 0 MERGED  0  b563ee5c038f14021c150705b4f132192531e925.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Stored 8 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 0 PASSED  0  4f094018e9ae2ed2296380eccb9532ab339d2d29.ffsupdating'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 0 PASSED  0  4f094018e9ae2ed2296380eccb9532ab339d2d29.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-uiQFEP/Main_Tester_7 -1 99 fo 0 PASSED  0  4f094018e9ae2ed2296380eccb9532ab339d2d29.fsi'
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_3_RESULT Feature Counter -1 2147614838 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_3_INITIATOR Feature Counter -1 2147680374 (TeeFactory): Cloned 115 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_3_<REJECTED> Feature Counter -1 2147745910 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |SQLExecutor_3_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-11-25 16:49:19|   1.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-11-25 16:49:19|   1.3|  0.0|STATS |                            Features Read Summary
+2022-11-25 16:49:19|   1.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-11-25 16:49:19|   1.3|  0.0|STATS |==============================================================================
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Total Features Read                                                          0
+2022-11-25 16:49:19|   1.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-11-25 16:49:19|   1.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-11-25 16:49:19|   1.3|  0.0|STATS |                           Features Written Summary
+2022-11-25 16:49:19|   1.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-11-25 16:49:19|   1.3|  0.0|STATS |==============================================================================
+2022-11-25 16:49:19|   1.3|  0.0|STATS |Total Features Written                                                       0
+2022-11-25 16:49:19|   1.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~                                                                             ~-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~                                                                             ~-
+2022-11-25 16:49:19|   1.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|Translation was SUCCESSFUL with 10 warning(s) (0 feature(s) output)
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|FME Session Duration: 42.2 seconds. (CPU: 1.0s user, 0.3s system)
+2022-11-25 16:49:19|   1.3|  0.0|INFORM|END - ProcessID: 40226, peak process memory usage: 78400 kB, current process memory usage: 78440 kB
