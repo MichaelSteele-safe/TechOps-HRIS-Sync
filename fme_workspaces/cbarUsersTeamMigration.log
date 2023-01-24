@@ -1,107 +1,100 @@
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME 2021.0.1.0 (20210404 - Build 21313 - macosx)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2021.0/'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Permanent License.
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Machine host name is: athena.local
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|START - ProcessID: 74615, peak process memory usage: 61256 kB, current process memory usage: 61256 kB
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2021.0/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1670528325999_42489' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{c5cb3798-f6ea-4718-9c0c-9db14759570b}' `DEBUG_PORT' `56923'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2021.0/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/21313-macosx/transformers;/Library/FME/2021.0/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Writer type is `NULL'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1670433466374_42489/fmetmp_11', set from environment variable `FME_TEMP'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2021.0/'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'cbarUsersTeamMigration.fmw'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.0.1.0'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|System Status: 290.61 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1670433466374_42489/fmetmp_11)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|System Status: 35.00 GB of virtual memory available
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Operating System: Mac OS X Version 10.15.7 (Build 19H2026)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Platform: macosx
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Locale: en_CA
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|System Encoding: UTF-8
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 33.83 GB
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 25.37 GB
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Creating writer for format: NULL (Nothing)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Loaded module 'NULL' from file '/Library/FME/2021.0//plugins/null.so'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Creating reader for format: 
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2021.0//plugins/logcount_func.so'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210203)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Loaded module 'QueryFactory' from file '/Library/FME/2021.0//plugins/queryfactory.so'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20210203)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@56923 and FME@55272
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Emptying factory pipeline
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-quWECF/Main_FeatureMerger_3 -1 87 fo 1 UNMERGED_REQUESTOR  0  e284186c4ad75cbc87330a5b90102f8ac508f578.ffs'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Configuration: Using connection values from 'bar-rds' for R_1
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Loaded module 'MYSQL' from file '/Library/FME/2021.0//plugins/mysql/mysql.so'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Performing query against MYSQL dataset `bar-rds'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Opening MYSQL reader for dataset 'CBAR'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|MySQL: Character set name: utf8mb4
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-quWECF/Main_SQLExecutor_2 -1 105 fo 1 INITIATOR  0  3b9d3e8776d44c28d29b51c5e462d91b2ed5fada.ffsupdating'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FeatureMerger_3_UNMERGED_REQUESTOR_-1_106_Player (RecorderFactory): Played back 1 feature(s) from file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-quWECF/Main_FeatureMerger_3 -1 87 fo 1 UNMERGED_REQUESTOR  0  e284186c4ad75cbc87330a5b90102f8ac508f578.ffs'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Successfully closed MYSQL database reader
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Successfully closed MYSQL database reader
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-quWECF/Main_SQLExecutor_2 -1 105 fo 1 INITIATOR  0  3b9d3e8776d44c28d29b51c5e462d91b2ed5fada.ffsupdating'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-quWECF/Main_SQLExecutor_2 -1 105 fo 1 INITIATOR  0  3b9d3e8776d44c28d29b51c5e462d91b2ed5fada.fsi'
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-quWECF/Main_SQLExecutor_2 -1 105 fo 1 INITIATOR  0  3b9d3e8776d44c28d29b51c5e462d91b2ed5fada.fsi'
-2022-12-08 11:38:47|   0.0|  0.0|STATS |SQLExecutor_2_RESULT Feature Counter -1 2147614825 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-12-08 11:38:47|   0.0|  0.0|STATS |SQLExecutor_2_<REJECTED> Feature Counter -1 2147745897 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-12-08 11:38:47|   0.0|  0.0|STATS |SQLExecutor_2_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 0 were routed to output, 1 could not be routed.
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |                                                                             1
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |==============================================================================
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |Total features not written                                                   1
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|STATS |                            Features Read Summary
-2022-12-08 11:38:47|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|STATS |==============================================================================
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Total Features Read                                                          0
-2022-12-08 11:38:47|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|STATS |                           Features Written Summary
-2022-12-08 11:38:47|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|STATS |==============================================================================
-2022-12-08 11:38:47|   0.0|  0.0|STATS |Total Features Written                                                       0
-2022-12-08 11:38:47|   0.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~                                                                             ~-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~                                                                             ~-
-2022-12-08 11:38:47|   0.0|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|Translation was SUCCESSFUL with 16 warning(s) (0 feature(s) output)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|FME Session Duration: 0.3 seconds. (CPU: 0.0s user, 0.0s system)
-2022-12-08 11:38:47|   0.0|  0.0|INFORM|END - ProcessID: 74615, peak process memory usage: 71252 kB, current process memory usage: 71308 kB
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME 2021.0.1.0 (20210404 - Build 21313 - macosx)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2021.0/'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Permanent License.
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Machine host name is: athena.local
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|START - ProcessID: 14958, peak process memory usage: 61264 kB, current process memory usage: 61264 kB
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2021.0/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1673653674722_14725' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{74611623-01b9-4192-80c5-17507eb03344}' `DEBUG_PORT' `57780'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2021.0/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/21313-macosx/transformers;/Library/FME/2021.0/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1673653539941_14725/fmetmp_3', set from environment variable `FME_TEMP'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2021.0/'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'cbarUsersTeamMigration.fmw'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.0.1.0'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|System Status: 292.98 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1673653539941_14725/fmetmp_3)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|System Status: 32.00 GB of virtual memory available
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Operating System: Mac OS X Version 10.15.7 (Build 19H2026)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Platform: macosx
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Locale: en_CA
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|System Encoding: UTF-8
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 30.83 GB
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 23.12 GB
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Loaded module 'NULL' from file '/Library/FME/2021.0//plugins/null.so'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210203)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2021.0//plugins/logcount_func.so'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210203)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Loaded module 'QueryFactory' from file '/Library/FME/2021.0//plugins/queryfactory.so'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20210203)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-01-13 15:47:56|   0.0|  0.0|STATS |Restoring 237 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-gdvFhn/Main_NullAttributeMapper -1 165 fo 0 OUTPUT  0  2080268564a0aecbb485211166eb36c920abc4e4.ffs'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME Configuration: Using connection values from 'barwrite' for R_1
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Creating reader for format: MariaDB (MySQL compatible) Spatial
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Loaded module 'MYSQL' from file '/Library/FME/2021.0//plugins/mysql/mysql.so'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|FME API version of module 'MYSQL' matches current internal version (3.8 20210203)
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Performing query against MYSQL dataset `barwrite'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|Opening MYSQL reader for dataset 'formats_transformers_data'
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|MySQL: Character set name: utf8mb4
+2023-01-13 15:47:56|   0.0|  0.0|INFORM|MySQL: Collation name: utf8mb4_general_ci
+2023-01-13 15:47:56|   0.0|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-gdvFhn/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1260d53b9e681f0e5b83c4bd0877f1662bfe61a7.ffsupdating'
+2023-01-13 15:48:00|   0.1|  0.1|INFORM|SQLExecutor_18 (QueryFactory): 87 input initiators processed
+2023-01-13 15:48:05|   0.1|  0.0|INFORM|SQLExecutor_18 (QueryFactory): 205 input initiators processed
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|NullAttributeMapper_OUTPUT_-1_167_Player (RecorderFactory): Played back 237 feature(s) from file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-gdvFhn/Main_NullAttributeMapper -1 165 fo 0 OUTPUT  0  2080268564a0aecbb485211166eb36c920abc4e4.ffs'
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|Successfully closed MYSQL database reader
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|Successfully closed MYSQL database reader
+2023-01-13 15:48:06|   0.1|  0.0|STATS |Stored 237 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-gdvFhn/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1260d53b9e681f0e5b83c4bd0877f1662bfe61a7.ffsupdating'
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-gdvFhn/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1260d53b9e681f0e5b83c4bd0877f1662bfe61a7.fsi'
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-cbarUsersTeamMigration-gdvFhn/Main_SQLExecutor_18 -1 24 fo 1 INITIATOR  0  1260d53b9e681f0e5b83c4bd0877f1662bfe61a7.fsi'
+2023-01-13 15:48:06|   0.1|  0.0|STATS |SQLExecutor_18_RESULT Feature Counter -1 2147614744 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-13 15:48:06|   0.1|  0.0|STATS |SQLExecutor_18_INITIATOR Feature Counter -1 2147680280 (TeeFactory): Cloned 237 input feature(s) into 0 output feature(s)
+2023-01-13 15:48:06|   0.1|  0.0|STATS |SQLExecutor_18_<REJECTED> Feature Counter -1 2147745816 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-13 15:48:06|   0.1|  0.0|STATS |SQLExecutor_18_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-13 15:48:06|   0.1|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-01-13 15:48:06|   0.1|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-13 15:48:06|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-13 15:48:06|   0.1|  0.0|STATS |                            Features Read Summary
+2023-01-13 15:48:06|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-13 15:48:06|   0.1|  0.0|STATS |==============================================================================
+2023-01-13 15:48:06|   0.1|  0.0|STATS |Total Features Read                                                          0
+2023-01-13 15:48:06|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-13 15:48:06|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-13 15:48:06|   0.1|  0.0|STATS |                           Features Written Summary
+2023-01-13 15:48:06|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-13 15:48:06|   0.1|  0.0|STATS |==============================================================================
+2023-01-13 15:48:06|   0.1|  0.0|STATS |Total Features Written                                                       0
+2023-01-13 15:48:06|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~                                                                             ~-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~                                                                             ~-
+2023-01-13 15:48:06|   0.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|FME Session Duration: 10.3 seconds. (CPU: 0.1s user, 0.0s system)
+2023-01-13 15:48:06|   0.1|  0.0|INFORM|END - ProcessID: 14958, peak process memory usage: 71152 kB, current process memory usage: 71208 kB

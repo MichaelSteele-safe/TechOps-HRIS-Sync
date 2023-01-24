@@ -11,14 +11,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="6367.27 5524.7"
+#!   DOC_EXTENTS="6881.56 5524.7"
 #!   DOC_TOP_LEFT="-2111.51 -2087.16"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="21313"
-#!   FME_DOCUMENT_GUID="98816931-c33c-4aa5-93ad-49bc6ec72d91"
-#!   FME_DOCUMENT_PRIORGUID="6207fea6-73dc-484f-a3e0-da59f8d7e835,bd5508f3-9865-40b1-9fcf-e63ce7a20c31,71407c33-c55d-4de0-a1ec-b1e43e2e083f,5f5d8b80-c51a-4ba3-b9a0-a97575e8e38f,5922d735-c7f0-4b17-9a62-fb0714c701e3,d883230a-61bf-4069-95ee-ff267cf866fa,fb1905c1-e904-4edf-91d3-e280d19e65bc,5c8600f1-e42f-4da4-8116-96401ffd4805"
+#!   FME_DOCUMENT_GUID="c11e55a9-e858-4523-81a2-69e5444b5272"
+#!   FME_DOCUMENT_PRIORGUID="6207fea6-73dc-484f-a3e0-da59f8d7e835,bd5508f3-9865-40b1-9fcf-e63ce7a20c31,71407c33-c55d-4de0-a1ec-b1e43e2e083f,5f5d8b80-c51a-4ba3-b9a0-a97575e8e38f,5922d735-c7f0-4b17-9a62-fb0714c701e3,d883230a-61bf-4069-95ee-ff267cf866fa,fb1905c1-e904-4edf-91d3-e280d19e65bc,5c8600f1-e42f-4da4-8116-96401ffd4805,98816931-c33c-4aa5-93ad-49bc6ec72d91"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_NAMES_ENCODING="UTF-8"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2021.0.1.0 (20210404 - Build 21313 - macosx)"
-#!   LAST_SAVE_DATE="2022-11-25T16:48:12"
+#!   LAST_SAVE_DATE="2023-01-13T15:48:27"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -36,7 +36,7 @@
 #!   MAX_LOG_FEATURES="200"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   PASSWORD=""
-#!   PYTHON_COMPATIBILITY="37"
+#!   PYTHON_COMPATIBILITY="38"
 #!   REDIRECT_TERMINATORS="NONE"
 #!   SAVE_ON_PROMPT_AND_RUN="Yes"
 #!   SHOW_ANNOTATIONS="true"
@@ -47,7 +47,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1881.45 141.43"
+#!   VIEW_POSITION="-912.866 1598.59"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="70"
@@ -63,13 +63,13 @@
 #! <FMESERVER>
 #! <CONNECTIONS>
 #! <CONNECTION
-#!   NAME="set-rds-user"
+#!   NAME="barwrite"
 #!   TYPE="DATABASE"
 #!   FAMILY="MariaDB (MySQL compatible)"
 #!   USAGE="INTERNAL"
 #! />
 #! <CONNECTION
-#!   NAME="barwrite"
+#!   NAME="set-rds-user"
 #!   TYPE="DATABASE"
 #!   FAMILY="MariaDB (MySQL compatible)"
 #!   USAGE="INTERNAL"
@@ -124,10 +124,10 @@
 #! <COMMENT
 #!   IDENTIFIER="25"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Update CBAR.users&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3702.1127238422387 1110.6532739412469"
-#!   TOP_LEFT="3702.1127238422387 1110.6532739412469"
-#!   BOTTOM_RIGHT="4175.1137920999681 1109.6532739412469"
-#!   BOUNDING_RECT="3702.1127238422387 1110.6532739412469 473.00106825772946 1"
+#!   POSITION="3873.5430095736679 1132.0820596576755"
+#!   TOP_LEFT="3873.5430095736679 1132.0820596576755"
+#!   BOTTOM_RIGHT="4346.5440778313969 1131.0820596576755"
+#!   BOUNDING_RECT="3873.5430095736679 1132.0820596576755 473.00106825772946 1"
 #!   ORDER="500000000000133"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -331,7 +331,7 @@
 #!   BOUNDING_RECT="-1567.5156751567513 3437.5343753437537 4254.6854039968966 1971.8054323400379"
 #!   STICKY="true"
 #!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,1"
-#!   CONTENTS="67 109 99 112 93 108 35 66 97 114 107 96 103 101 115 68 100 79 113 116 88 94 117 92 98 104 90 95 110 102 "
+#!   CONTENTS="94 114 95 117 66 115 97 35 112 67 96 90 88 98 110 104 109 108 100 102 79 68 103 116 99 93 101 92 113 107 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -345,7 +345,7 @@
 #!   BOUNDING_RECT="779.65065364939426 3338.6048146195758 1832.8754716118592 681.79253221103636"
 #!   STICKY="true"
 #!   COLOUR="0.23137254901960785,0.1803921568627451,0.48627450980392156,1"
-#!   CONTENTS="95 66 67 68 114 93 "
+#!   CONTENTS="67 114 68 93 66 95 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -359,7 +359,7 @@
 #!   BOUNDING_RECT="779.65065364939426 2602.1688788316455 1855.0185501855017 514.17010836774978"
 #!   STICKY="true"
 #!   COLOUR="0.42352941176470588,0.16862745098039217,0.46666666666666667,1"
-#!   CONTENTS="101 99 96 "
+#!   CONTENTS="101 96 99 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -373,7 +373,7 @@
 #!   BOUNDING_RECT="742.50742507425184 1993.1157692529309 1870.0187001870015 475.00475004750041"
 #!   STICKY="true"
 #!   COLOUR="0.20784313725490197,0.40784313725490196,0.40784313725490196,1"
-#!   CONTENTS="112 107 97 "
+#!   CONTENTS="97 112 107 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -383,11 +383,11 @@
 #!   TOP_LEFT="-2065.7349430637164 1307.1559287021441"
 #!   ORDER="500000000000960.75"
 #!   PALETTE_COLOR="Color3"
-#!   BOTTOM_RIGHT="4255.7568432827175 -227.14512859414299"
-#!   BOUNDING_RECT="-2065.7349430637164 1307.1559287021441 6321.4917863464343 1534.3010572962871"
+#!   BOTTOM_RIGHT="4770.0477004770037 -227.14512859414299"
+#!   BOUNDING_RECT="-2065.7349430637164 1307.1559287021441 6835.7826435407205 1534.3010572962871"
 #!   STICKY="true"
 #!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,1"
-#!   CONTENTS="25 151 82 10 125 6 86 41 76 149 78 87 135 85 81 7 150 73 105 74 111 70 39 84 131 155 118 2 69 152 154 119 120 106 9 153 24 91 8 77 "
+#!   CONTENTS="149 154 87 152 7 155 76 105 125 8 2 119 6 9 41 69 150 111 70 74 82 10 39 131 106 153 81 86 85 84 24 73 165 120 25 118 78 91 151 135 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -401,7 +401,7 @@
 #!   BOUNDING_RECT="1144.4076055046257 1007.1529286721438 1272.8698715558585 569.36352622675577"
 #!   STICKY="true"
 #!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,1"
-#!   CONTENTS="9 6 7 10 8 "
+#!   CONTENTS="10 9 8 7 6 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -415,7 +415,7 @@
 #!   BOUNDING_RECT="-2111.5116479736225 -350.22284193202631 5990.1218626471982 1736.9408868481187"
 #!   STICKY="true"
 #!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,1"
-#!   CONTENTS="162 158 47 122 159 83 146 130 48 129 160 144 126 157 148 136 133 124 161 21 156 23 137 141 128 132 22 147 139 20 123 143 121 140 138 127 145 142 "
+#!   CONTENTS="124 145 126 21 136 139 23 83 121 48 159 162 141 143 129 148 22 164 157 20 137 133 161 142 130 144 122 138 123 140 127 156 146 47 128 158 147 163 160 132 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -429,7 +429,7 @@
 #!   BOUNDING_RECT="1425.0138165837402 -667.35928133080188 1425.014683701263 587.14887371810619"
 #!   STICKY="true"
 #!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,1"
-#!   CONTENTS="142 136 144 141 145 "
+#!   CONTENTS="136 144 145 141 142 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -861,8 +861,8 @@
 #!   IDENTIFIER="24"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="3744.0651038689875 932.36065934843259"
-#!   BOUNDING_RECT="3744.0651038689875 932.36065934843259 431.00106825772946 71"
+#!   POSITION="3915.4953896004167 953.78944506486107"
+#!   BOUNDING_RECT="3915.4953896004167 953.78944506486107 431.00106825772946 71"
 #!   ORDER="500000000000128"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -937,7 +937,7 @@
 #!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MYSQL_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,MYSQL&lt;space&gt;Connection:"/>
 #!     <XFORM_PARM PARM_NAME="MYSQL_NAMED_CONNECTION" PARM_VALUE="barwrite"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="UPDATE&lt;space&gt;CBAR.users&lt;lf&gt;SET&lt;space&gt;active&lt;space&gt;=&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;active&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;first&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;display_name&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;last&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;last&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;email_name&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;email_name&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;team&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;cbar_team_id&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;browser_name&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;domain_login&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;domain_login&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;domain_login&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;where&lt;space&gt;ukg_id&lt;space&gt;=&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;ukg_id&lt;closeparen&gt;&lt;lf&gt;limit&lt;space&gt;1"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="UPDATE&lt;space&gt;CBAR.users&lt;lf&gt;SET&lt;space&gt;active&lt;space&gt;=&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;active&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;first&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;display_name&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;last&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;last&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;email_name&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;email_name&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;team&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;cbar_team_id&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;browser_name&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;domain_login&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;domain_login&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;domain_login&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;slack_id&lt;space&gt;=&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;slack_id&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;where&lt;space&gt;ukg_id&lt;space&gt;=&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;ukg_id&lt;closeparen&gt;&lt;lf&gt;limit&lt;space&gt;1"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_18"/>
 #! </TRANSFORMER>
@@ -3291,6 +3291,56 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_5"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="165"
+#!   TYPE="NullAttributeMapper"
+#!   VERSION="2"
+#!   POSITION="3170.626438585814 936.86065934843259"
+#!   BOUNDING_RECT="3170.626438585814 936.86065934843259 454 71"
+#!   ORDER="500000000000985.75"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="21313"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="active" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="preferred_first_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="team" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="slack_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="work_extension" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="domain_login" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="office_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="office_floor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="former_coop" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="deactivated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="changelog_reviewer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="guide_admin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="avatar_url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="jira_avatar" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="svn_initials" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_update" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="display_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ukg_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cbar_team_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="team_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="slack_id"/>
+#!     <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="Empty String"/>
+#!     <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -3504,11 +3554,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="77"
+#!   IDENTIFIER="166"
 #!   SOURCE_NODE="74"
-#!   TARGET_NODE="24"
+#!   TARGET_NODE="165"
 #!   SOURCE_PORT_DESC="fo 0 RESULT"
-#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -3849,6 +3899,21 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="167"
+#!   SOURCE_NODE="165"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="10"
 #!   SOURCE_NODE="7"
 #!   TARGET_NODE="9"
@@ -4009,7 +4074,7 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 
-FME_PYTHON_VERSION 37
+FME_PYTHON_VERSION 38
 ARCGIS_COMPATIBILITY ARCGIS_AUTO
 USER_PARAMETERS eyJwYXJhbWV0ZXJzIjpbXX0=
 # ============================================================================
@@ -4230,8 +4295,11 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Transformer Outpu
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
+Tcl2 proc NullAttributeMapper_c91b7ace_6fc3_407a_be09_759287001d6b1_null_replacer { otherValue newValue regExp } {    set attrs [split {slack_id} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {EMPTY};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {EMPTY};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {EMPTY};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {EMPTY};             }          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {EMPTY};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { NullAttributeMapper }    INPUT  FEATURE_TYPE SQLExecutor_RESULT_0_yZOpFWkl7nU=    OUTPUT { FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_c91b7ace_6fc3_407a_be09_759287001d6b1_null_replacer {} {<Unused>} {}")       }
+# -------------------------------------------------------------------------
 MACRO SQLExecutor_18_DIRECTIVES NAMED_CONNECTION barwrite
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_18    INPUT  FEATURE_TYPE SQLExecutor_RESULT_0_yZOpFWkl7nU=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,UPDATE<space>CBAR.users<lf>SET<space>active<space>=<space><at>Value<openparen>active<closeparen><comma><lf>first<space>=<space><quote><at>Value<openparen>display_name<closeparen><quote><comma><space><lf>last<space>=<space><quote><at>Value<openparen>last<closeparen><quote><comma><lf>email_name<space>=<space><quote><at>Value<openparen>email_name<closeparen><quote><comma><lf>team<space>=<space><quote><at>Value<openparen>cbar_team_id<closeparen><quote><comma><lf>browser_name<space>=<space><quote><at>Value<openparen>domain_login<closeparen><quote><comma><lf>domain_login<space>=<space><quote><at>Value<openparen>domain_login<closeparen><quote><lf>where<space>ukg_id<space>=<space><at>Value<openparen>ukg_id<closeparen><lf>limit<space>1,SQLExecutor_18)"    READER_TYPE          MYSQL    READER_DATASET       "barwrite"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_18_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_18_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_18)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_18_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_18_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_18    INPUT  FEATURE_TYPE NullAttributeMapper_OUTPUT    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,UPDATE<space>CBAR.users<lf>SET<space>active<space>=<space><at>Value<openparen>active<closeparen><comma><lf>first<space>=<space><quote><at>Value<openparen>display_name<closeparen><quote><comma><space><lf>last<space>=<space><quote><at>Value<openparen>last<closeparen><quote><comma><lf>email_name<space>=<space><quote><at>Value<openparen>email_name<closeparen><quote><comma><lf>team<space>=<space><quote><at>Value<openparen>cbar_team_id<closeparen><quote><comma><lf>browser_name<space>=<space><quote><at>Value<openparen>domain_login<closeparen><quote><comma><lf>domain_login<space>=<space><quote><at>Value<openparen>domain_login<closeparen><quote><comma><lf>slack_id<space>=<space><quote><at>Value<openparen>slack_id<closeparen><quote><lf>where<space>ukg_id<space>=<space><at>Value<openparen>ukg_id<closeparen><lf>limit<space>1,SQLExecutor_18)"    READER_TYPE          MYSQL    READER_DATASET       "barwrite"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_18_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_18_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_18)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_18_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_18_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_18 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_18_RESULT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_18 INITIATOR Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_18_INITIATOR
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
