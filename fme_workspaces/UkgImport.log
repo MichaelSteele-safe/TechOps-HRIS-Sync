@@ -1,276 +1,91 @@
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.3.0 (20230131 - Build 22789 - macosx-x64)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2022.2/'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Permanent License.
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Machine host name is: athena.local
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|OS Locale Name     : en_CA
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.3.0'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Operating System: macOS Version 	13.2 (Build 	22D49)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Platform: macosx-x64
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|System Status: 281.24 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|System Status: 34.00 GB of virtual memory available
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|START - ProcessID: 99561, peak process memory usage: 76756 kB, current process memory usage: 76756 kB
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2022.2/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1677810323666_99522' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `55525' `DEBUG_PORT' `55524' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `55516'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2022.2/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/22789-macosx-x64/transformers;/Library/FME/2022.2/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0', set from environment variable `FME_TEMP'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2022.2/'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 32.83 GB
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 24.62 GB
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Creating writer for format: 
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Creating reader for format: 
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Loaded module 'Geometry_func' from file '/Library/FME/2022.2/plugins/geometry_func.so'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20220615)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@55524 and FME@55531
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2022.2/plugins/logcount_func.so'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Loaded module 'QueryFactory' from file '/Library/FME/2022.2/plugins/queryfactory.so'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (4.0 20220615)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Loaded module 'PythonFactory' from file '/Library/FME/2022.2/plugins/pythonfactory.so'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20220615)
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|The workspace does not contain user Python. FME will attempt to use a Python 3.10+ interpreter
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Using Python interpreter from `/Library/FME/2022.2/fmepython310/lib/libpython3.10.dylib' with PYTHONHOME `/Library/FME/2022.2/fmepython310'
-2023-03-02 18:25:25|   0.0|  0.0|INFORM|Python version 3.10 loaded successfully
-2023-03-02 18:25:26|   0.5|  0.5|INFORM|Loaded module 'DuplicateRemoverFactory' from file '/Library/FME/2022.2/plugins/duplicateremoverfactory.so'
-2023-03-02 18:25:26|   0.5|  0.0|INFORM|FME API version of module 'DuplicateRemoverFactory' matches current internal version (4.0 20220615)
-2023-03-02 18:25:26|   0.5|  0.0|INFORM|Emptying factory pipeline
-2023-03-02 18:25:33|   1.5|  1.0|STATS |Creator_XML_Creator (CreationFactory): Created 1 features
-2023-03-02 18:25:33|   1.5|  0.0|STATS |Creator_Cloner (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:33|   1.5|  0.0|STATS |Creator_CREATED Brancher -1 125 (BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|FME Configuration: Using connection values from 'set-rds-user' for R_1
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|Creating reader for format: MariaDB/SkySQL (MySQL compatible) Spatial
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MYSQL'
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|Loaded module 'MYSQL' from file '/Library/FME/2022.2/plugins/mysql/mysql.so'
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|FME API version of module 'mysql/MYSQL' matches current internal version (4.0 20220615)
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|Performing query against MYSQL dataset `set-rds-user'
-2023-03-02 18:25:33|   1.5|  0.0|INFORM|Opening MYSQL reader for dataset 'users'
-2023-03-02 18:25:34|   1.5|  0.0|INFORM|MySQL: Character set name: utf8mb4
-2023-03-02 18:25:34|   1.6|  0.1|INFORM|MySQL: Collation name: utf8mb4_general_ci
-2023-03-02 18:25:34|   1.6|  0.0|INFORM|Getting schema from query 'SELECT email, id as lead_id from users.ukg_users'. If query has no schema, there may be warnings in the log below that can be safely ignored
-2023-03-02 18:25:34|   1.6|  0.0|STATS |SQLCreator_3_Creator (CreationFactory): Created 1 features
-2023-03-02 18:25:34|   1.6|  0.0|INFORM|Successfully closed MYSQL database reader
-2023-03-02 18:25:34|   1.6|  0.0|INFORM|Successfully closed MYSQL database reader
-2023-03-02 18:25:34|   1.6|  0.0|STATS |SQLCreator_3_RESULT Brancher -1 211 (BranchingFactory): Branched 248 input features -- 248 features routed to the target factory, and 0 features routed to the fallback factory.
-2023-03-02 18:25:34|   1.6|  0.0|STATS |_CREATOR_BRANCH_TARGET (TeeFactory): Cloned 249 input feature(s) into 249 output feature(s)
-2023-03-02 18:25:34|   1.6|  0.0|STATS |GoogleDriveConnector_CATCHER (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:34|   1.6|  0.0|STATS |GoogleDriveConnector_ROUTER (TestFactory): Tested 354 input feature(s) -- 354 feature(s) passed and 0 feature(s) failed
-2023-03-02 18:25:34|   1.6|  0.0|INFORM|Sorter (SortFactory): Starting sorting 354 feature(s)
-2023-03-02 18:25:34|   1.6|  0.0|INFORM|Sorter (SortFactory): Done sorting 354 feature(s)
-2023-03-02 18:25:34|   1.7|  0.1|INFORM|Downloading 'Organizational Structure.csv 2023-03-02' (ID '1Gvw5PhP74O6JYbIzFZ3dxTk0WHP5tcK7') to attribute '_contents'
-2023-03-02 18:25:35|   1.8|  0.1|INFORM|Creating reader for format: CSV (Comma Separated Value)
-2023-03-02 18:25:35|   1.9|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Loaded module 'CSV2' from file '/Library/FME/2022.2/plugins/csv2.so'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (4.0 20220615)
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Performing query against CSV2 dataset `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0/1677810325593_99561_d/r_3470.csv'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Creating reader for format: CSV (Comma Separated Value)
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Opening dataset '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0/1677810325593_99561_d/r_3470.csv'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value 'auto'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '1'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '2'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '10000'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Creating reader for format: CSV (Comma Separated Value)
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Opening dataset '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0/1677810325593_99561_d/r_3470.csv'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value 'auto'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '1'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '2'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '10000'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TYPE_ATTRIBUTE_HANDLING' has the value 'STANDARD_TYPES'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_STRING_TYPE_ATTRIBUTE_HANDLING' has the value 'EXPLICIT_WIDTH'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_DATE_INPUT_FORMAT' has the value 'ISO'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'Yes'
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|Merged 1 schema features read from 1 datasets into 1 resulting feature types
-2023-03-02 18:25:35|   1.9|  0.0|INFORM|FeatureReader_2_<OTHER> Break Point -1 223 (BreakpointFactory): Splitting bulk features into individual features
-2023-03-02 18:25:36|   2.1|  0.2|INFORM|Downloading 'Organizational Structure.csv 2023-03-01' (ID '1b0GrJ2ERttiC0j-q_2KDCvMziV2LQlsF') to attribute '_contents'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|Creating reader for format: CSV (Comma Separated Value)
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|Performing query against CSV2 dataset `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0/1677810325593_99561-0_d/r_4111.csv'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|Creating reader for format: CSV (Comma Separated Value)
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Opening dataset '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0/1677810325593_99561-0_d/r_4111.csv'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value 'auto'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '1'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '2'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '10000'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
-2023-03-02 18:25:37|   2.1|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.1|INFORM|Creating reader for format: CSV (Comma Separated Value)
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Opening dataset '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1677810293481_99522/fmetmp_0/1677810325593_99561-0_d/r_4111.csv'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value 'auto'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '1'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '2'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '10000'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'UTF-8'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_TYPE_ATTRIBUTE_HANDLING' has the value 'STANDARD_TYPES'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_STRING_TYPE_ATTRIBUTE_HANDLING' has the value 'EXPLICIT_WIDTH'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_DATE_INPUT_FORMAT' has the value 'ISO'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
-2023-03-02 18:25:37|   2.2|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'Yes'
-2023-03-02 18:25:37|   2.3|  0.1|INFORM|Merged 1 schema features read from 1 datasets into 1 resulting feature types
-2023-03-02 18:25:37|   2.3|  0.0|INFORM|FeatureReader_4_<OTHER> Break Point -1 237 (BreakpointFactory): Splitting bulk features into individual features
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Sorter (SortFactory): Finished sorting a total of 354 features.
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Tester (TestFactory): Tested 354 input feature(s) -- 167 feature(s) passed and 187 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Sampler_2 (SamplingFactory): Sampled 2 of 187 feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Sampler_2_Sampled (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Counter_2_Rejector (ExecuteFunctionFactory): Executed FME Functions on 2 input feature(s) -- 2 feature(s) completed and 0 feature(s) rejected
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Counter_2 OUTPUT Splitter (TeeFactory): Cloned 2 input feature(s) into 4 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |GoogleDriveConnector_3_CATCHER (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |GoogleDriveConnector_3_ROUTER (TestFactory): Tested 2 input feature(s) -- 2 feature(s) passed and 0 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Tester_11 (TestFactory): Tested 2 input feature(s) -- 1 feature(s) passed and 1 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |TempPathnameCreator_3 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeFileWriter_2_AttributeFileWriterInput (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeFileWriter_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeFileWriter_2_Rejector (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeManager_5 OUTPUT Splitter (TeeFactory): Cloned 47 input feature(s) into 141 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |TempPathnameCreator_4 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeFileWriter_4_AttributeFileWriterInput (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeFileWriter_4 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeFileWriter_4_Rejector (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |AttributeManager_6 OUTPUT Splitter (TeeFactory): Cloned 47 input feature(s) into 141 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Tester_3 (TestFactory): Tested 94 input feature(s) -- 94 feature(s) passed and 0 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Tester_4 (TestFactory): Tested 94 input feature(s) -- 92 feature(s) passed and 2 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |NullAttributeMapper_4 (TeeFactory): Cloned 92 input feature(s) into 92 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |Tester_5 (TestFactory): Tested 94 input feature(s) -- 82 feature(s) passed and 12 feature(s) failed
-2023-03-02 18:25:37|   2.3|  0.0|STATS |NullAttributeMapper_5 (TeeFactory): Cloned 82 input feature(s) into 82 output feature(s)
-2023-03-02 18:25:37|   2.3|  0.0|STATS |NullAttributeMapper_3 (TeeFactory): Cloned 82 input feature(s) into 82 output feature(s)
-2023-03-02 18:25:37|   2.4|  0.1|STATS |FeatureMerger (ReferenceFactory): Total Results: 102 Complete Feature(s), 10 Incomplete Feature(s), 42 Referenced Feature(s), 206 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
-2023-03-02 18:25:37|   2.4|  0.0|STATS |FeatureMerger MERGED Splitter (TeeFactory): Cloned 102 input feature(s) into 204 output feature(s)
-2023-03-02 18:25:37|   2.4|  0.0|STATS |FeatureMerger UNMERGED_REQUESTOR Splitter (TeeFactory): Cloned 10 input feature(s) into 20 output feature(s)
-2023-03-02 18:25:37|   2.4|  0.0|STATS |Tester_12 (TestFactory): Tested 112 input feature(s) -- 56 feature(s) passed and 56 feature(s) failed
-2023-03-02 18:25:37|   2.4|  0.0|STATS |Tester_13 (TestFactory): Tested 56 input feature(s) -- 2 feature(s) passed and 54 feature(s) failed
-2023-03-02 18:25:37|   2.5|  0.1|STATS |ChangeDetector_2 DELETED Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2023-03-02 18:25:37|   2.5|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 283 input feature(s), wrote 283 output feature(s): 0 matched merge filters, 0 were routed to output, 283 could not be routed.
-2023-03-02 18:25:37|   2.5|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 283 input feature(s) into 0 output feature(s)
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |                                                                           283
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |==============================================================================
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |Total features not written                                                 283
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |                            `Count' Domain Summary
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |Counter_2_counter                                                            2
-2023-03-02 18:25:37|   2.5|  0.0|STATS |==============================================================================
-2023-03-02 18:25:37|   2.5|  0.0|STATS |Total `@Count' Invocations:                                                  2
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |                            Features Read Summary
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |==============================================================================
-2023-03-02 18:25:37|   2.5|  0.0|STATS |Total Features Read                                                          0
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |                           Features Written Summary
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|STATS |==============================================================================
-2023-03-02 18:25:37|   2.5|  0.0|STATS |Total Features Written                                                       0
-2023-03-02 18:25:37|   2.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~                                                                             ~-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~                                                                             ~-
-2023-03-02 18:25:37|   2.5|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2023-03-02 18:25:37|   2.5|  0.0|INFORM|An FME_END_TCL script was specified, and will execute after the translation is complete and log file has been closed.
-2023-03-02 18:25:37|   2.5|  0.0|INFORM|Translation was SUCCESSFUL with 16 warning(s) (0 feature(s) output)
-2023-03-02 18:25:37|   2.5|  0.0|INFORM|FME Session Duration: 12.1 seconds. (CPU: 2.1s user, 0.4s system)
-2023-03-02 18:25:37|   2.5|  0.0|INFORM|END - ProcessID: 99561, peak process memory usage: 175304 kB, current process memory usage: 175304 kB
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.3.0 (20230131 - Build 22789 - macosx-x64)
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2022.2/'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Permanent License.
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Machine host name is: athena.local
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|OS Locale Name     : en_CA
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.3.0'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Operating System: macOS Version 	13.2 (Build 	22D49)
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Platform: macosx-x64
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|System Status: 277.89 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1678834464045_8579/fmetmp_b)
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|System Status: 38.00 GB of virtual memory available
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|START - ProcessID: 10138, peak process memory usage: 73860 kB, current process memory usage: 73860 kB
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2022.2/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1678836134729_8579' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `61332' `DEBUG_PORT' `61331' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `61293'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2022.2/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/22789-macosx-x64/transformers;/Library/FME/2022.2/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1678834464045_8579/fmetmp_b', set from environment variable `FME_TEMP'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2022.2/'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 36.83 GB
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 27.62 GB
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Creating writer for format: 
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2022.2/plugins/logcount_func.so'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Loaded module 'HTTPFactory' from file '/Library/FME/2022.2/plugins/httpfactory.so'
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-03-14 16:22:16|   0.0|  0.0|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@61331 and FME@61795
+2023-03-14 16:22:16|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-03-14 16:22:16|   0.0|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-gRJtTU/Main_Tester_21 -1 357 fo 0 PASSED  0  786a5275ea933611efc691e621202439503abf6c.ffs'
+2023-03-14 16:22:17|   0.3|  0.3|INFORM|HTTPCaller_22 (HTTPFactory): [1]: Starting HTTP upload to 'um3276ig67.execute-api.us-west-2.amazonaws.com'. Expected transfer size: 149 bytes
+2023-03-14 16:22:17|   0.3|  0.0|INFORM|HTTPCaller_22 (HTTPFactory): [1]: HTTP Upload: sent 149 bytes
+2023-03-14 16:22:19|   2.7|  2.4|INFORM|HTTPCaller_22 (HTTPFactory): [1]: HTTP transfer summary (um3276ig67.execute-api.us-west-2.amazonaws.com): status code: 400, download size: 0 bytes, DNS lookup time: 116 ms, total transfer time: 2887 ms
+2023-03-14 16:22:19|   2.7|  0.0|ERROR |HTTPCaller_22 (HTTPFactory): An error occurred while accessing the URL 'https://um3276ig67.execute-api.us-west-2.amazonaws.com/dev/netsuite_create'
+2023-03-14 16:22:19|   2.7|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 0 were routed to output, 1 could not be routed.
+2023-03-14 16:22:19|   2.7|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |                                                                             1
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |==============================================================================
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |Total features not written                                                   1
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|STATS |                            Features Read Summary
+2023-03-14 16:22:19|   2.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|STATS |==============================================================================
+2023-03-14 16:22:19|   2.7|  0.0|STATS |Total Features Read                                                          0
+2023-03-14 16:22:19|   2.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|STATS |                           Features Written Summary
+2023-03-14 16:22:19|   2.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|STATS |==============================================================================
+2023-03-14 16:22:19|   2.7|  0.0|STATS |Total Features Written                                                       0
+2023-03-14 16:22:19|   2.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~                                                                             ~-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~                                                                             ~-
+2023-03-14 16:22:19|   2.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-03-14 16:22:19|   2.7|  0.0|INFORM|Translation was SUCCESSFUL with 16 warning(s) (0 feature(s) output)
+2023-03-14 16:22:19|   2.7|  0.0|INFORM|FME Session Duration: 2.9 seconds. (CPU: 1.4s user, 1.3s system)
+2023-03-14 16:22:19|   2.7|  0.0|INFORM|END - ProcessID: 10138, peak process memory usage: 80072 kB, current process memory usage: 80072 kB
