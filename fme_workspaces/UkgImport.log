@@ -1,91 +1,82 @@
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.3.0 (20230131 - Build 22789 - macosx-x64)
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2022.2/'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Permanent License.
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Machine host name is: athena.local
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|OS Locale Name     : en_CA
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.3.0'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Operating System: macOS Version 	13.2 (Build 	22D49)
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Platform: macosx-x64
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|System Status: 275.94 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1679093966790_34874/fmetmp_36)
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|System Status: 39.00 GB of virtual memory available
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|START - ProcessID: 74172, peak process memory usage: 73356 kB, current process memory usage: 73356 kB
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2022.2/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1679610819713_34874' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `58531' `DEBUG_PORT' `58530' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `58513'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2022.2/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/22789-macosx-x64/transformers;/Library/FME/2022.2/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1679093966790_34874/fmetmp_36', set from environment variable `FME_TEMP'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2022.2/'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 37.83 GB
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 28.37 GB
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Creating writer for format: 
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Creating reader for format: 
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2022.2/plugins/logcount_func.so'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Loaded module 'HTTPFactory' from file '/Library/FME/2022.2/plugins/httpfactory.so'
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
-2023-03-23 15:33:41|   0.0|  0.0|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@58530 and FME@56153
-2023-03-23 15:33:41|   0.0|  0.0|INFORM|Emptying factory pipeline
-2023-03-23 15:33:41|   0.0|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-qmpNkC/Main_Tester_13 -1 352 fo 0 PASSED  0  05c78f4215f8f6a83d3a5298ff004afc0bb73152.ffs'
-2023-03-23 15:33:41|   0.2|  0.2|INFORM|HTTPCaller_22 (HTTPFactory): [1]: Starting HTTP upload to 'um3276ig67.execute-api.us-west-2.amazonaws.com'. Expected transfer size: 163 bytes
-2023-03-23 15:33:41|   0.2|  0.0|INFORM|HTTPCaller_22 (HTTPFactory): [1]: HTTP Upload: sent 163 bytes
-2023-03-23 15:33:45|   3.2|  3.0|INFORM|HTTPCaller_22 (HTTPFactory): [1]: HTTP transfer summary (um3276ig67.execute-api.us-west-2.amazonaws.com): status code: 400, download size: 0 bytes, DNS lookup time: 31 ms, total transfer time: 3217 ms
-2023-03-23 15:33:45|   3.2|  0.0|ERROR |HTTPCaller_22 (HTTPFactory): An error occurred while accessing the URL 'https://um3276ig67.execute-api.us-west-2.amazonaws.com/prod/netsuite_create'
-2023-03-23 15:33:45|   3.2|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 0 were routed to output, 1 could not be routed.
-2023-03-23 15:33:45|   3.2|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |                                                                             1
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |==============================================================================
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |Total features not written                                                   1
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|STATS |                            Features Read Summary
-2023-03-23 15:33:45|   3.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|STATS |==============================================================================
-2023-03-23 15:33:45|   3.2|  0.0|STATS |Total Features Read                                                          0
-2023-03-23 15:33:45|   3.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|STATS |                           Features Written Summary
-2023-03-23 15:33:45|   3.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|STATS |==============================================================================
-2023-03-23 15:33:45|   3.2|  0.0|STATS |Total Features Written                                                       0
-2023-03-23 15:33:45|   3.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~                                                                             ~-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~                                                                             ~-
-2023-03-23 15:33:45|   3.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2023-03-23 15:33:45|   3.2|  0.0|INFORM|Translation was SUCCESSFUL with 16 warning(s) (0 feature(s) output)
-2023-03-23 15:33:45|   3.2|  0.0|INFORM|FME Session Duration: 3.4 seconds. (CPU: 1.6s user, 1.6s system)
-2023-03-23 15:33:45|   3.2|  0.0|INFORM|END - ProcessID: 74172, peak process memory usage: 79276 kB, current process memory usage: 79276 kB
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.3.0 (20230131 - Build 22789 - macosx-x64)
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2022.2/'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Permanent License.
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Machine host name is: athena.local
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|OS Locale Name     : en_CA
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.3.0'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Operating System: macOS Version 	13.2 (Build 	22D49)
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Platform: macosx-x64
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|System Status: 276.10 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1679093966790_34874/fmetmp_3c)
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|System Status: 39.00 GB of virtual memory available
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|START - ProcessID: 76699, peak process memory usage: 75616 kB, current process memory usage: 75616 kB
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2022.2/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1679613768941_34874' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `58531' `DEBUG_PORT' `58530' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `58513'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2022.2/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/22789-macosx-x64/transformers;/Library/FME/2022.2/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1679093966790_34874/fmetmp_3c', set from environment variable `FME_TEMP'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2022.2/'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 37.83 GB
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 28.37 GB
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Creating writer for format: 
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2022.2/plugins/logcount_func.so'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Loaded module 'HTTPFactory' from file '/Library/FME/2022.2/plugins/httpfactory.so'
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-03-23 16:22:52|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-03-23 16:22:52|   0.0|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-qmpNkC/Main_HTTPCaller_22 -1 359 fo 0 Output  0  fc5991ea7dfc6b6ad5e939bad6e939ab8516830e.ffs'
+2023-03-23 16:22:52|   0.2|  0.2|INFORM|HTTPCaller_23 (HTTPFactory): [1]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 190 bytes
+2023-03-23 16:22:52|   0.2|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: HTTP Upload: sent 190 bytes
+2023-03-23 16:22:52|   0.3|  0.1|INFORM|HTTPCaller_23 (HTTPFactory): [1]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
+2023-03-23 16:22:52|   0.3|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: HTTP Download: received 2 bytes
+2023-03-23 16:22:52|   0.3|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 30 ms, total transfer time: 307 ms
+2023-03-23 16:22:52|   0.3|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-03-23 16:22:52|   0.3|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-03-23 16:22:52|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 16:22:52|   0.3|  0.0|STATS |                            Features Read Summary
+2023-03-23 16:22:52|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 16:22:52|   0.3|  0.0|STATS |==============================================================================
+2023-03-23 16:22:52|   0.3|  0.0|STATS |Total Features Read                                                          0
+2023-03-23 16:22:52|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 16:22:52|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 16:22:52|   0.3|  0.0|STATS |                           Features Written Summary
+2023-03-23 16:22:52|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 16:22:52|   0.3|  0.0|STATS |==============================================================================
+2023-03-23 16:22:52|   0.3|  0.0|STATS |Total Features Written                                                       0
+2023-03-23 16:22:52|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~                                                                             ~-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~                                                                             ~-
+2023-03-23 16:22:52|   0.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-03-23 16:22:52|   0.3|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
+2023-03-23 16:22:52|   0.3|  0.0|INFORM|FME Session Duration: 0.4 seconds. (CPU: 0.2s user, 0.1s system)
+2023-03-23 16:22:52|   0.3|  0.0|INFORM|END - ProcessID: 76699, peak process memory usage: 81424 kB, current process memory usage: 81424 kB

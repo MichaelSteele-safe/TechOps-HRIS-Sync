@@ -68,8 +68,8 @@ def lambda_handler(event, context):
         obj = None
         if body["type"] == "vendor":
             obj = [{
-                        "type" = "vendor",
-                        "customform" = 139,
+                        "type": "vendor",
+                        "customform": 139,
                         "action":"add",
                         "custbody_acs_projtype": 5,
                         "isperson":"T",
@@ -80,7 +80,7 @@ def lambda_handler(event, context):
                 }]
         else:
             obj = [{
-                "type" = "employee",
+                "type": "employee",
                 "action":"add",
                 "custbody_acs_projtype": 5,
                 "isperson":"T",
