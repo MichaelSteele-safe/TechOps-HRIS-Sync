@@ -65,24 +65,34 @@ def lambda_handler(event, context):
     print(event)
     body = json.loads(event["body"])
     try:
-        obj = [
-                {
-                    "action":"add",
-                    "custbody_acs_projtype": 5,
-                    "isperson":"T",
-                    "firstname": body["first"],
-                    "lastname": body["last"],
-                    "email": body["email"],
-                    "title": body["title"]
-                }
-        ]
+        obj = None
         if body["type"] == "vendor":
-            obj[0]["type"] = "vendor"
-            obj[0]["customform"] = 139
+            obj = [{
+                        "type" = "vendor",
+                        "customform" = 139,
+                        "action":"add",
+                        "custbody_acs_projtype": 5,
+                        "isperson":"T",
+                        "firstname": body["first"],
+                        "lastname": body["last"],
+                        "email": body["email"],
+                        "title": body["title"]
+                }]
         else:
-            obj[0]["type"] = "employee"
+            obj = [{
+                "type" = "employee",
+                "action":"add",
+                "custbody_acs_projtype": 5,
+                "isperson":"T",
+                "firstname": body["first"],
+                "lastname": body["last"],
+                "email": body["email"],
+                 "title": body["title"]
+            }]
             # obj[0]["department"] = body["department"] if body["department"] else None
             # obj[0]["custentity_safe_sw_team"] = body["team"] if body["team"] else None
+
+        print(obj)
         response = make_netsuite_request(obj, "POST")
         print("create status %s" % response['status'])
         print(response["failed_record_info"])
