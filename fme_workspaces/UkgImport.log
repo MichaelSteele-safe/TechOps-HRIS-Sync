@@ -1,175 +1,89 @@
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.3.0 (20230131 - Build 22789 - macosx-x64)
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2022.2/'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Permanent License.
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Machine host name is: athena.local
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|OS Locale Name     : en_CA
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.3.0'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Operating System: macOS Version 	13.2 (Build 	22D49)
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Platform: macosx-x64
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|System Status: 281.83 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1680114903459_19990/fmetmp_f)
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|System Status: 34.00 GB of virtual memory available
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|START - ProcessID: 21682, peak process memory usage: 72220 kB, current process memory usage: 72220 kB
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2022.2/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1680116077748_19990' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `53860' `DEBUG_PORT' `53859' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `53849'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2022.2/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/22789-macosx-x64/transformers;/Library/FME/2022.2/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1680114903459_19990/fmetmp_f', set from environment variable `FME_TEMP'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2022.2/'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 32.83 GB
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 24.62 GB
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Creating writer for format: 
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Creating reader for format: 
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2022.2/plugins/logcount_func.so'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Loaded module 'PythonFactory' from file '/Library/FME/2022.2/plugins/pythonfactory.so'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20220615)
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Using Python interpreter from `/Library/FME/2022.2/fmepython310/lib/libpython3.10.dylib' with PYTHONHOME `/Library/FME/2022.2/fmepython310'
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Python version 3.10 loaded successfully
-2023-03-29 11:54:40|   0.0|  0.0|INFORM|Adding folder `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/' to the python path
-2023-03-29 11:54:41|   0.3|  0.3|INFORM| (BreakpointFactory): Feature Inspection module initialized. Workbench@53859 and FME@54227
-2023-03-29 11:54:41|   0.3|  0.0|INFORM|Loaded module 'HTTPFactory' from file '/Library/FME/2022.2/plugins/httpfactory.so'
-2023-03-29 11:54:41|   0.3|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
-2023-03-29 11:54:41|   0.3|  0.0|INFORM|Loaded module 'JSONQueryFactory' from file '/Library/FME/2022.2/plugins/jsonqueryfactory.so'
-2023-03-29 11:54:41|   0.3|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (4.0 20220615)
-2023-03-29 11:54:41|   0.3|  0.0|INFORM|Emptying factory pipeline
-2023-03-29 11:54:41|   0.3|  0.0|STATS |Restoring 231 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-FTQnqp/Main_AttributeCreator_4 -1 82 fo 0 OUTPUT  0  357cfce94ba1b02cfca55f7616d4775956422cf8.ffs'
-2023-03-29 11:54:41|   0.4|  0.1|STATS |Restoring 8 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-FTQnqp/Main_Tester_20 -1 122 fo 0 PASSED  0  1c1ee1eab4e1c6c23d10de8f1024bc65e08d3813.ffs'
-2023-03-29 11:54:41|   0.7|  0.3|INFORM|HTTPCaller_13 (HTTPFactory): [5]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [5]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 167 bytes, DNS lookup time: 23 ms, total transfer time: 287 ms
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [8]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [8]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 169 bytes, DNS lookup time: 23 ms, total transfer time: 294 ms
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [7]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [7]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 206 bytes, DNS lookup time: 23 ms, total transfer time: 302 ms
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [1]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [1]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 167 bytes, DNS lookup time: 25 ms, total transfer time: 325 ms
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [2]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [4]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [2]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 169 bytes, DNS lookup time: 24 ms, total transfer time: 328 ms
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [4]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 169 bytes, DNS lookup time: 23 ms, total transfer time: 329 ms
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [6]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.7|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [6]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 171 bytes, DNS lookup time: 23 ms, total transfer time: 331 ms
-2023-03-29 11:54:41|   0.8|  0.1|INFORM|HTTPCaller_13 (HTTPFactory): [3]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:41|   0.8|  0.0|INFORM|HTTPCaller_13 (HTTPFactory): [3]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 169 bytes, DNS lookup time: 24 ms, total transfer time: 351 ms
-2023-03-29 11:54:41|   0.8|  0.0|STATS |Tester_10 (TestFactory): Tested 8 input feature(s) -- 0 feature(s) passed and 8 feature(s) failed
-2023-03-29 11:54:41|   0.8|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [9]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.8|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [9]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.1|INFORM|HTTPCaller_18 (HTTPFactory): [12]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [12]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [10]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [10]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [13]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [13]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [14]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [14]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [15]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [15]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [16]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [16]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [11]: Starting HTTP upload to 'safesoftware.atlassian.net'. Expected transfer size: 47 bytes
-2023-03-29 11:54:41|   0.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [11]: HTTP Upload: sent 47 bytes
-2023-03-29 11:54:42|   1.6|  0.7|INFORM|HTTPCaller_18 (HTTPFactory): [13]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [13]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 794 ms
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [14]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [14]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 799 ms
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [15]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [15]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 814 ms
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [10]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.6|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [10]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 848 ms
-2023-03-29 11:54:42|   1.7|  0.1|INFORM|HTTPCaller_18 (HTTPFactory): [11]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.7|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [11]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 925 ms
-2023-03-29 11:54:42|   1.7|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [16]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.7|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [16]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 988 ms
-2023-03-29 11:54:42|   1.9|  0.2|INFORM|HTTPCaller_18 (HTTPFactory): [12]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [12]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 1073 ms
-2023-03-29 11:54:42|   1.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [9]: Starting HTTP download from 'safesoftware.atlassian.net'
-2023-03-29 11:54:42|   1.9|  0.0|INFORM|HTTPCaller_18 (HTTPFactory): [9]: HTTP transfer summary (safesoftware.atlassian.net): status code: 200, download size: 25 bytes, DNS lookup time: 0 ms, total transfer time: 1095 ms
-2023-03-29 11:54:42|   2.0|  0.1|INFORM|HTTPCaller_10 (HTTPFactory): [23]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 200 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [23]: HTTP Upload: sent 200 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [17]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 198 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [17]: HTTP Upload: sent 198 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [24]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 205 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [24]: HTTP Upload: sent 205 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [18]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 201 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [18]: HTTP Upload: sent 201 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [19]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 209 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [19]: HTTP Upload: sent 209 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [21]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 202 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [21]: HTTP Upload: sent 202 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [20]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 203 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [20]: HTTP Upload: sent 203 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [22]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 208 bytes
-2023-03-29 11:54:42|   2.0|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [22]: HTTP Upload: sent 208 bytes
-2023-03-29 11:54:43|   2.2|  0.2|INFORM|HTTPCaller_10 (HTTPFactory): [23]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [23]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [23]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 50 ms, total transfer time: 307 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [17]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [17]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 52 ms, total transfer time: 313 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [19]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [19]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 52 ms, total transfer time: 324 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [18]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [18]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 52 ms, total transfer time: 326 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [22]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [22]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [22]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 51 ms, total transfer time: 327 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [24]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [24]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [24]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 50 ms, total transfer time: 327 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [20]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [20]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [20]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 52 ms, total transfer time: 329 ms
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [21]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 2 bytes
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|HTTPCaller_10 (HTTPFactory): [21]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 51 ms, total transfer time: 330 ms
-2023-03-29 11:54:43|   2.2|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
-2023-03-29 11:54:43|   2.2|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2023-03-29 11:54:43|   2.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-29 11:54:43|   2.2|  0.0|STATS |                            Features Read Summary
-2023-03-29 11:54:43|   2.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-29 11:54:43|   2.2|  0.0|STATS |==============================================================================
-2023-03-29 11:54:43|   2.2|  0.0|STATS |Total Features Read                                                          0
-2023-03-29 11:54:43|   2.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-29 11:54:43|   2.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-29 11:54:43|   2.2|  0.0|STATS |                           Features Written Summary
-2023-03-29 11:54:43|   2.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-29 11:54:43|   2.2|  0.0|STATS |==============================================================================
-2023-03-29 11:54:43|   2.2|  0.0|STATS |Total Features Written                                                       0
-2023-03-29 11:54:43|   2.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~                                                                             ~-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~                                                                             ~-
-2023-03-29 11:54:43|   2.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|FME Session Duration: 2.3 seconds. (CPU: 1.3s user, 0.9s system)
-2023-03-29 11:54:43|   2.2|  0.0|INFORM|END - ProcessID: 21682, peak process memory usage: 109556 kB, current process memory usage: 109556 kB
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Current FME version: FME 2022.0.0.0 (20220428 - Build 22337 - macosx)
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2022.0/'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Permanent License.
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Machine host name is: athena.local
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|OS Locale Name     : en_CA
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'UkgImport.fmw'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.0.0.0'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Operating System: macOS Version 	13.2 (Build 	22D49)
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Platform: macosx
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|System Status: 264.32 GB of disk space available in the FME temporary folder (/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1681945689567_13247/fmetmp_4)
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|System Status: 32.00 GB of physical memory available
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|System Status: 38.00 GB of virtual memory available
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|START - ProcessID: 13633, peak process memory usage: 76336 kB, current process memory usage: 76336 kB
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2022.0/fme' `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces/wb-xlate-1681945773487_13247' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `61415' `DEBUG_PORT' `61414' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `61407'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/ellaine.chan/Library/Caches/Safe Software/FME/'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2022.0/datasources;/Users/ellaine.chan/Library/Application Support/FME/Formats
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/ellaine.chan/Library/Caches/Safe Software/FME/Packages/22337-macosx/transformers;/Library/FME/2022.0/transformers;/Users/ellaine.chan/Library/Caches/Safe Software/FME/FME Store/Transformers
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystems
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemExceptions
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/ellaine.chan/Library/Application Support/FME/CoordinateSystemGridOverrides
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/ellaine.chan/Library/Application Support/FME/CsmapTransformationExceptions
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/ellaine.chan/Library/Application Support/FME/TransformerCategories
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/ellaine.chan/Repos/hris_automation/fme_workspaces'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wbrun_1681945689567_13247/fmetmp_4', set from environment variable `FME_TEMP'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2022.0/'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 36.83 GB
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 27.62 GB
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Creating writer for format: 
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2022.0//plugins/logcount_func.so'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220317)
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Loaded module 'HTTPFactory' from file '/Library/FME/2022.0//plugins/httpfactory.so'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220317)
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-04-19 16:09:37|   0.0|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-WwsRMz/Main_HTTPCaller_22 -1 359 fo 0 Output  0  caefeb07b4c7040ffa4eb17cadc23aae45599605.ffs'
+2023-04-19 16:09:37|   0.0|  0.0|INFORM|HTTPCaller_22_Output_-1_363_Player (RecorderFactory): Played back 1 feature(s) from file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-WwsRMz/Main_HTTPCaller_22 -1 359 fo 0 Output  0  caefeb07b4c7040ffa4eb17cadc23aae45599605.ffs'
+2023-04-19 16:09:37|   0.2|  0.2|INFORM|HTTPCaller_23 (HTTPFactory): [1]: Starting HTTP upload to 'hooks.slack.com'. Expected transfer size: 187 bytes
+2023-04-19 16:09:37|   0.2|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: HTTP Upload: sent 187 bytes
+2023-04-19 16:09:37|   0.2|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: Starting HTTP download from 'hooks.slack.com'. Expected transfer size: 2 bytes
+2023-04-19 16:09:37|   0.2|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: HTTP Download: received 2 bytes
+2023-04-19 16:09:37|   0.2|  0.0|INFORM|HTTPCaller_23 (HTTPFactory): [1]: HTTP transfer summary (hooks.slack.com): status code: 200, download size: 2 bytes, DNS lookup time: 1 ms, total transfer time: 276 ms
+2023-04-19 16:09:37|   0.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-WwsRMz/Main_HTTPCaller_23 -1 361 fo 0 Output  0  e0996b7dc87368b5902264f50fbcaec35a318c15.ffsupdating'
+2023-04-19 16:09:37|   0.2|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-WwsRMz/Main_HTTPCaller_23 -1 361 fo 0 Output  0  e0996b7dc87368b5902264f50fbcaec35a318c15.ffsupdating'
+2023-04-19 16:09:37|   0.2|  0.0|INFORM|Saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-WwsRMz/Main_HTTPCaller_23 -1 361 fo 0 Output  0  e0996b7dc87368b5902264f50fbcaec35a318c15.fsi'
+2023-04-19 16:09:37|   0.2|  0.0|INFORM|Finished saving spatial index into file '/private/var/folders/4v/5q5wwgh57wjdr4c2zzplwrgr0000gp/T/wb-cache-UkgImport-WwsRMz/Main_HTTPCaller_23 -1 361 fo 0 Output  0  e0996b7dc87368b5902264f50fbcaec35a318c15.fsi'
+2023-04-19 16:09:37|   0.3|  0.1|STATS |HTTPCaller_23_Output Feature Counter -1 2147615081 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2023-04-19 16:09:37|   0.3|  0.0|STATS |HTTPCaller_23_<REJECTED> Feature Counter -1 2147680617 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-04-19 16:09:37|   0.3|  0.0|STATS |HTTPCaller_23_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-04-19 16:09:37|   0.3|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-04-19 16:09:37|   0.3|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-04-19 16:09:37|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-04-19 16:09:37|   0.3|  0.0|STATS |                            Features Read Summary
+2023-04-19 16:09:37|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-04-19 16:09:37|   0.3|  0.0|STATS |==============================================================================
+2023-04-19 16:09:37|   0.3|  0.0|STATS |Total Features Read                                                          0
+2023-04-19 16:09:37|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-04-19 16:09:37|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-04-19 16:09:37|   0.3|  0.0|STATS |                           Features Written Summary
+2023-04-19 16:09:37|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-04-19 16:09:37|   0.3|  0.0|STATS |==============================================================================
+2023-04-19 16:09:37|   0.3|  0.0|STATS |Total Features Written                                                       0
+2023-04-19 16:09:37|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~                                                                             ~-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~                                                                             ~-
+2023-04-19 16:09:37|   0.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-04-19 16:09:37|   0.3|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
+2023-04-19 16:09:37|   0.3|  0.0|INFORM|FME Session Duration: 0.4 seconds. (CPU: 0.2s user, 0.1s system)
+2023-04-19 16:09:37|   0.3|  0.0|INFORM|END - ProcessID: 13633, peak process memory usage: 82916 kB, current process memory usage: 82916 kB
