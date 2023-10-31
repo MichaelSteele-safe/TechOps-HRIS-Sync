@@ -1,0 +1,4 @@
+boto3==1.18.37
+oauth2==1.9.0.post1
+requests==2.26.0
+mysql-connector-python
