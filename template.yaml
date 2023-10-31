@@ -22,11 +22,25 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName:
-        !Join ["-", [REL-hris-sync-netsuite, { "Ref": "EnvironmentName" }]]
+        !Join ["-", [REL-hris-sync-netsuite]]
       Handler: lambda_function.lambda_handler
       CodeUri: lambda-functions/sync-netsuite/
       Role: arn:aws:iam::588146318465:role/REL-Lambda-role
       Runtime: python3.9
+      Events:
+        ScheduleEvent:
+          Type: ScheduleV2
+          Properties:
+            ScheduleExpression: rate(1 day)
+            FlexibleTimeWindow:
+              Mode: FLEXIBLE
+              MaximumWindowInMinutes: 5
+            StartDate: '2023-11-01T09:30:00.000Z'
+            ScheduleExpressionTimezone: PST
+            RoleArn: arn:aws:iam::588146318465:role/REL-Lambda-role
+            RetryPolicy:
+              MaximumRetryAttempts: 5
+              MaximumEventAgeInSeconds: 300
   HRISNetsuiteSyncErrorAlarm:
     Type: 'AWS::CloudWatch::Alarm'
     Properties:
