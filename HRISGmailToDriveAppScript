@@ -9,7 +9,7 @@ var FILENAME = '$name $y-$m-$d';
 /**
  * Get all the starred threads within our label and process their attachments
  */
-function main() {
+function main() {D
   var labels = getSubLabels(GMAIL_LABEL);
   for(var i=0; i<labels.length; i++) {
     var threads = getUnprocessedThreads(labels[i]);

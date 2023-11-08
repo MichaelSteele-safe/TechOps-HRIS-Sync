@@ -31,11 +31,10 @@ Resources:
         ScheduleEvent:
           Type: ScheduleV2
           Properties:
-            ScheduleExpression: rate(1 day)
             FlexibleTimeWindow:
               Mode: FLEXIBLE
               MaximumWindowInMinutes: 5
-            StartDate: '2023-11-01T09:30:00.000Z'
+            ScheduleExpression: cron(30 9 * * ? *)
             ScheduleExpressionTimezone: PST
             RoleArn: arn:aws:iam::588146318465:role/REL-Lambda-role
             RetryPolicy:

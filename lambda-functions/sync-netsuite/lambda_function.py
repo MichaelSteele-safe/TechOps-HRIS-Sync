@@ -10,6 +10,8 @@ from hashlib import sha256
 import hmac
 import binascii
 
+from db_queries import add_id_to_db, get_org, get_employee_count, get_employees
+
 NS_ENV = "Production"
 """ Read in our credentials for accessing NetSuite """
 NS_ACCOUNT = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/ACCOUNT')
@@ -22,6 +24,7 @@ NS_HOST = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/HOST'
 DB_HOST = aws_functions.get_access_token("/REL/Database/set_rds_host")
 DB_USER = aws_functions.get_access_token("/REL/Database/set_rds_username")
 DB_PASSWORD = aws_functions.get_access_token("/REL/Database/set_rds_password")
+
 db = mysql.connector.connect(
         host=DB_HOST,
         user=DB_USER,
@@ -38,8 +41,8 @@ DB_NS_ORG_COL = "netsuite_id_sb" if NS_ENV == "Sandbox" else "netsuite_id"
 def lambda_handler(event, context):
     # get data from db
     
-    # ukg_teams = get_org(3)
-    # ukg_departments = get_org(1)
+    # ukg_teams = get_org(db,3)
+    # ukg_departments = get_org(db, 1)
     batch_process_employees()
     
     # netsuite_departments = get_netsuite_entities("department")
@@ -50,12 +53,12 @@ def lambda_handler(event, context):
 
 
 def batch_process_employees():
-    employee_count = get_employee_count()
+    employee_count = get_employee_count(db)
     netsuite_employees = get_netsuite_entities("employee")
     netsuite_vendors = get_netsuite_entities("vendor")
-    batch_size = 25
+    batch_size = 25 
     for i in range(0, employee_count, batch_size):
-        employee_batch = get_employees(batch_size, i)
+        employee_batch = get_employees(db, batch_size, i)
         # print ("processing batch %d" % i)
         for employee in employee_batch:
             syncEmployee(employee, netsuite_employees, "employee")
@@ -64,29 +67,33 @@ def batch_process_employees():
 def syncOrg(ukg_orgs, netsuite_orgs, type):
     for org in ukg_orgs:
         id_match = find_dict_by_key_value(org, netsuite_orgs, DB_NS_ORG_COL, "internalid")
+        # print("id match:")
+        # print(id_match)
         active = is_active(org)
+        name_match = find_dict_by_key_value(org, netsuite_orgs, "name", "name")
         if active:
             if id_match:
                 netsuite_team = find_dict_by_key_value(org, netsuite_orgs, DB_NS_ORG_COL, "internalid")
                 if org["name"] != netsuite_team["name"]:
-                    print("UPDATING %s NAME FROM %s TO %s " % (type, netsuite_team["name"],org["name"]))
+                    print("update %s name from %s to %s " % (type, netsuite_team["name"],org["name"]))
                     # netsuite_org_request(org[DB_NS_ORG_COL], org["name"], "update", type)
             else:
                 name_match = find_dict_by_key_value(org, netsuite_orgs, "name", "name")
                 if name_match:
                     print("ADDING NETSUITE_ID TO DATABASE FOR %s %s " % (type, org["name"]))
-                    add_id_to_db(name_match["internalid"], org["name"], type)
-                elif org[DB_NS_ORG_COL]:
-                    print("activate org") #todo
+                    # add_id_to_db(db, name_match["internalid"], org["name"], type)
+                # elif org[DB_NS_ORG_COL]:
+                #     print("activate org") 
                 else:
-                    print("CREATING %s %s TO NETSUITE" % (type, org["name"]))
+                    print("create %s %s" % (type, org["name"]))
                     try:
                         create_response = netsuite_org_request(None, org["name"], "add", type)
-                        add_id_to_db(create_response["success_record_info"][0]["internalid"], org["name"], type)
+                        add_id_to_db(db, create_response["success_record_info"][0]["internalid"], org["name"], type)
                     except Exception as e:
                         print(e)
+
         if not active and id_match:
-            print("DEACTIVATING %s %s" % (type, org["name"]))
+            print("deactivate %s %s" % (type, org["name"]))
             # create_response = netsuite_org_request(None, org["name"], "inactive", type)
 
 def syncEmployee(employee, netsuite_employees, account_type):
@@ -97,122 +104,34 @@ def syncEmployee(employee, netsuite_employees, account_type):
 
     # print("processing %s: %s" % (account_type, employee["email"]))
     id_match = find_dict_by_key_value(employee, netsuite_employees, key, "internalid")
+
     active = is_active(employee)
     if active:
         if id_match:
-            # print("update employee in db %s " % employee["email"])
-            print("")
-            # netsuite_employee_request(employee, account_type, "update")
+            print("update %s in db %s " % (account_type,employee["email"]))
+            netsuite_employee_request(employee, account_type, "update")
         else:
             email_match = find_dict_by_key_value(employee, netsuite_employees, "email", "email")
             if email_match:
-                print("insert %s id to db %s " % (account_type, employee["email"]))
-                add_id_to_db(email_match["internalid"], employee["email"], account_type)
+                print("insert and update %s %s id to db " % (account_type, employee["email"]))
+                add_id_to_db(db, email_match["internalid"], employee["email"], account_type)
                 employee[key] = email_match["internalid"]
-                # netsuite_employee_request(employee, account_type, "update")
+                netsuite_employee_request(employee, account_type, "update")
             elif employee[key]:
                 # todo activate employee
-                print("")
-                # print("activate %s" % account_type)
+                print("activate %s %s" % (account_type, employee["email"]))
+                netsuite_employee_request(employee, account_type, "active")
             else:
-                print("adding %s to: %s" % (account_type, employee["email"]))
                 try:
+                    print("adding %s to: %s" % (account_type, employee["email"]))
                     netsuite_employee_request(employee, account_type, "add")
                 except Exception as e:
                     print(e)
 
     if not active and id_match:
         # delete employee
-        print("")
-        # print("deactivate %s %s" % (account_type, employee["email"]))
-
-def add_id_to_db(id, identifier, type):
-    if type == "team" or type == "department":
-        query = """
-            UPDATE users.ukg_teams
-            SET %s = %s
-            WHERE name = \"%s\"
-            and archived is null
-            and org_level = %s
-        """ % (DB_NS_ORG_COL, id, identifier, 3 if type == "team" else 1)
-    if type == "employee":
-        query = """
-            UPDATE users.ukg_users
-            SET %s = %s
-            WHERE email = \"%s\"
-        """ % (DB_NS_EMPLOYEE_COL, id, identifier)
-    if type == "vendor":
-        query = """
-            UPDATE users.ukg_users
-            SET %s = %s
-            WHERE email = \"%s\"
-        """ % (DB_NS_VENDOR_COL, id, identifier)
-
-    db_cursor.execute(query)
-    db.commit()
-      
-def get_org(org_level):
-    db_cursor.execute("""
-        select name, %s, archived
-        from users.ukg_teams
-        where org_level = %d
-    """ % (DB_NS_ORG_COL,org_level))
-    response = db_cursor.fetchall()
-    for org in response: 
-        org[DB_NS_ORG_COL] = int(org[DB_NS_ORG_COL]) if org[DB_NS_ORG_COL] else org[DB_NS_ORG_COL]
-    return response
-
-def get_employee_count():
-    db_cursor.execute("""
-        SELECT COUNT(*) FROM users.ukg_users
-        WHERE netsuite_admin = 0
-    """)
-    response = db_cursor.fetchall()
-    return response[0]["COUNT(*)"]
-
-def get_employees(batch_size, offset):
-    db_cursor.execute("""
-        select u.netsuite_employee_id, 
-            u.%s, 
-            u.%s, 
-            u.email, 
-            u.title, 
-            u.first, 
-            u.last, 
-            u.preferred_first_name, 
-            u.deactivated, 
-            t.%s as "team_id", 
-            team_lead.%s as "team_lead", 
-            dep.`%s` as "department_id", 
-            department_lead.netsuite_employee_id as "department_lead", 
-            division.%s as "division_id", 
-            division_lead.netsuite_employee_id as "division_lead"
-        from users.ukg_users as u
-        left join (
-            SELECT id, `name`, parent_id, lead_id, %s from users.ukg_teams 
-            where org_level = 3) as t on u.team_id = t.id
-        left join (
-            SELECT id, `name`, parent_id, lead_id, %s from users.ukg_teams 
-            where org_level = 2) as dep on t.parent_id = dep.id OR u.team_id = dep.id
-        left join (
-            SELECT id, `name`, lead_id, %s from users.ukg_teams 
-            where org_level = 1) as division on dep.parent_id = division.id OR u.team_id = division.id
-        left join users.ukg_users as team_lead on t.lead_id = team_lead.id
-        left join users.ukg_users as department_lead on dep.lead_id = department_lead.id
-        left join users.ukg_users as division_lead on division.lead_id = division_lead.id
-        where u.netsuite_admin = 0
-        # and u.email = \"dami.obasa\"
-        order by u.last DESC
-        LIMIT %s OFFSET %s
-    """ % (DB_NS_EMPLOYEE_COL, DB_NS_VENDOR_COL,DB_NS_ORG_COL,DB_NS_EMPLOYEE_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL, batch_size, offset))
-    response = db_cursor.fetchall()
-    for employee in response:
-        employee[DB_NS_EMPLOYEE_COL] = int(employee[DB_NS_EMPLOYEE_COL]) if employee[DB_NS_EMPLOYEE_COL] else employee[DB_NS_EMPLOYEE_COL]
-        employee[DB_NS_VENDOR_COL] = int(employee[DB_NS_VENDOR_COL]) if employee[DB_NS_VENDOR_COL] else employee[DB_NS_VENDOR_COL]
-        employee["team_id"] = int(employee["team_id"]) if employee["team_id"] else employee["team_id"]
-        employee["division_id"] = int(employee["division_id"]) if employee["division_id"] else employee["division_id"]
-        employee["email"] = employee["email"].lower() if employee["email"] else None
-    return response
+        print("deactivate %s %s" % (account_type, employee["email"]))
+        netsuite_employee_request(employee, account_type, "inactive")
 
 def get_netsuite_entities(type):
     netsuite_entities = (make_netsuite_request("GET", None, {"type":type}))["search_details"]
@@ -247,32 +166,31 @@ def netsuite_org_request(id, name, action, type):
     return make_netsuite_request("POST", body, None)
 
 def netsuite_employee_request(employee, type, action):
-    # obj = [{
-    #     "type": type,
-    #     "action": action,
-    #     "custbody_acs_projtype": 5,
-    #     "isperson":"T",
-    #     "firstname": employee["first"],
-    #     "lastname": employee["last"],
-    #     "email": "%s@safe.com" % employee["email"],
-    #     "title": employee["title"],
-    #     "department": employee["division_id"],
-    #     "custentity_safe_sw_team": employee["team_id"]
-    # }]
+    key = DB_NS_EMPLOYEE_COL if type == "employee" else DB_NS_VENDOR_COL
+    request_type = "POST"
     obj = [{
         "type": type,
         "action": action,
-        "custbody_acs_projtype": 5,
         "isperson":"T",
         "firstname": employee["first"],
-        "lastname": employee["last"] if type == "employee" else employee["last"]+" (Vendor)",
+        "lastname": employee["last"],
         "email": "%s@safe.com" % employee["email"],
         "title": employee["title"],
-        "supervisor": employee["team_lead"]
+        "custbody_acs_projtype":  5
     }]
+    if type == "employee":
+        obj[0]["issalesrep"] = employee["issalesrep"]
+        obj[0]["supervisor"] = employee["team_lead"]
+        # obj[0]["department"] = employee["division_id"]
+        # obj[0]["custentity_safe_sw_team"] = employee["team_id"]
+
+    if type == "vendor":
+        obj[0]["category"] = 5
+        
     if action != "add":
-        obj[0]["id"] = employee[DB_NS_EMPLOYEE_COL]
-    make_netsuite_request("POST", obj, None)
+        request_type = "PUT"
+        obj[0]["id"] = employee[key]
+    make_netsuite_request(request_type, obj, None)
 
 
 def make_netsuite_request(http_method, obj, params):
@@ -357,6 +275,9 @@ def is_active(item):
         return item["archived"] == None
 
 def find_dict_by_key_value(obj, lst, obj_key, lst_key):
+    # print("==find_dict_by_key_value")
+    # print("lst key: %s, obj_key: %s" % (lst_key, obj_key))
+    # print(obj[obj_key])
     for item in lst:
         if obj[obj_key] == item[lst_key]:
             return item
