@@ -18,7 +18,6 @@ def lambda_handler(event, context):
     ukg_departments = get_orgs(db, 1)
     ukg_employees = get_employees(db)
 
-    print(ukg_employees)
     netsuite_departments = get_netsuite_entities("department")
     netsuite_teams = get_netsuite_entities("team") 
     netsuite_employees = get_netsuite_entities("employee")
