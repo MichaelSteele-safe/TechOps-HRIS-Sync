@@ -1,115 +1,81 @@
-import json
-import time
-import oauth2 as oauth
-import requests
-import aws_functions
 import mysql.connector
-
-# For SHA256 local
-from hashlib import sha256
-import hmac
-import binascii
-
-from db_queries import add_id_to_db, get_org, get_employee_count, get_employees
-
-NS_ENV = "Production"
-""" Read in our credentials for accessing NetSuite """
-NS_ACCOUNT = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/ACCOUNT')
-NS_CONSUMER_KEY = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/CONSUMER_KEY')
-NS_CONSUMER_SECRET = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/CONSUMER_SECRET')
-NS_TOKEN_KEY = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/TOKEN_KEY')
-NS_TOKEN_SECRET = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/TOKEN_SECRET')
-NS_APPID = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/APPID')
-NS_HOST = aws_functions.get_access_token('/TechOps/Netsuite/' + NS_ENV + '/HOST')
-DB_HOST = aws_functions.get_access_token("/REL/Database/set_rds_host")
-DB_USER = aws_functions.get_access_token("/REL/Database/set_rds_username")
-DB_PASSWORD = aws_functions.get_access_token("/REL/Database/set_rds_password")
+import strings
+from netsuite_utils import make_netsuite_request
+from db_queries import add_id_to_db, get_orgs_from_db, get_employees_from_db
 
 db = mysql.connector.connect(
-        host=DB_HOST,
-        user=DB_USER,
-        passwd=DB_PASSWORD,
+        host=strings.DB_HOST,
+        user=strings.DB_USER,
+        passwd=strings.DB_PASSWORD,
         database="users",
         port=3306
     )
 db_cursor = db.cursor(dictionary=True)
 
-DB_NS_EMPLOYEE_COL = "netsuite_employee_id_sb" if NS_ENV == "Sandbox" else "netsuite_employee_id"
-DB_NS_VENDOR_COL = "netsuite_vendor_id_sb" if NS_ENV == "Sandbox" else "netsuite_vendor_id"
-DB_NS_ORG_COL = "netsuite_id_sb" if NS_ENV == "Sandbox" else "netsuite_id"
-
 def lambda_handler(event, context):
-    # get data from db
-    
-    # ukg_teams = get_org(db,3)
-    # ukg_departments = get_org(db, 1)
-    batch_process_employees()
-    
-    # netsuite_departments = get_netsuite_entities("department")
-    # netsuite_teams = get_netsuite_entities("team") 
+    ukg_teams = get_orgs(db,3)
+    ukg_departments = get_orgs(db, 1)
+    ukg_employees = get_employees(db)
 
-    # syncOrg(ukg_departments, netsuite_departments, "department")
-    # syncOrg(ukg_teams, netsuite_teams, "team")
-
-
-def batch_process_employees():
-    employee_count = get_employee_count(db)
+    print(ukg_employees)
+    netsuite_departments = get_netsuite_entities("department")
+    netsuite_teams = get_netsuite_entities("team") 
     netsuite_employees = get_netsuite_entities("employee")
     netsuite_vendors = get_netsuite_entities("vendor")
-    batch_size = 25 
-    for i in range(0, employee_count, batch_size):
-        employee_batch = get_employees(db, batch_size, i)
-        # print ("processing batch %d" % i)
-        for employee in employee_batch:
-            # print("%s %s %s" % (employee["email"], employee["division_name"], employee["issalesrep"]))
-            syncEmployee(employee, netsuite_employees, "employee")
-            # syncEmployee(employee, netsuite_vendors, "vendor")
-    
+
+    syncOrg(ukg_departments, netsuite_departments, "department")
+    syncOrg(ukg_teams, netsuite_teams, "team")
+
+    for employee in ukg_employees:
+        syncEmployee(employee, netsuite_employees, "employee")
+        syncEmployee(employee, netsuite_vendors, "vendor")
+
 def syncOrg(ukg_orgs, netsuite_orgs, type):
     for org in ukg_orgs:
-        id_match = find_dict_by_key_value(org, netsuite_orgs, DB_NS_ORG_COL, "internalid")
-        # print("id match:")
-        # print(id_match)
+        print("processing %s: %s" % (type, org["name"]))
+        id_match = find_dict_by_key_value(org, netsuite_orgs, strings.DB_NS_ORG_COL, "internalid")
         active = is_active(org)
         name_match = find_dict_by_key_value(org, netsuite_orgs, "name", "name")
         if active:
             if id_match:
-                netsuite_team = find_dict_by_key_value(org, netsuite_orgs, DB_NS_ORG_COL, "internalid")
-                if org["name"] != netsuite_team["name"]:
+                netsuite_team = find_dict_by_key_value(org, netsuite_orgs, strings.DB_NS_ORG_COL, "internalid")
+                if type != "department" and org["name"] != netsuite_team["name"]:
                     print("update %s name from %s to %s " % (type, netsuite_team["name"],org["name"]))
-                    # netsuite_org_request(org[DB_NS_ORG_COL], org["name"], "update", type)
+                    netsuite_org_request(org, "update", type)
+                else:
+                    print("Nothing to do, up to date")
             else:
                 name_match = find_dict_by_key_value(org, netsuite_orgs, "name", "name")
                 if name_match:
                     print("ADDING NETSUITE_ID TO DATABASE FOR %s %s " % (type, org["name"]))
-                    # add_id_to_db(db, name_match["internalid"], org["name"], type)
-                # elif org[DB_NS_ORG_COL]:
-                #     print("activate org") 
+                    add_id_to_db(db, name_match["internalid"], org["name"], type)
+                elif org[strings.DB_NS_ORG_COL]:
+                    print("activate org") 
+                    netsuite_org_request(org, org["name"], "active", type)
                 else:
-                    print("create %s %s" % (type, org["name"]))
                     try:
-                        create_response = netsuite_org_request(None, org["name"], "add", type)
+                        print("create %s %s" % (type, org["name"]))
+                        create_response = netsuite_org_request(org, "add", type)
                         add_id_to_db(db, create_response["success_record_info"][0]["internalid"], org["name"], type)
                     except Exception as e:
                         print(e)
 
         if not active and id_match:
             print("deactivate %s %s" % (type, org["name"]))
-            # create_response = netsuite_org_request(None, org["name"], "inactive", type)
+            create_response = netsuite_org_request(org, "inactive", type)
 
 def syncEmployee(employee, netsuite_employees, account_type):
     if account_type == "employee":
-        key = DB_NS_EMPLOYEE_COL
+        key = strings.DB_NS_EMPLOYEE_COL
     else:
-        key = DB_NS_VENDOR_COL
+        key = strings.DB_NS_VENDOR_COL
 
-    # print("processing %s: %s" % (account_type, employee["email"]))
     id_match = find_dict_by_key_value(employee, netsuite_employees, key, "internalid")
 
     active = is_active(employee)
     if active:
         if id_match:
-            print("update %s in db %s " % (account_type,employee["email"]))
+            print("Updating %s %s" % (account_type, employee["email"]))
             netsuite_employee_request(employee, account_type, "update")
         else:
             email_match = find_dict_by_key_value(employee, netsuite_employees, "email", "email")
@@ -119,7 +85,6 @@ def syncEmployee(employee, netsuite_employees, account_type):
                 employee[key] = email_match["internalid"]
                 netsuite_employee_request(employee, account_type, "update")
             elif employee[key]:
-                # todo activate employee
                 print("activate %s %s" % (account_type, employee["email"]))
                 netsuite_employee_request(employee, account_type, "active")
             else:
@@ -141,49 +106,53 @@ def get_netsuite_entities(type):
         entity["internalid"] = int(entity["internalid"])
     return netsuite_entities
 
-def netsuite_org_request(id, name, action, type):
+def netsuite_org_request(org, action, type):
     parent = "15" if type == "department" else "114"
-    if action == "create":
+    requestType = None
+    if action == "add":
+        requestType = "POST"
         body = [
             {
                 "action": action,
                 "type": type,
-                "name": name,
+                "name": org["name"],
                 "parent": parent,
                 "custbody_acs_projtype": ""
             }
         ]
     else:
+        requestType = "PUT"
         body = [
             {
                 "action": action,
                 "type": type,
-                "name": name,
-                "id": id,
+                "name": org["name"],
+                "id": org[strings.DB_NS_ORG_COL],
                 "parent": parent,
                 "custbody_acs_projtype": ""
             }
         ]
-    return make_netsuite_request("POST", body, None)
+    return make_netsuite_request(requestType, body, None)
 
 def netsuite_employee_request(employee, type, action):
-    key = DB_NS_EMPLOYEE_COL if type == "employee" else DB_NS_VENDOR_COL
+    key = strings.DB_NS_EMPLOYEE_COL if type == "employee" else strings.DB_NS_VENDOR_COL
     request_type = "POST"
+    email = employee["email"] if "@" in employee["email"] else "%s@safe.com" % employee["email"]
     obj = [{
         "type": type,
         "action": action,
         "isperson":"T",
         "firstname": employee["first"],
         "lastname": employee["last"],
-        "email": "%s@safe.com" % employee["email"],
+        "email": email,
         "title": employee["title"],
-        "custbody_acs_projtype":  5,
-        "issalesrep": employee["issalesrep"]
+        "custbody_acs_projtype":  5
     }]
     if type == "employee":
-        obj[0]["supervisor"] = employee["team_lead"]
-        # obj[0]["department"] = employee["division_id"]
-        # obj[0]["custentity_safe_sw_team"] = employee["team_id"]
+        obj[0]["issalesrep"] = employee["issalesrep"]
+        # obj[0]["supervisor"] = employee["supervisor"]
+        obj[0]["department"] = employee["division_id"]
+        obj[0]["custentity_safe_sw_team"] = employee["team_id"]
 
     if type == "vendor":
         obj[0]["category"] = 5
@@ -193,81 +162,41 @@ def netsuite_employee_request(employee, type, action):
         obj[0]["id"] = employee[key]
     make_netsuite_request(request_type, obj, None)
 
+def get_orgs(db, level):
+    orgs = get_orgs_from_db(db, level)
+    for org in orgs: 
+        org["name"] = org["alt_name"] if org["alt_name"] else org["name"]
+        org[strings.DB_NS_ORG_COL] = int(org[strings.DB_NS_ORG_COL]) if org[strings.DB_NS_ORG_COL] else org[strings.DB_NS_ORG_COL]
+    return orgs
 
-def make_netsuite_request(http_method, obj, params):
-    """
-    This function is a helper used for all the GET / informational routes that interact with
-    the NetSuite
-    """
-    # Assemble the URL
-    # Populate Token and Consumer objects for OAuth1 Flow as well as Realm
-    ns_token = oauth.Token(key=NS_TOKEN_KEY, secret=NS_TOKEN_SECRET)
-    ns_consumer = oauth.Consumer(key=NS_CONSUMER_KEY, secret=NS_CONSUMER_SECRET)
-    ns_realm= NS_ACCOUNT
-    # Dictionary holding our OAuth1 Flow Details
-    auth_params = {
-        'oauth_version': "1.0",
-        'oauth_nonce': oauth.generate_nonce(),
-        # Must typecast timestamp to String
-        'oauth_timestamp': str(int(time.time())),
-        'oauth_token': ns_token.key,
-        'oauth_consumer_key': ns_consumer.key
-    }
-    if params != None:
-        auth_params.update(params)
-    # Start building our request object
-    ns_request = oauth.Request(method=http_method, url=NS_HOST, parameters=auth_params)
-    # signature_method = oauth.SignatureMethod_HMAC_SHA256() # Original calling oauth2 library, commented out Oct 4 2021 by Steven
-    signature_method = SignatureMethod_HMAC_SHA256_local()
-    ns_request.sign_request(signature_method, ns_consumer, ns_token)
-    # Adding headers to request
-    header = ns_request.to_header(ns_realm)
-    encoded_header = header['Authorization'].encode('ascii', 'ignore')
-    header = {"Authorization": encoded_header, "Content-Type":"application/json"}
-    # Make the request to NetSuite and return response as JSON Object
-    if http_method == "POST":
-        results = requests.post(NS_HOST,headers=header,json=obj)
-    if http_method == "PUT":
-        results = requests.put(NS_HOST,headers=header,json=obj)
-    if http_method == "GET":
-        results = requests.get(NS_HOST,headers=header, params=params)
+def get_employees(db):
+    employees = get_employees_from_db(db)
 
-    if results.ok:
-        result_json = results.json()
-        if http_method == "POST" and len(result_json["failed_record_info"]) > 0:
-            print("tried to process: %s" + json.dumps(obj, indent=4))
-            raise Exception("Error creating record in NetSuite: %s" % result_json["failed_record_info"])
-        return results.json()
-    else:
-        raise Exception("Error making request to NetSuite: %s" % results.text)
+    for employee in employees:
+        employee["issalesrep"] = True if "sales" in employee["division_name"].lower() else False
+        employee[strings.DB_NS_EMPLOYEE_COL] = int(employee[strings.DB_NS_EMPLOYEE_COL]) if employee[strings.DB_NS_EMPLOYEE_COL] else employee[strings.DB_NS_EMPLOYEE_COL]
+        employee[strings.DB_NS_VENDOR_COL] = int(employee[strings.DB_NS_VENDOR_COL]) if employee[strings.DB_NS_VENDOR_COL] else employee[strings.DB_NS_VENDOR_COL]
+        employee["team_id"] = int(employee["team_id"]) if employee["team_id"] else employee["team_id"]
+        employee["division_id"] = int(employee["division_id"]) if employee["division_id"] else employee["division_id"]
+        # we don't want legal department in netsuite, should map to corporate
+        if "Legal" in employee["division_name"]:
+            employee["division_id"] = 2
+        employee["email"] = employee["email"].lower() if employee["email"] else None
+        employee["supervisor"] = get_supervisor(employee)
 
-class SignatureMethod_HMAC_SHA256_local(oauth.SignatureMethod):
-    name = 'HMAC-SHA256'
 
-    def signing_base(self, request, consumer, token):
-        if (not hasattr(request, 'normalized_url') or request.normalized_url is None):
-            raise ValueError("Base URL for request is not set.")
+    return employees
 
-        sig = (
-            oauth.escape(request.method),
-            oauth.escape(request.normalized_url),
-            oauth.escape(request.get_normalized_parameters()),
-        )
+def get_supervisor(employee):
+    employee["supervisor"] = None
+    if employee["team_lead"] != employee[strings.DB_NS_EMPLOYEE_COL]:
+        employee["supervisor"] = employee["team_lead"]
 
-        key = '%s&' % oauth.escape(consumer.secret)
-        if token:
-            key += oauth.escape(token.secret)
-        raw = '&'.join(sig)
-        return key.encode('ascii'), raw.encode('ascii')
+    if employee["supervisor"] == None and employee["department_lead"] != employee[strings.DB_NS_EMPLOYEE_COL]:
+        employee["supervisor"] = employee["department_lead"]
 
-    def sign(self, request, consumer, token):
-        """Builds the base signature string."""
-        key, raw = self.signing_base(request, consumer, token)
-
-        hashed = hmac.new(key, raw, sha256)
-
-        # Calculate the digest base 64.
-        return binascii.b2a_base64(hashed.digest())[:-1]
+    if employee["supervisor"] == None and employee["division_lead"] != employee[strings.DB_NS_EMPLOYEE_COL]:
+        employee["supervisor"] = employee["division_lead"]
 
 def is_active(item):
     if "deactivated" in item:
@@ -276,9 +205,6 @@ def is_active(item):
         return item["archived"] == None
 
 def find_dict_by_key_value(obj, lst, obj_key, lst_key):
-    # print("==find_dict_by_key_value")
-    # print("lst key: %s, obj_key: %s" % (lst_key, obj_key))
-    # print(obj[obj_key])
     for item in lst:
         if obj[obj_key] == item[lst_key]:
             return item

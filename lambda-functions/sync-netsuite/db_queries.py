@@ -30,17 +30,16 @@ def add_id_to_db(db, id, identifier, type):
     db.commit()
     db_cursor.close()
       
-def get_org(db, org_level):
+def get_orgs_from_db(db, org_level):
+    # don't grab legal
     db_cursor = db.cursor(dictionary=True)
     db_cursor.execute("""
-        select name, %s, archived
+        select name, alt_name, %s, archived
         from users.ukg_teams
-        where org_level = %d
+        where org_level = %d and name != "Legal" and name!= "Operations" and name != "Balance Sheet"
     """ % (DB_NS_ORG_COL,org_level))
     response = db_cursor.fetchall()
     db_cursor.close()
-    for org in response: 
-        org[DB_NS_ORG_COL] = int(org[DB_NS_ORG_COL]) if org[DB_NS_ORG_COL] else org[DB_NS_ORG_COL]
     return response
 
 def get_employee_count(db):
@@ -53,7 +52,7 @@ def get_employee_count(db):
     db_cursor.close()
     return response[0]["COUNT(*)"]
 
-def get_employees(db, batch_size, offset):
+def get_employees_from_db(db):
     db_cursor = db.cursor(dictionary=True)
     db_cursor.execute("""
         select u.netsuite_employee_id, 
@@ -85,18 +84,12 @@ def get_employees(db, batch_size, offset):
         left join users.ukg_users as team_lead on t.lead_id = team_lead.id
         left join users.ukg_users as department_lead on dep.lead_id = department_lead.id
         left join users.ukg_users as division_lead on division.lead_id = division_lead.id
-        where u.netsuite_admin = 0
+        where u.netsuite_employee_id = 1150
+        # where u.netsuite_admin != 1 or u.netsuite_admin is null
         order by u.last ASC
-        LIMIT %s OFFSET %s
-    """ % (DB_NS_EMPLOYEE_COL, DB_NS_VENDOR_COL,DB_NS_ORG_COL,DB_NS_EMPLOYEE_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL, batch_size, offset))
+        LIMIT 10
+    """ % (DB_NS_EMPLOYEE_COL, DB_NS_VENDOR_COL,DB_NS_ORG_COL,DB_NS_EMPLOYEE_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL))
     response = db_cursor.fetchall()
     db_cursor.close()
 
-    for employee in response:
-        employee["issalesrep"] = True if "sales" in employee["division_name"].lower() else False
-        employee[DB_NS_EMPLOYEE_COL] = int(employee[DB_NS_EMPLOYEE_COL]) if employee[DB_NS_EMPLOYEE_COL] else employee[DB_NS_EMPLOYEE_COL]
-        employee[DB_NS_VENDOR_COL] = int(employee[DB_NS_VENDOR_COL]) if employee[DB_NS_VENDOR_COL] else employee[DB_NS_VENDOR_COL]
-        employee["team_id"] = int(employee["team_id"]) if employee["team_id"] else employee["team_id"]
-        employee["division_id"] = int(employee["division_id"]) if employee["division_id"] else employee["division_id"]
-        employee["email"] = employee["email"].lower() if employee["email"] else None
     return response
