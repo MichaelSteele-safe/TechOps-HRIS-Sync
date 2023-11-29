@@ -1,4 +1,5 @@
 import mysql.connector
+import requests
 import strings
 from netsuite_utils import make_netsuite_request
 from db_queries import add_id_to_db, get_orgs_from_db, get_employees_from_db
@@ -42,6 +43,7 @@ def syncOrg(ukg_orgs, netsuite_orgs, type):
                 if type != "department" and org["name"] != netsuite_team["name"]:
                     print("update %s name from %s to %s " % (type, netsuite_team["name"],org["name"]))
                     netsuite_org_request(org, "update", type)
+                    notifyTechOpsChannel("HRIS - Netsuite %s name updated" % type, "%s -> %s" % (netsuite_team["name"], org["name"]), "good")
                 else:
                     print("Nothing to do, up to date")
             else:
@@ -52,17 +54,20 @@ def syncOrg(ukg_orgs, netsuite_orgs, type):
                 elif org[strings.DB_NS_ORG_COL]:
                     print("activate org") 
                     netsuite_org_request(org, org["name"], "active", type)
+                    notifyTechOpsChannel("HRIS - Netsuite %s reactivated" % type, org["name"], "good")
                 else:
                     try:
                         print("create %s %s" % (type, org["name"]))
                         create_response = netsuite_org_request(org, "add", type)
                         add_id_to_db(db, create_response["success_record_info"][0]["internalid"], org["name"], type)
+                        notifyTechOpsChannel("HRIS - Netsuite %s created" % type, org["name"], "good")
                     except Exception as e:
                         print(e)
 
         if not active and id_match:
             print("deactivate %s %s" % (type, org["name"]))
             create_response = netsuite_org_request(org, "inactive", type)
+            notifyTechOpsChannel("HRIS - Netsuite team deactivated", org["name"], "danger")
 
 def syncEmployee(employee, netsuite_employees, account_type):
     if account_type == "employee":
@@ -87,10 +92,12 @@ def syncEmployee(employee, netsuite_employees, account_type):
             elif employee[key]:
                 print("activate %s %s" % (account_type, employee["email"]))
                 netsuite_employee_request(employee, account_type, "active")
+                notifyTechOpsChannel("HRIS - Netsuite %s reactivated" % type, employee["email"], "good")
             else:
                 try:
                     print("adding %s to: %s" % (account_type, employee["email"]))
                     netsuite_employee_request(employee, account_type, "add")
+                    notifyTechOpsChannel("HRIS - Netsuite %s create" % type, employee["email"], "good")
                 except Exception as e:
                     print(e)
 
@@ -98,6 +105,7 @@ def syncEmployee(employee, netsuite_employees, account_type):
         # delete employee
         print("deactivate %s %s" % (account_type, employee["email"]))
         netsuite_employee_request(employee, account_type, "inactive")
+        notifyTechOpsChannel("HRIS - Netsuite %s deactivated" % type, employee["email"], "danger")
 
 def get_netsuite_entities(type):
     netsuite_entities = (make_netsuite_request("GET", None, {"type":type}))["search_details"]
@@ -209,3 +217,14 @@ def find_dict_by_key_value(obj, lst, obj_key, lst_key):
         if obj[obj_key] == item[lst_key]:
             return item
     return None
+
+def notifyTechOpsChannel(title, message, type):
+    obj = {
+        "attachments": [{
+            "title": title,
+            "text": message,
+            "color": type
+        }]
+    }
+
+    requests.post(strings.TECHOPS_AUTOMATION_SLACK_WEBHOOK,json=obj)
