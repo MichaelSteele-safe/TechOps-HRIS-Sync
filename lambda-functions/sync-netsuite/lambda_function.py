@@ -163,7 +163,7 @@ def netsuite_employee_request(employee, type, action):
 
     if type == "vendor":
         obj[0]["category"] = 5
-        
+        obj[0]["lastname"] = employee["last"] + " (Vendor)"
     if action != "add":
         request_type = "PUT"
         obj[0]["id"] = employee[key]
