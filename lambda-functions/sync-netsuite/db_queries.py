@@ -84,7 +84,7 @@ def get_employees_from_db(db):
         left join users.ukg_users as team_lead on t.lead_id = team_lead.id
         left join users.ukg_users as department_lead on dep.lead_id = department_lead.id
         left join users.ukg_users as division_lead on division.lead_id = division_lead.id
-        where u.netsuite_admin != 1 or u.netsuite_admin is null
+        where u.netsuite_admin != 1 or u.netsuite_admin is null 
         order by u.last ASC
     """ % (DB_NS_EMPLOYEE_COL, DB_NS_VENDOR_COL,DB_NS_ORG_COL,DB_NS_EMPLOYEE_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL,DB_NS_ORG_COL))
     response = db_cursor.fetchall()

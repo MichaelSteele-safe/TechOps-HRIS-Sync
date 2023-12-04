@@ -149,7 +149,7 @@ def netsuite_employee_request(employee, type, action):
         "type": type,
         "action": action,
         "isperson":"T",
-        "firstname": employee["first"],
+        "firstname": employee["display_name"],
         "lastname": employee["last"],
         "email": email,
         "title": employee["title"],
@@ -180,6 +180,9 @@ def get_employees(db):
     employees = get_employees_from_db(db)
 
     for employee in employees:
+        employee["display_name"] = employee["first"]
+        if employee["preferred_first_name"]:
+            employee["display_name"] = "%s (%s)" % (employee["preferred_first_name"], employee["first"])
         employee["issalesrep"] = True if "sales" in employee["division_name"].lower() else False
         employee[strings.DB_NS_EMPLOYEE_COL] = int(employee[strings.DB_NS_EMPLOYEE_COL]) if employee[strings.DB_NS_EMPLOYEE_COL] else employee[strings.DB_NS_EMPLOYEE_COL]
         employee[strings.DB_NS_VENDOR_COL] = int(employee[strings.DB_NS_VENDOR_COL]) if employee[strings.DB_NS_VENDOR_COL] else employee[strings.DB_NS_VENDOR_COL]
