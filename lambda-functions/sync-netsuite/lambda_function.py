@@ -91,12 +91,12 @@ def syncEmployee(employee, netsuite_employees, account_type):
             elif employee[key]:
                 print("activate %s %s" % (account_type, employee["email"]))
                 netsuite_employee_request(employee, account_type, "active")
-                notifyTechOpsChannel("HRIS - Netsuite %s reactivated" % type, employee["email"], "good")
+                notifyTechOpsChannel("HRIS - Netsuite %s reactivated" % account_type, employee["email"], "good")
             else:
                 try:
                     print("adding %s to: %s" % (account_type, employee["email"]))
                     netsuite_employee_request(employee, account_type, "add")
-                    notifyTechOpsChannel("HRIS - Netsuite %s create" % type, employee["email"], "good")
+                    notifyTechOpsChannel("HRIS - Netsuite %s create" % account_type, employee["email"], "good")
                 except Exception as e:
                     print(e)
 
@@ -104,7 +104,7 @@ def syncEmployee(employee, netsuite_employees, account_type):
         # delete employee
         print("deactivate %s %s" % (account_type, employee["email"]))
         netsuite_employee_request(employee, account_type, "inactive")
-        notifyTechOpsChannel("HRIS - Netsuite %s deactivated" % type, employee["email"], "danger")
+        notifyTechOpsChannel("HRIS - Netsuite %s deactivated" % account_type, employee["email"], "danger")
 
 def get_netsuite_entities(type):
     netsuite_entities = (make_netsuite_request("GET", None, {"type":type}))["search_details"]
