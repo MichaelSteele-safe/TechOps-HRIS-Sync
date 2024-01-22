@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "REL-HRIS:aws_functions.get_access_token (python3.7)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/REL-HRIS",
+                "lambdaHandler": "aws_functions.get_access_token"
+            },
+            "lambda": {
+                "runtime": "python3.7",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Safe API SAM Template
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 900
+    MemorySize: 10240
+    Handler: index.handler
+    Architectures:
+      - x86_64
+    VpcConfig:
+      SecurityGroupIds:
+      - sg-2876604a
+      SubnetIds:
+      - subnet-47784d33
+      - subnet-12d98d54
+Resources:
+  HRISNetsuiteSyncLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName:
+        !Join ["-", [REL-hris-sync-netsuite]]
+      Handler: lambda_function.lambda_handler
+      CodeUri: lambda-functions/sync-netsuite/
+      Role: arn:aws:iam::588146318465:role/REL-Lambda-role
+      Runtime: python3.9
+      Events:
+        ScheduleEvent:
+          Type: ScheduleV2
+          Properties:
+            FlexibleTimeWindow:
+              Mode: FLEXIBLE
+              MaximumWindowInMinutes: 5
+            ScheduleExpression: cron(30 9 * * ? *)
+            ScheduleExpressionTimezone: PST
+            RoleArn: arn:aws:iam::588146318465:role/REL-Lambda-role
+            RetryPolicy:
+              MaximumRetryAttempts: 5
+              MaximumEventAgeInSeconds: 300
+  HRISNetsuiteSyncErrorAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'REL-hris-sync-netsuite-alarm'
+      AlarmDescription: 'REL-hris-sync-netsuite lambda failed'
+      Namespace: 'AWS/Lambda'
+      MetricName: 'Errors'
+      Dimensions:
+        - Name: "FunctionName"
+          Value: !Ref HRISNetsuiteSyncLambda
+      Statistic: 'Sum'
+      Period: '300' # 5 minutes
+      EvaluationPeriods: '1'
+      Threshold: '1'
+      ComparisonOperator: 'GreaterThanOrEqualToThreshold'
+      AlarmActions:
+        - arn:aws:sns:us-west-2:588146318465:REL-opsgenie
