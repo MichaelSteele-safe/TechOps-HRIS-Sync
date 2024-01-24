@@ -2,3 +2,8 @@
 .aws-sam/
 
 .vscode/
+
+#fmeworkspaces
+fme_workspaces/*.log
+fme_workspaces/*.fmw.recover
+fme_workspaces/*.ffs
