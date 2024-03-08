@@ -281,4 +281,3 @@ def find_missing_items(list1, list2, key_name):
     missing_items = [item for item in list1 if item[key_name] not in list2_keys]
 
     return missing_items
-    
