@@ -10,6 +10,11 @@ An app script (HRISGmailToDriveAppScript) runs daily to look for starred emails 
 
 UkgImport.fmw which currently lives in set-fmeserver runs daily to read the latest org and employee csv files from "HRISAutomation/UKG Automated Reports" folder and migrate the data into set-rds user.ukg_org and user.ukg_employee tables.
 
+To update and deploy lambda function:
+
+Requirements: AWS CLI and SAM CLI configured
+sam build && sam deploy
+
 To set up the App Script: 
 1) Go to https://script.google.com/home
 2) Select New Project

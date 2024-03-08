@@ -29,6 +29,57 @@ def lambda_handler(event, context):
     for employee in ukg_employees:
         syncEmployee(employee, netsuite_employees, "employee")
         syncEmployee(employee, netsuite_vendors, "vendor")
+    
+    sanity_check(ukg_teams, ukg_departments,ukg_employees)
+
+def sanity_check(ukg_teams, ukg_departments, ukg_employees):
+    # check that the number of teams, departments, and vendors in Netsuite is greater than or equal to the number in UKG
+    netsuite_departments = get_netsuite_entities("department")
+    netsuite_teams = get_netsuite_entities("team")
+    netsuite_employees = get_netsuite_entities("employee")
+    netsuite_vendors = get_netsuite_entities("vendor")
+
+    active_teams = filter(is_active, ukg_teams)
+    active_departments = filter(is_active, ukg_departments)
+    active_employees = filter(is_active, ukg_employees)
+
+    missing_teams = find_missing_items(active_teams, netsuite_teams, "name")
+    missing_departments = find_missing_items(active_departments, netsuite_departments, "name")
+    missing_employees = find_missing_items(active_employees, netsuite_employees, "email")
+    missing_vendors = find_missing_items(active_employees, netsuite_vendors, "email")
+    
+    missing_msg = ""
+
+    if missing_teams:
+        missing_msg = missing_msg + "Teams: %s \n" % missing_teams
+    if missing_departments:
+        missing_msg = missing_msg + "Departments: %s \n" % missing_departments
+    if missing_employees:
+        missing_msg = missing_msg + "Employees: %s \n" % missing_employees
+    if missing_vendors:
+        missing_msg = missing_msg + "Vendors: %s \n" % missing_vendors
+    
+    if missing_msg:
+        print(missing_msg)
+        notifyTechOpsChannel("HRIS Netsuite Sync failed sanity check", "Missing: \n %s" %missing_msg, "danger")
+
+
+def find_missing_items(list1, list2, key_name):
+    """
+    Find items in list1 that are not in list2 based on the specified key.
+
+    :param list1: The first list of dictionaries.
+    :param list2: The second list of dictionaries.
+    :param key_name: The key to compare the dictionaries by.
+    :return: A list of dictionaries from list1 not found in list2 based on the key.
+    """
+    # Extracting the set of key values from list2 for quick lookup
+    list2_keys = {item[key_name] for item in list2}
+
+    # Finding items in list1 not present in list2
+    missing_items = [item for item in list1 if item[key_name] not in list2_keys]
+
+    return missing_items
 
 def syncOrg(ukg_orgs, netsuite_orgs, type):
     for org in ukg_orgs:
