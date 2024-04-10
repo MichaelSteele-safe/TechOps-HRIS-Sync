@@ -2,6 +2,8 @@
 
 Overview: 
 
+Confluence doc: https://safesoftware.atlassian.net/wiki/spaces/IS/pages/2579595288/User+Data+Integrations
+
 UKG is set to send a daily csv report on current org structure and employee email to hrisautomation@safe.com (group)
 
 A filter is set up to star these emails, apply a "UKGAutomatedReport" label and star it
