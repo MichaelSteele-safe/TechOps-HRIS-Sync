@@ -158,7 +158,7 @@ def netsuite_employee_request(employee, type, action):
         "custbody_acs_projtype":  5
     }]
     if type == "employee":
-        if employeeemployee["issalesrep"]: #we only want to set this to true as there are manual exceptions made
+        if employee["issalesrep"]: #we only want to set this to true as there are manual exceptions made
             obj[0]["issalesrep"] = True
         # obj[0]["supervisor"] = employee["supervisor"]
         obj[0]["department"] = employee["division_id"]
